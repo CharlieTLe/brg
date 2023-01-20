@@ -1,0 +1,531 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><title>BRG Alliance Guild Reports: BRG Deathless Mages DS Geo TB Plan</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: BRG Deathless Mages DS Geo TB Plan</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../alliance/characters.html">Characters</a> |
+
+<div style="float:right;"><a href="../../r">Resources</a></div>
+<a href="index.html">Back</a>
+</div>
+<br/><script>
+function CopyToClipboard(id)
+{
+document.getElementById(id).style.display = 'block';
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+document.getElementById(id).style.display = 'none';
+}
+</script><style type="text/css">
+.newPhase td{
+  border-top: 2px solid black;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<script>
+function copyText(name) {
+  var copyText = document.getElementById(name);
+  $("#"+name).show();
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+</script>
+There are several models of activity or you can come up with a <a href="tb.html?tb=ds&d=squad+name&player-summary=on">plan manually with some assistance</a>.
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
+Contact @gorgatron#3094 to tailor these assumptions.
+<br/>
+<img src="../../i/ds_geo_tb_labels.jpeg" width="500"/>
+<br/>
+<br/><p>See also <a href="https://genskaar.github.io/tb_geo/html/ds.html">https://genskaar.github.io/tb_geo/html/ds.html</a>.</p><br/><div class="row"><div class="column"><h2>Optimal Estimated: 19 &#11088;</h2>
+<br/>
+<table style="margin: 10px">
+<thead>
+    <tr>
+    <th>Phase</th>
+    <th>Section</th>
+    <th>Action</th>
+    </tr>
+</thead>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top,%201%20Bottom&tb=ds&d=squad+name&player-summary=on">1 Top, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 38 -> 38m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 27 -> 65m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 36 -> 36m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 68 -> 104m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 68 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="optimal-1-missions" style="display: none !important;">**P1 Top Geo** Poggle Geos e.g. Poggle GBA Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Clarrow Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior straxus47 Thunder TsBag Ukaiden Wyrs Vogel vynle
+
+**Top Only** BH e.g. Bossk IG-88 Boba Dengar Jango
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio Hars Barans JOEFIEND419 Mando Fernandalorian RayBlack45 rick3117r TsBag
+
+**P1 Bottom Special** Nute e.g. Nute B1 B2 Droideka MagnaGuard
+CorpseGrinderUSA DarthBinks Geno JOEFIEND419 Pervis the Chisler Proxinia Rivem Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Soundwave Superior Wyatt
+
+**CM** NS e.g. MT AV Zombie Daka Spirit
+Asinum Malum Bobimus Prime Cornholio CorpseGrinderUSA Dada DjangoFett Geno Hars Barans Jared Villarreal JOEFIEND419 Pervis the Chisler Proxinia Rivem Sidney Applebaum
+
+**CM** SEE e.g. SEE Vader EP Sidious Dooku
+DarthBinks
+
+**CM** Traya e.g. Traya DN Sion Dooku Sith Empire Trooper
+Dada Vogel
+
+**CM** Troopers e.g. Veers Starck Piett Gideon Dark Trooper
+DarthBinks
+
+**CM** zEP e.g. EP Vader DR Malak Thrawn
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio CorpseGrinderUSA DjangoFett JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top,%202%20Middle,%202%20Bottom&tb=ds&d=squad+name&player-summary=on">1 Top, 2 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Top</td><td><b>missions</b> 38 -> 103m</td><tr><td>2</td><td>1 Top</td><td><b>deploy</b> 7 -> 110m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 74 -> 74m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 21 -> 95m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 18 -> 18m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 24 -> 42m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 49 toons, 68 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 1 Top -> 3 :star:**
+**phase 2: 2 Middle -> 2 :star:**
+**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="optimal-2-missions" style="display: none !important;">**Middle** Dooku+Asajj e.g. Dooku AV
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA DarthBinks Geno Hars Barans JOEFIEND419 Pervis the Chisler Proxinia RayBlack45 rick3117r Rivem Sidney Applebaum SofakingWeToddid Thunder Ukaiden Wyrs Vogel
+
+**P1 Top Geo** Poggle Geos e.g. Poggle GBA Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Clarrow Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior straxus47 Thunder TsBag Ukaiden Wyrs Vogel vynle
+
+**Top Only** BH e.g. Bossk IG-88 Boba Dengar Jango
+Asinum Malum Bobimus Prime BountyHunterSlave1 Bretticus Buzzkill Cornholio CorpseGrinderUSA Geno Hars Barans JOEFIEND419 Mando Fernandalorian RayBlack45 rick3117r Rivem Sidney Applebaum TsBag Vogel Wyatt
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+DarthBinks Geno Rivem
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Soundwave Superior
+
+**CM** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** NS e.g. MT AV Zombie Daka Spirit
+Cornholio DjangoFett Jared Villarreal
+
+**CM** NS-NoAssaj e.g. MT Zombie Daka Spirit Thrawn
+Geno JOEFIEND419
+
+**CM** SEE e.g. SEE Vader EP Sidious Malak
+DarthBinks
+
+**CM** Traya e.g. Traya DN Sion BSF Sith Empire Trooper
+Dada DjangoFett Pervis the Chisler Vogel
+
+**CM** Troopers e.g. Veers Starck Piett Gideon Dark Trooper
+DarthBinks
+
+**CM** zEP e.g. EP Vader DR Malak Thrawn
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio CorpseGrinderUSA DjangoFett JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>1 Top</td><td>3 &#11088;</td><tr><td>2</td><td>2 Middle</td><td>2 &#11088; -- 96 to the next</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ds&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ds&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 27 -> 27m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 40 -> 67m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 41 -> 83m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 70 -> 153m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 27 -> 27m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 31 -> 58m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 28 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 2 :star:**
+**phase 3: 3 Middle HOLD AT ZERO :star:**
+**phase 3: 2 Bottom -> 3 :star:**</pre><pre id="optimal-3-missions" style="display: none !important;">**Fleet CM** Chimaera e.g. Chimaera HT
+Bobimus Prime BountyHunterSlave1 DjangoFett Geno Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs vynle
+
+**Fleet CM** Executor e.g. Executor Slave I, Xanadu Blood, IG-2000 Imperial TIE Bomber, Tie Adv
+CorpseGrinderUSA
+
+**Fleet CM** Executrix e.g. Executrix Soldier SF, Spy SF, Sun Fac SF, Slave I
+BountyHunterSlave1 Cornholio DjangoFett Geno JOEFIEND419 Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs vynle
+
+**Fleet CM** Executrix+Bugs e.g. Chimaera Soldier SF, Spy SF, Sun Fac SF, Slave I
+Bretticus
+
+**Fleet CM** Malevolence e.g. Malevolence Hyena Bomber, Vulture Droid, Sun Fac SF, Spy SF, Soldier SF
+CorpseGrinderUSA DarthBinks Proxinia Vogel
+
+**P3 Middle** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+Asinum Malum DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**P3 Middle WAT** Geos-Special e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** BH e.g. Bossk IG-88 Boba Dengar Jango
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA Geno JOEFIEND419 Rivem Sidney Applebaum
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+Bretticus CorpseGrinderUSA Dada DjangoFett Geno Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Butlicker Jared Villarreal MINI Zachary Soundwave Superior The coletrain
+
+**CM** NS e.g. MT AV Zombie Daka Spirit
+Bobimus Prime Cornholio Jared Villarreal JOEFIEND419
+
+**CM** SEE e.g. SEE Vader EP Sidious Wat Tambor
+DarthBinks Geno Rivem
+
+**CM** SLKR e.g. SL Kylo, KRU FOST Hux FOE
+DarthBinks DjangoFett Pervis the Chisler Thunder Ukaiden Wyrs
+
+**CM** Traya e.g. Traya DN Sion EP Thrawn
+Dada
+
+**CM** Troopers e.g. Veers Piett Gideon Dark Trooper, Range Trooper
+DarthBinks Vogel
+
+**CM** zEP e.g. EP Vader DR Thrawn BSF
+Asinum Malum Bobimus Prime BountyHunterSlave1 Buzzkill ccccccccccc Cornholio CorpseGrinderUSA DjangoFett FiveSoup JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle Wyatt
+
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>2 &#11088; -- 39 to the next</td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ds&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ds&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 53 -> 53m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 39 -> 92m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 42 -> 100m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 9 -> 109m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 24 -> 24m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 71 -> 95m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 21 toons, 29 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**</pre><pre id="optimal-4-missions" style="display: none !important;">**Fleet CM** Chimaera e.g. Chimaera HT
+Bobimus Prime BountyHunterSlave1 DarthBinks DjangoFett Geno Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Vogel vynle
+
+**Fleet CM** Executor e.g. Executor Slave I, Xanadu Blood, IG-2000 Imperial TIE Bomber, Tie Adv
+CorpseGrinderUSA
+
+**Second Fleet CM** Executrix e.g. Executrix Soldier SF, Spy SF, Sun Fac SF, Slave I
+BountyHunterSlave1 Cornholio DjangoFett Geno JOEFIEND419 Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs
+
+**Second Fleet CM** Malevolence e.g. Malevolence Hyena Bomber, Vulture Droid, Sun Fac SF, Spy SF, Soldier SF
+CorpseGrinderUSA DarthBinks Proxinia Vogel
+
+**P3 Middle** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+Asinum Malum DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**P3 Middle WAT** Geos-Special e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** BH e.g. Bossk IG-88 Boba Dengar Jango
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA Geno JOEFIEND419 Rivem Sidney Applebaum
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+Bretticus Dada DarthBinks DjangoFett Geno Pervis the Chisler Proxinia Rivem Soundwave Superior Ukaiden Wyrs Vogel
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Butlicker Jared Villarreal MINI Zachary Soundwave Superior The coletrain
+
+**CM** Geos e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+Clarrow straxus47
+
+**CM** SEE e.g. SEE Vader EP Sidious Wat Tambor
+DarthBinks Geno Rivem
+
+**CM** SLKR e.g. SL Kylo, KRU FOST Hux FOE
+DarthBinks DjangoFett Pervis the Chisler Thunder Ukaiden Wyrs
+
+**CM** Troopers e.g. Veers Piett Gideon Dark Trooper, Range Trooper
+Vogel
+
+**CM** zEP e.g. EP Vader DR Thrawn BSF
+Asinum Malum Bobimus Prime BountyHunterSlave1 Buzzkill ccccccccccc Cornholio CorpseGrinderUSA DjangoFett FiveSoup JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle Wyatt
+
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 Middle</td><td>2 &#11088; -- 59 to the next</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 77 to the next</td></tbody>
+</table>
+<br/>
+<br/><textarea id="discordoptimal" style="display:none" rows="8" cols="40">
+**Estimated 19 :star:**
+
+**phase 1: active** 1 Top, 1 Bottom
+phase 1: **missions** 1 Top 38 -> 38m
+phase 1: **deploy** 1 Top 27 -> 65m
+phase 1: **missions** 1 Bottom 36 -> 36m
+phase 1: **deploy** 1 Bottom 68 -> 104m
+phase 1: remaining GP = 6 toons, 68 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=1%2520Top,%25201%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 1: 1 Top HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**
+
+**phase 2: active** 1 Top, 2 Middle, 2 Bottom
+phase 2: **missions** 1 Top 38 -> 103m
+phase 2: **deploy** 1 Top 7 -> 110m
+phase 2: **missions** 2 Middle 74 -> 74m
+phase 2: **deploy** 2 Middle 21 -> 95m
+phase 2: **missions** 2 Bottom 18 -> 18m
+phase 2: **deploy** 2 Bottom 24 -> 42m
+phase 2: remaining GP = 49 toons, 68 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=1%2520Top,%25202%2520Middle,%25202%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 2: 1 Top -> 3 :star:**
+**phase 2: 2 Middle -> 2 :star:**
+**phase 2: 2 Bottom HOLD AT ZERO :star:**
+
+**phase 3: active** 2 Top, 2 Bottom, 3 Middle
+phase 3: **missions** 2 Top 27 -> 27m
+phase 3: **deploy** 2 Top 40 -> 67m
+phase 3: **missions** 2 Bottom 41 -> 83m
+phase 3: **deploy** 2 Bottom 70 -> 153m
+phase 3: **missions** 3 Middle 27 -> 27m
+phase 3: **deploy** 3 Middle 31 -> 58m
+phase 3: remaining GP = 0 toons, 28 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=3%2520Middle,%25202%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 3: 2 Top -> 2 :star:**
+**phase 3: 3 Middle HOLD AT ZERO :star:**
+**phase 3: 2 Bottom -> 3 :star:**
+
+**phase 4: active** 3 Top, 3 Middle, 3 Bottom
+phase 4: **missions** 3 Top 53 -> 53m
+phase 4: **deploy** 3 Top 39 -> 92m
+phase 4: **missions** 3 Middle 42 -> 100m
+phase 4: **deploy** 3 Middle 9 -> 109m
+phase 4: **missions** 3 Bottom 24 -> 24m
+phase 4: **deploy** 3 Bottom 71 -> 95m
+phase 4: remaining GP = 21 toons, 29 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**
+
+</textarea>
+<button onclick="copyText('discordoptimal')">Copy For Discord</button></div><div class="column"><h2>Decreasing Estimated: 19 &#11088;</h2>
+<br/>
+<table style="margin: 10px">
+<thead>
+    <tr>
+    <th>Phase</th>
+    <th>Section</th>
+    <th>Action</th>
+    </tr>
+</thead>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top,%201%20Bottom&tb=ds&d=squad+name&player-summary=on">1 Top, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 38 -> 38m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 27 -> 65m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 36 -> 36m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 68 -> 104m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 68 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**P1 Top Geo** Poggle Geos e.g. Poggle GBA Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Clarrow Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior straxus47 Thunder TsBag Ukaiden Wyrs Vogel vynle
+
+**Top Only** BH e.g. Bossk IG-88 Boba Dengar Jango
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio Hars Barans JOEFIEND419 Mando Fernandalorian RayBlack45 rick3117r TsBag
+
+**P1 Bottom Special** Nute e.g. Nute B1 B2 Droideka MagnaGuard
+CorpseGrinderUSA DarthBinks Geno JOEFIEND419 Pervis the Chisler Proxinia Rivem Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Soundwave Superior Wyatt
+
+**CM** NS e.g. MT AV Zombie Daka Spirit
+Asinum Malum Bobimus Prime Cornholio CorpseGrinderUSA Dada DjangoFett Geno Hars Barans Jared Villarreal JOEFIEND419 Pervis the Chisler Proxinia Rivem Sidney Applebaum
+
+**CM** SEE e.g. SEE Vader EP Sidious Dooku
+DarthBinks
+
+**CM** Traya e.g. Traya DN Sion Dooku Sith Empire Trooper
+Dada Vogel
+
+**CM** Troopers e.g. Veers Starck Piett Gideon Dark Trooper
+DarthBinks
+
+**CM** zEP e.g. EP Vader DR Malak Thrawn
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio CorpseGrinderUSA DjangoFett JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top,%202%20Middle,%202%20Bottom&tb=ds&d=squad+name&player-summary=on">1 Top, 2 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Top</td><td><b>missions</b> 38 -> 103m</td><tr><td>2</td><td>1 Top</td><td><b>deploy</b> 7 -> 110m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 17 -> 17m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 72 -> 89m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 17 toons, 65 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 1 Top -> 3 :star:**
+**phase 2: 2 Middle HOLD AT ZERO :star:**
+**phase 2: 2 Bottom -> 2 :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Middle** Dooku+Asajj e.g. Dooku AV
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA DarthBinks Geno Hars Barans JOEFIEND419 Pervis the Chisler Proxinia RayBlack45 rick3117r Rivem Sidney Applebaum SofakingWeToddid Thunder Ukaiden Wyrs Vogel
+
+**P1 Top Geo** Poggle Geos e.g. Poggle GBA Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Clarrow Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior straxus47 Thunder TsBag Ukaiden Wyrs Vogel vynle
+
+**Top Only** BH e.g. Bossk IG-88 Boba Dengar Jango
+Asinum Malum Bobimus Prime BountyHunterSlave1 Bretticus Buzzkill Cornholio CorpseGrinderUSA Geno Hars Barans JOEFIEND419 Mando Fernandalorian RayBlack45 rick3117r Rivem Sidney Applebaum TsBag Vogel Wyatt
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+DarthBinks Geno Rivem
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Soundwave Superior
+
+**CM** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** NS e.g. MT AV Zombie Daka Spirit
+Cornholio DjangoFett Jared Villarreal
+
+**CM** NS-NoAssaj e.g. MT Zombie Daka Spirit Thrawn
+Geno JOEFIEND419
+
+**CM** SEE e.g. SEE Vader EP Sidious Malak
+DarthBinks
+
+**CM** Traya e.g. Traya DN Sion BSF Sith Empire Trooper
+Dada DjangoFett Pervis the Chisler Vogel
+
+**CM** Troopers e.g. Veers Starck Piett Gideon Dark Trooper
+DarthBinks
+
+**CM** zEP e.g. EP Vader DR Malak Thrawn
+Bobimus Prime BountyHunterSlave1 Buzzkill Cornholio CorpseGrinderUSA DjangoFett JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>1 Top</td><td>3 &#11088;</td><tr><td>2</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 Bottom</td><td>2 &#11088; -- 64 to the next</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ds&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ds&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 26 -> 26m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 41 -> 67m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 72 -> 132m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 59 -> 191m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 28 -> 28m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 31 -> 59m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 2 toons, 21 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 2 :star:**
+**phase 3: 2 Middle -> 3 :star:**
+**phase 3: 3 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Chimaera e.g. Chimaera HT
+Bobimus Prime BountyHunterSlave1 DjangoFett Geno Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs vynle
+
+**Fleet CM** Executor e.g. Executor Slave I, Xanadu Blood, IG-2000 Imperial TIE Bomber, Tie Adv
+CorpseGrinderUSA
+
+**Fleet CM** Executrix e.g. Executrix Soldier SF, Spy SF, Sun Fac SF, Slave I
+BountyHunterSlave1 Cornholio DjangoFett Geno JOEFIEND419 Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs vynle
+
+**Fleet CM** Executrix+Bugs e.g. Chimaera Soldier SF, Spy SF, Sun Fac SF, Slave I
+Bretticus
+
+**Fleet CM** Malevolence e.g. Malevolence Hyena Bomber, Vulture Droid, Sun Fac SF, Spy SF, Soldier SF
+CorpseGrinderUSA DarthBinks Proxinia Vogel
+
+**Middle** Dooku+Asajj e.g. Dooku AV
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA DarthBinks Geno Hars Barans JOEFIEND419 Pervis the Chisler Proxinia RayBlack45 rick3117r Rivem Sidney Applebaum SofakingWeToddid Thunder Ukaiden Wyrs Vogel
+
+**Middle Only** BH e.g. Bossk IG-88 Boba Dengar Jango
+Asinum Malum Bobimus Prime BountyHunterSlave1 Bretticus Buzzkill CorpseGrinderUSA JOEFIEND419 Mando Fernandalorian RayBlack45 Rivem Sidney Applebaum TsBag Vogel Wyatt
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+Bretticus DarthBinks DjangoFett Geno Pervis the Chisler Rivem Ukaiden Wyrs Vogel
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Butlicker Jared Villarreal MINI Zachary No signal Soundwave Superior The coletrain
+
+**CM** Geos e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Clarrow Cornholio CorpseGrinderUSA DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Proxinia Rivem Sidney Applebaum Soundwave Superior straxus47 Thunder TsBag Ukaiden Wyrs vynle
+
+**CM** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs vynle
+
+**CM** SEE e.g. SEE Vader EP Sidious Wat Tambor
+DarthBinks Geno Rivem
+
+**CM** SLKR e.g. SL Kylo, KRU FOST Hux FOE
+DarthBinks DjangoFett Pervis the Chisler Thunder Ukaiden Wyrs
+
+**CM** Traya e.g. Traya DN Sion Sith Assassin, Thrawn
+Dada Proxinia
+
+**CM** Troopers e.g. Veers Piett Gideon Dark Trooper, Range Trooper
+Vogel
+
+**CM** zEP e.g. EP Vader DR Thrawn BSF
+Asinum Malum Bobimus Prime BountyHunterSlave1 Buzzkill ccccccccccc Cornholio CorpseGrinderUSA FiveSoup JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia rick3117r Sidney Applebaum Soundwave Superior Thunder Vogel vynle Wyatt
+
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>2 &#11088; -- 39 to the next</td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ds&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ds&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 49 -> 49m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 43 -> 92m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 70 -> 109m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 22 -> 81m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 14 -> 95m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 4 toons, 16 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Chimaera e.g. Chimaera HT
+Bobimus Prime BountyHunterSlave1 DarthBinks DjangoFett Geno Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Vogel vynle
+
+**Fleet CM** Executor e.g. Executor Slave I, Xanadu Blood, IG-2000 Imperial TIE Bomber, Tie Adv
+CorpseGrinderUSA
+
+**Second Fleet CM** Executrix e.g. Executrix Soldier SF, Spy SF, Sun Fac SF, Slave I
+BountyHunterSlave1 Cornholio DjangoFett Geno JOEFIEND419 Mando Fernandalorian Pervis the Chisler Rivem Sidney Applebaum Thunder Ukaiden Wyrs
+
+**Second Fleet CM** Malevolence e.g. Malevolence Hyena Bomber, Vulture Droid, Sun Fac SF, Spy SF, Soldier SF
+CorpseGrinderUSA DarthBinks Proxinia Vogel
+
+**P3 Middle** Grievous e.g. GG B2 B1 Droideka MagnaGuard
+Asinum Malum DarthBinks DjangoFett Geno JOEFIEND419 Pervis the Chisler Sidney Applebaum Thunder Ukaiden Wyrs Vogel vynle
+
+**P3 Middle WAT** Geos-Special e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+BountyHunterSlave1 Cornholio CorpseGrinderUSA DarthBinks DjangoFett Geno JOEFIEND419 Mando Fernandalorian Nevaira Pervis the Chisler Proxinia Rivem Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle
+
+**CM** BH e.g. Bossk IG-88 Boba Dengar Jango
+Bobimus Prime BountyHunterSlave1 Buzzkill CorpseGrinderUSA Geno JOEFIEND419 Rivem Sidney Applebaum
+
+**CM** DR e.g. DR HK-47 BSF Malak Sith Empire Trooper
+Bretticus Dada DarthBinks DjangoFett Geno Pervis the Chisler Proxinia Rivem Soundwave Superior Ukaiden Wyrs Vogel
+
+**CM** FO e.g. Hux KRU Kylo FOE FOST
+Butlicker Jared Villarreal MINI Zachary Soundwave Superior The coletrain
+
+**CM** Geos e.g. GBA Poggle Geo Soldier, Sun Fac, Geo Spy
+Clarrow straxus47
+
+**CM** SEE e.g. SEE Vader EP Sidious Wat Tambor
+DarthBinks Geno Rivem
+
+**CM** SLKR e.g. SL Kylo, KRU FOST Hux FOE
+DarthBinks DjangoFett Pervis the Chisler Thunder Ukaiden Wyrs
+
+**CM** Troopers e.g. Veers Piett Gideon Dark Trooper, Range Trooper
+Vogel
+
+**CM** zEP e.g. EP Vader DR Thrawn BSF
+Asinum Malum Bobimus Prime BountyHunterSlave1 Buzzkill ccccccccccc Cornholio CorpseGrinderUSA DjangoFett FiveSoup JOEFIEND419 Mando Fernandalorian Pervis the Chisler Proxinia Sidney Applebaum Soundwave Superior Thunder Ukaiden Wyrs Vogel vynle Wyatt
+
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 Middle</td><td>2 &#11088; -- 59 to the next</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 77 to the next</td></tbody>
+</table>
+<br/>
+<br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
+**Estimated 19 :star:**
+
+**phase 1: active** 1 Top, 1 Bottom
+phase 1: **missions** 1 Top 38 -> 38m
+phase 1: **deploy** 1 Top 27 -> 65m
+phase 1: **missions** 1 Bottom 36 -> 36m
+phase 1: **deploy** 1 Bottom 68 -> 104m
+phase 1: remaining GP = 6 toons, 68 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=1%2520Top,%25201%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 1: 1 Top HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**
+
+**phase 2: active** 1 Top, 2 Middle, 2 Bottom
+phase 2: **missions** 1 Top 38 -> 103m
+phase 2: **deploy** 1 Top 7 -> 110m
+phase 2: **missions** 2 Middle 60 -> 60m
+phase 2: **missions** 2 Bottom 17 -> 17m
+phase 2: **deploy** 2 Bottom 72 -> 89m
+phase 2: remaining GP = 17 toons, 65 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=1%2520Top,%25202%2520Middle,%25202%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 2: 1 Top -> 3 :star:**
+**phase 2: 2 Middle HOLD AT ZERO :star:**
+**phase 2: 2 Bottom -> 2 :star:**
+
+**phase 3: active** 2 Top, 2 Middle, 3 Bottom
+phase 3: **missions** 2 Top 26 -> 26m
+phase 3: **deploy** 2 Top 41 -> 67m
+phase 3: **missions** 2 Middle 72 -> 132m
+phase 3: **deploy** 2 Middle 59 -> 191m
+phase 3: **missions** 3 Bottom 28 -> 28m
+phase 3: **deploy** 3 Bottom 31 -> 59m
+phase 3: remaining GP = 2 toons, 21 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 3: 2 Top -> 2 :star:**
+**phase 3: 2 Middle -> 3 :star:**
+**phase 3: 3 Bottom HOLD AT ZERO :star:**
+
+**phase 4: active** 3 Top, 3 Middle, 3 Bottom
+phase 4: **missions** 3 Top 49 -> 49m
+phase 4: **deploy** 3 Top 43 -> 92m
+phase 4: **missions** 3 Middle 39 -> 39m
+phase 4: **deploy** 3 Middle 70 -> 109m
+phase 4: **missions** 3 Bottom 22 -> 81m
+phase 4: **deploy** 3 Bottom 14 -> 95m
+phase 4: remaining GP = 4 toons, 16 ships
+details: https://gorgatron1.github.io/brg/guild/deathless/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ds&d=squad+name&player-summary=on
+**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**
+
+</textarea>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2023-01-19 18:29:50 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
