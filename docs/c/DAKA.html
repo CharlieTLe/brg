@@ -337,14 +337,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1599 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DAKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Serve Again</td><td>When another ally is defeated, Old Daka gains 50% Turn Meter and the cooldown of Chant of Resurrection is reduced by 1. When another ally is Revived while Old Daka is active, the Revived ally gains 20% Turn Meter and gains Offense Up and Defense Up for 2 turns, and Old Daka gains +10% Max Health (stacking) until the end of the encounter.</td><td>792</td><td>50%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1581 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DAKA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Serve Again</td><td>When another ally is defeated, Old Daka gains 50% Turn Meter and the cooldown of Chant of Resurrection is reduced by 1. When another ally is Revived while Old Daka is active, the Revived ally gains 20% Turn Meter and gains Offense Up and Defense Up for 2 turns, and Old Daka gains +10% Max Health (stacking) until the end of the encounter.</td><td>773</td><td>49%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 101, 14, 16, 26, 16, 28, 54, 206, 196, 169, 107, 320, 6, 21, 24, 44, 37, 142, 29, 36, 6, 1 ],
+    y: [ 101, 14, 16, 24, 17, 28, 51, 208, 200, 168, 106, 315, 6, 23, 24, 41, 34, 140, 27, 32, 5, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.316447779862414, 7.191994996873046, 8.19262038774234, 9.818636647904942, 10.819262038774236, 12.570356472795499, 15.947467166979365, 28.830519074421517, 41.088180112570356, 51.65728580362727, 58.348968105065666, 78.36147592245153, 78.73671044402752, 80.05003126954347, 81.55096935584741, 84.30268918073797, 86.61663539712322, 95.4971857410882, 97.31081926203879, 99.5622263914947, 99.9374609130707, 100.00000000000003 ],
+    y: [ 6.388361796331436, 7.273877292852625, 8.285895003162556, 9.803921568627452, 10.879190385831754, 12.650221378874132, 15.876027830487036, 29.03225806451613, 41.682479443390264, 52.30866540164453, 59.01328273244782, 78.93738140417457, 79.3168880455408, 80.77166350411132, 82.28969006957621, 84.8829854522454, 87.03352308665401, 95.88867805186591, 97.59645793801391, 99.62049335863378, 99.93674889310563, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -364,5 +364,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-19 18:30:46 +0000</font>
+<font size="-2">Generated 2023-01-22 20:32:26 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

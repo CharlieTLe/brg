@@ -387,16 +387,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1636 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, all allies gain 10% Critical Chance and 10% Accuracy. While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them.</td><td>903</td><td>55%</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, R2-D2 gains 10% Max Protection for each Droid ally, 10% Offense for each Galactic Republic ally, 10% Max Health for each Rebel ally, and 10% Potency for each Resistance ally.
+</script><h2>Alliance Demographic Data</h2>Based on 1618 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, all allies gain 10% Critical Chance and 10% Accuracy. While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them.</td><td>881</td><td>54%</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, R2-D2 gains 10% Max Protection for each Droid ally, 10% Offense for each Galactic Republic ally, 10% Max Health for each Rebel ally, and 10% Potency for each Resistance ally.
 
-At the start of battle, and when R2-D2 revives, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated.</td><td>976</td><td>60%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+At the start of battle, and when R2-D2 revives, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated.</td><td>953</td><td>59%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 16, 1, 1, 6, 4, 32, 81, 233, 115, 105, 60, 223, 9, 24, 17, 27, 17, 37, 8, 618, 2, 0 ],
+    y: [ 16, 1, 1, 5, 5, 31, 82, 230, 115, 108, 59, 231, 9, 24, 16, 31, 18, 38, 9, 587, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.9779951100244498, 1.039119804400978, 1.100244498777506, 1.4669926650366747, 1.7114914425427872, 3.667481662591687, 8.618581907090464, 22.860635696821518, 29.88997555012225, 36.308068459657704, 39.975550122249395, 53.60635696821517, 54.156479217603916, 55.623471882640594, 56.66259168704157, 58.312958435207825, 59.3520782396088, 61.613691931540345, 62.10268948655257, 99.87775061124694, 100.0, 100.0 ],
+    y: [ 0.9888751545117428, 1.0506798516687268, 1.1124845488257107, 1.4215080346106304, 1.73053152039555, 3.646477132262052, 8.714462299134734, 22.92954264524104, 30.03708281829419, 36.711990111248454, 40.3584672435105, 54.635352286773795, 55.19159456118665, 56.67490729295426, 57.663782447466005, 59.57972805933251, 60.69221260815822, 63.04079110012361, 63.597033374536466, 99.87639060568603, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -416,5 +416,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-19 18:30:46 +0000</font>
+<font size="-2">Generated 2023-01-22 20:32:26 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
