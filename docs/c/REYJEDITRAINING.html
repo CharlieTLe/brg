@@ -461,23 +461,23 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1083 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_REYJEDITRAINING"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Inspirational Presence</td><td>Resistance allies have +30% Critical Chance and +30% Critical Damage. When they score a Critical Hit, they have a 70% chance to inflict Expose for 2 turns (this effect can't be Resisted). Resistance allies gain 10% Turn Meter when an enemy is Exposed.
+</script><h2>Alliance Demographic Data</h2>Based on 1084 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_REYJEDITRAINING"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Inspirational Presence</td><td>Resistance allies have +30% Critical Chance and +30% Critical Damage. When they score a Critical Hit, they have a 70% chance to inflict Expose for 2 turns (this effect can't be Resisted). Resistance allies gain 10% Turn Meter when an enemy is Exposed.
 
 When a Resistance ally uses a Special ability:
  - All Exposed enemies lose 5% Turn Meter (this effect can't be Resisted)
- - If the Resistance ally has no debuffs, reduce their Cooldowns by 1</td><td>847</td><td>78%</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Virtuous Protector</td><td>When another ally suffers a debuff, or when another Resistance ally gains Secret Intel, Rey gains 8% Turn Meter. When Rey suffers a debuff, she has a 40% chance to Dispel all debuffs on herself.</td><td>726</td><td>67%</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Insight</td><td>At the start of each encounter, Rey gains Foresight until she Evades. When Rey Evades, she recovers 5% Health and 5% Protection.
+ - If the Resistance ally has no debuffs, reduce their Cooldowns by 1</td><td>847</td><td>78%</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Virtuous Protector</td><td>When another ally suffers a debuff, or when another Resistance ally gains Secret Intel, Rey gains 8% Turn Meter. When Rey suffers a debuff, she has a 40% chance to Dispel all debuffs on herself.</td><td>727</td><td>67%</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_foresight.png" style="width: 30px" /> Insight</td><td>At the start of each encounter, Rey gains Foresight until she Evades. When Rey Evades, she recovers 5% Health and 5% Protection.
 
 At the end of Rey's turn:
  - Rey gains Foresight until she Evades
  - If Rey has Foresight, she gains Critical Damage Up until she is damaged
- - If Rey has Critical Damage Up, she gains Offense Up until she is damaged</td><td>793</td><td>73%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+ - If Rey has Critical Damage Up, she gains Offense Up until she is damaged</td><td>791</td><td>73%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 19, 2, 0, 1, 4, 3, 34, 73, 26, 4, 34, 111, 9, 22, 15, 18, 15, 19, 4, 667, 3, 0 ],
+    y: [ 21, 2, 0, 0, 5, 3, 34, 69, 26, 5, 34, 110, 10, 21, 18, 17, 15, 20, 4, 667, 3, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.7543859649122806, 1.9390581717451523, 1.9390581717451523, 2.031394275161588, 2.400738688827331, 2.6777469990766387, 5.817174515235457, 12.557710064635272, 14.958448753462603, 15.327793167128346, 18.467220683287163, 28.71652816251154, 29.547553093259463, 31.57894736842105, 32.963988919667585, 34.62603878116343, 36.01108033240997, 37.76546629732225, 38.13481071098799, 99.72299168975069, 100.0, 100.0 ],
+    y: [ 1.9372693726937271, 2.1217712177121775, 2.1217712177121775, 2.1217712177121775, 2.583025830258303, 2.8597785977859784, 5.996309963099631, 12.361623616236162, 14.760147601476014, 15.22140221402214, 18.357933579335793, 28.505535055350553, 29.428044280442805, 31.365313653136532, 33.025830258302584, 34.59409594095941, 35.97785977859779, 37.822878228782294, 38.19188191881919, 99.72324723247233, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -497,5 +497,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-22 20:32:27 +0000</font>
+<font size="-2">Generated 2023-01-25 06:05:29 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

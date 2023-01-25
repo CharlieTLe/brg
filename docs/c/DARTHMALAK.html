@@ -377,18 +377,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1121 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Gnawing Terror</td><td>Darth Malak Taunts for 1 turn whenever an enemy is inflicted with Shock or Fear. Sith enemies can't gain bonus Turn Meter (excludes raid bosses and Galactic Legends). At the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded.</td><td>1056</td><td>94%</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_darthmalak.png" style="width: 30px" /> Jaws of Life</td><td>Darth Malak takes reduced damage from percent Health damage effects, and at the start of battle he loses all Protection and gains that much Max Health.
+</script><h2>Alliance Demographic Data</h2>Based on 1118 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Gnawing Terror</td><td>Darth Malak Taunts for 1 turn whenever an enemy is inflicted with Shock or Fear. Sith enemies can't gain bonus Turn Meter (excludes raid bosses and Galactic Legends). At the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded.</td><td>1053</td><td>94%</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_darthmalak.png" style="width: 30px" /> Jaws of Life</td><td>Darth Malak takes reduced damage from percent Health damage effects, and at the start of battle he loses all Protection and gains that much Max Health.
 
 Darth Malak gains 35% Critical Avoidance, Health Steal, Tenacity, and Defense while he has less than 75% Health, doubled while he has less than 50% Health, and tripled while he has less than 25% Health.
 
-The first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset.</td><td>1067</td><td>95%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+The first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset.</td><td>1066</td><td>95%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 3, 0, 1, 1, 1, 2, 12, 17, 22, 15, 56, 71, 7, 19, 29, 77, 61, 346, 75, 281, 23, 2 ],
+    y: [ 3, 0, 1, 1, 0, 1, 11, 19, 21, 16, 56, 71, 7, 18, 29, 77, 58, 349, 76, 279, 23, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.2676181980374665, 0.2676181980374665, 0.3568242640499554, 0.44603033006244425, 0.5352363960749331, 0.7136485280999109, 1.7841213202497768, 3.3006244424620874, 5.2631578947368425, 6.601248884924175, 11.59678858162355, 17.930419268510256, 18.55486173059768, 20.249776984834966, 22.836752899197144, 29.705619982158787, 35.1471900089206, 66.01248884924175, 72.70294380017842, 97.76984834968778, 99.82158786797503, 100.0 ],
+    y: [ 0.26833631484794274, 0.26833631484794274, 0.35778175313059035, 0.44722719141323797, 0.44722719141323797, 0.5366726296958856, 1.520572450805009, 3.220035778175313, 5.098389982110913, 6.5295169946332745, 11.53846153846154, 17.88908765652952, 18.515205724508053, 20.12522361359571, 22.719141323792492, 29.606440071556356, 34.79427549194992, 66.01073345259393, 72.80858676207514, 97.76386404293382, 99.82110912343471, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -408,5 +408,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-22 20:32:27 +0000</font>
+<font size="-2">Generated 2023-01-25 06:05:29 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
