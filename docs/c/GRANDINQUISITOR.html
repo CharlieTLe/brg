@@ -288,11 +288,11 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 74 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GRANDINQUISITOR"><img src="https://game-assets.swgoh.gg/tex.ability_grandinquisitor_basic.png" style="width: 30px" /> Pain Can Break Anyone</td><td>Deal Physical damage to target enemy. If all allies are Inquisitorius, inflict a stack of Purge (max 6), which can't be resisted. Reduce the target enemy's Critical Damage by 15% (stacking) for 2 turns per attack, which can't be resisted. On Grand Inquisitor's turn:
+</script><h2>Alliance Demographic Data</h2>Based on 70 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GRANDINQUISITOR"><img src="https://game-assets.swgoh.gg/tex.ability_grandinquisitor_basic.png" style="width: 30px" /> Pain Can Break Anyone</td><td>Deal Physical damage to target enemy. If all allies are Inquisitorius, inflict a stack of Purge (max 6), which can't be resisted. Reduce the target enemy's Critical Damage by 15% (stacking) for 2 turns per attack, which can't be resisted. On Grand Inquisitor's turn:
 
 - If the enemy has at least 3 stacks of Purge at the start of turn: Attack a second time always scoring a critical hit if able.
 
-- If the enemy has 6 stacks of Purge at the start of turn: Attack a third time dealing true damage instead, which can't be evaded.</td><td>71</td><td>96%</td></tr><tr><td data-order="leaderskill_GRANDINQUISITOR"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Master Inquisitorius</td><td>Empire allies gain 20% Max Health and Max Protection and 10 Speed. If all allies are Inquisitorius at the start of battle, they gain an additional 46% Max Health and Max Protection and 15 Speed, and they are immune to Ability Block. Also, Grand Inquisitor gains Defense Penetration Up and Offense Up for 2 turns, which can't be dispelled or prevented.
+- If the enemy has 6 stacks of Purge at the start of turn: Attack a third time dealing true damage instead, which can't be evaded.</td><td>67</td><td>96%</td></tr><tr><td data-order="leaderskill_GRANDINQUISITOR"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Master Inquisitorius</td><td>Empire allies gain 20% Max Health and Max Protection and 10 Speed. If all allies are Inquisitorius at the start of battle, they gain an additional 46% Max Health and Max Protection and 15 Speed, and they are immune to Ability Block. Also, Grand Inquisitor gains Defense Penetration Up and Offense Up for 2 turns, which can't be dispelled or prevented.
 
 Additionally, if all allies are Inquisitorius at the start of battle, whenever Purge is inflicted, Inquisitorius allies gain benefits based on their role for the rest of the encounter (stacking, max 200%):
 - Attackers: +2% Critical Damage
@@ -304,20 +304,20 @@ If the enemy Leader is Jedi, Inquisitorius allies start the battle with buffs ba
 - Healers and Supports: Foresight
 - Tanks: Taunt
 
-[E7E7E7]While in Territory Wars: While Grand Inquisitor is active, whenever an enemy loses Purge, they regain it at the end of the turn. On their turn, Inquisitorius allies can ignore Taunt to target an enemy with 6 stacks of Purge.</td><td>22</td><td>30%</td></tr><tr><td data-order="uniqueskill_GRANDINQUISITOR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_compassionleavesatrail.png" style="width: 30px" /> Compassion Leaves a Trail</td><td>For each Inquisitorius ally, enemies with Purge have -10% Defense and -5 Speed.
+[E7E7E7]While in Territory Wars: While Grand Inquisitor is active, whenever an enemy loses Purge, they regain it at the end of the turn. On their turn, Inquisitorius allies can ignore Taunt to target an enemy with 6 stacks of Purge.</td><td>21</td><td>30%</td></tr><tr><td data-order="uniqueskill_GRANDINQUISITOR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_compassionleavesatrail.png" style="width: 30px" /> Compassion Leaves a Trail</td><td>For each Inquisitorius ally, enemies with Purge have -10% Defense and -5 Speed.
 
 If an enemy evades an Inquisitorius ally's attack, all other enemies take true damage and dispel Foresight from themselves.
 
 The first time each enemy reaches 6 stacks of Purge, Grand Inquisitor takes a bonus turn and gains 10% Critical Avoidance, Health Steal, and Offense and 5 Speed until the end of the encounter (stacking, max 6). These bonuses are doubled if the enemy is Jedi.
 
-[E7E7E7]While in Territory Wars: Whenever Jedi enemies with Purge gain Protection Up, they take damage equal to 25% of their Max Health at the end of that turn. This damage can't defeat enemies. If an enemy with 6 stacks of Purge were to reduce Grand Inquisitor to 1% Health, he recovers 100% Health and Protection (limit once per enemy).</td><td>11</td><td>15%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in Territory Wars: Whenever Jedi enemies with Purge gain Protection Up, they take damage equal to 25% of their Max Health at the end of that turn. This damage can't defeat enemies. If an enemy with 6 stacks of Purge were to reduce Grand Inquisitor to 1% Health, he recovers 100% Health and Protection (limit once per enemy).</td><td>11</td><td>16%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 5, 2, 0, 0, 1, 1, 16, 2, 36, 8, 1 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 2, 0, 0, 2, 0, 17, 2, 33, 7, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.3513513513513513, 2.7027027027027026, 2.7027027027027026, 9.45945945945946, 12.162162162162161, 12.162162162162161, 12.162162162162161, 13.513513513513512, 14.864864864864863, 36.486486486486484, 39.189189189189186, 87.83783783783784, 98.64864864864865, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4285714285714286, 2.857142857142857, 2.857142857142857, 8.571428571428571, 11.428571428571429, 11.428571428571429, 11.428571428571429, 14.285714285714286, 14.285714285714286, 38.57142857142857, 41.42857142857142, 88.57142857142856, 98.57142857142856, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -337,5 +337,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-30 02:58:44 +0000</font>
+<font size="-2">Generated 2023-02-01 22:13:47 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

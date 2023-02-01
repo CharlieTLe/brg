@@ -278,16 +278,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 246 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_DARTHMALGUS"><img src="https://game-assets.swgoh.gg/tex.ability_darthmalgus_basic.png" style="width: 30px" /> Unfettered Rage</td><td>Deal Physical damage to target enemy with a 50% chance to attack again, doubled if the target is a Jedi. On the second attack, Darth Malgus gains 20% Max Health (stacking, max 100%) until the end of the encounter. These attacks can't be countered or evaded. Sith Empire allies gain Critical Damage Up for 2 turns.</td><td>237</td><td>96%</td></tr><tr><td data-order="specialskill_DARTHMALGUS02"><img src="https://game-assets.swgoh.gg/tex.ability_darthmalgus_special02.png" style="width: 30px" /> Dark Deception</td><td>Deal true damage to target enemy equal to 40% of Darth Malgus' Max Health and inflict Doubt on them for 2 turns. If Darth Malgus is in the Leader slot and not the ally slot, this Doubt can't be resisted. Increase target enemy's cooldowns by 1, which can't be resisted. Darth Malgus gains Protection Up (20%) and additional Protection Up (5%, stacking) for each debuff on each ally for 2 turns.
+</script><h2>Alliance Demographic Data</h2>Based on 245 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_DARTHMALGUS"><img src="https://game-assets.swgoh.gg/tex.ability_darthmalgus_basic.png" style="width: 30px" /> Unfettered Rage</td><td>Deal Physical damage to target enemy with a 50% chance to attack again, doubled if the target is a Jedi. On the second attack, Darth Malgus gains 20% Max Health (stacking, max 100%) until the end of the encounter. These attacks can't be countered or evaded. Sith Empire allies gain Critical Damage Up for 2 turns.</td><td>234</td><td>96%</td></tr><tr><td data-order="specialskill_DARTHMALGUS02"><img src="https://game-assets.swgoh.gg/tex.ability_darthmalgus_special02.png" style="width: 30px" /> Dark Deception</td><td>Deal true damage to target enemy equal to 40% of Darth Malgus' Max Health and inflict Doubt on them for 2 turns. If Darth Malgus is in the Leader slot and not the ally slot, this Doubt can't be resisted. Increase target enemy's cooldowns by 1, which can't be resisted. Darth Malgus gains Protection Up (20%) and additional Protection Up (5%, stacking) for each debuff on each ally for 2 turns.
 
-Doubt: Can't gain bonus Turn Meter or buffs or recover Protection</td><td>239</td><td>97%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+Doubt: Can't gain bonus Turn Meter or buffs or recover Protection</td><td>236</td><td>96%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 1, 0, 7, 9, 0, 0, 8, 3, 3, 6, 6, 12, 57, 12, 89, 20, 12 ],
+    y: [ 1, 0, 0, 0, 0, 0, 0, 9, 9, 1, 0, 10, 3, 3, 5, 6, 10, 59, 11, 88, 18, 12 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.40650406504065045, 0.40650406504065045, 0.40650406504065045, 0.40650406504065045, 0.40650406504065045, 0.8130081300813009, 0.8130081300813009, 3.6585365853658534, 7.317073170731707, 7.317073170731707, 7.317073170731707, 10.56910569105691, 11.78861788617886, 13.008130081300811, 15.447154471544714, 17.886178861788615, 22.76422764227642, 45.9349593495935, 50.8130081300813, 86.9918699186992, 95.1219512195122, 100.0 ],
+    y: [ 0.40816326530612246, 0.40816326530612246, 0.40816326530612246, 0.40816326530612246, 0.40816326530612246, 0.40816326530612246, 0.40816326530612246, 4.0816326530612255, 7.755102040816328, 8.163265306122451, 8.163265306122451, 12.244897959183675, 13.469387755102042, 14.69387755102041, 16.734693877551024, 19.18367346938776, 23.265306122448983, 47.34693877551021, 51.83673469387756, 87.75510204081633, 95.10204081632654, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -307,5 +307,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-01-30 02:58:44 +0000</font>
+<font size="-2">Generated 2023-02-01 22:13:46 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
