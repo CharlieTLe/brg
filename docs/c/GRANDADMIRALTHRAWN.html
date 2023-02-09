@@ -234,14 +234,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1565 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRANDADMIRALTHRAWN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Legendary Strategist</td><td>Empire allies have +15% Max Protection, +25% Offense, and gain 20% Turn Meter whenever they Resist a detrimental effect or suffer a debuff. Whenever an Empire ally gains or loses a status effect, they recover 2% Protection. Empire allies gain a new Special ability, Maneuver: Dispel all debuffs on this character and gain 50% Turn Meter (Cooldown 3).</td><td>596</td><td>38%</td></tr><tr><td data-order="uniqueskill_GRANDADMIRALTHRAWN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Ebb and Flow</td><td>Thrawn has +100% Counter Chance, +100% Tenacity, and -50% Speed while any enemies are Fractured. Whenever another Empire ally uses a Special ability while Thrawn is active, that ally gains 15% Turn Meter and, if any enemies are Fractured, Thrawn and Fractured enemies lose 15% Turn Meter.</td><td>1008</td><td>64%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1559 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRANDADMIRALTHRAWN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Legendary Strategist</td><td>Empire allies have +15% Max Protection, +25% Offense, and gain 20% Turn Meter whenever they Resist a detrimental effect or suffer a debuff. Whenever an Empire ally gains or loses a status effect, they recover 2% Protection. Empire allies gain a new Special ability, Maneuver: Dispel all debuffs on this character and gain 50% Turn Meter (Cooldown 3).</td><td>596</td><td>38%</td></tr><tr><td data-order="uniqueskill_GRANDADMIRALTHRAWN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Ebb and Flow</td><td>Thrawn has +100% Counter Chance, +100% Tenacity, and -50% Speed while any enemies are Fractured. Whenever another Empire ally uses a Special ability while Thrawn is active, that ally gains 15% Turn Meter and, if any enemies are Fractured, Thrawn and Fractured enemies lose 15% Turn Meter.</td><td>1007</td><td>65%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 28, 1, 3, 1, 3, 19, 82, 110, 102, 56, 55, 240, 10, 29, 21, 44, 26, 102, 590, 39, 3, 1 ],
+    y: [ 27, 1, 3, 0, 4, 18, 77, 110, 104, 53, 52, 242, 9, 30, 21, 43, 25, 102, 595, 39, 3, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.7891373801916934, 1.8530351437699681, 2.0447284345047922, 2.108626198083067, 2.300319488817891, 3.5143769968051117, 8.753993610223642, 15.782747603833865, 22.30031948881789, 25.878594249201278, 29.39297124600639, 44.72843450479233, 45.36741214057508, 47.22044728434504, 48.56230031948881, 51.373801916932905, 53.03514376996805, 59.55271565495208, 97.25239616613419, 99.7444089456869, 99.93610223642172, 99.99999999999999 ],
+    y: [ 1.731879409878127, 1.796023091725465, 1.988454137267479, 1.988454137267479, 2.245028864656831, 3.3996151379089157, 8.338678640153944, 15.394483643361127, 22.065426555484283, 25.4650416933932, 28.800513149454776, 44.32328415651058, 44.90057729313662, 46.82488774855676, 48.17190506735086, 50.9300833867864, 52.53367543296985, 59.07633098139833, 97.24182168056447, 99.74342527261065, 99.93585631815266, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +261,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-06 00:14:01 +0000</font>
+<font size="-2">Generated 2023-02-09 06:24:16 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
