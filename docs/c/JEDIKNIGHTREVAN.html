@@ -308,20 +308,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1348 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JEDIKNIGHTREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> General</td><td>For each Jedi and each Old Republic ally at the start of battle (excluding summoned allies), Jedi and Old Republic allies gain +5 Speed, +5% Crit Chance and +5% Offense. At the start of battle, Jedi allies gain Tenacity Up for 1 turn. While Revan is in the leader slot and not the ally slot, units are immune to bonus Turn Meter effects from Leader abilities until the start of the first turn of battle.
+</script><h2>Alliance Demographic Data</h2>Based on 1347 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JEDIKNIGHTREVAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_jedirevan.png" style="width: 30px" /> General</td><td>For each Jedi and each Old Republic ally at the start of battle (excluding summoned allies), Jedi and Old Republic allies gain +5 Speed, +5% Crit Chance and +5% Offense. At the start of battle, Jedi allies gain Tenacity Up for 1 turn. While Revan is in the leader slot and not the ally slot, units are immune to bonus Turn Meter effects from Leader abilities until the start of the first turn of battle.
 
 Whenever a Jedi ally attacks out of turn, they recover 20% of their Max Protection and deal 35% more damage. When a Jedi ally uses a Basic ability on an enemy with Bonus Protection, reduce the target enemy's Max Health by 10% (stacking, doesn't work against Raid Bosses). At the start of each Jedi ally's turn, they gain Strategic Advantage if no ally has Strategic Advantage. A Jedi ally with Strategic Advantage can't be countered.
 
-Strategic Advantage: Dispel all debuffs on target other Jedi ally. They gain Strategic Advantage and assist, using their Basic ability. This character uses their Basic ability and loses Strategic Advantage.</td><td>1321</td><td>98%</td></tr><tr><td data-order="specialskill_JEDIKNIGHTREVAN02"><img src="https://game-assets.swgoh.gg/tex.ability_jedirevan_special02.png" style="width: 30px" /> Direct Focus</td><td>Inflict Buff Immunity and Marked on target enemy for 2 turns (these effects can't be copied, dispelled, or resisted). Increase target enemy's cooldowns by 1, which can't be resisted, and reduce their Turn Meter by 50% and Stun them for 1 turn. This attack can't be evaded. Call all Jedi allies to assist dealing 50% less damage.
+Strategic Advantage: Dispel all debuffs on target other Jedi ally. They gain Strategic Advantage and assist, using their Basic ability. This character uses their Basic ability and loses Strategic Advantage.</td><td>1319</td><td>98%</td></tr><tr><td data-order="specialskill_JEDIKNIGHTREVAN02"><img src="https://game-assets.swgoh.gg/tex.ability_jedirevan_special02.png" style="width: 30px" /> Direct Focus</td><td>Inflict Buff Immunity and Marked on target enemy for 2 turns (these effects can't be copied, dispelled, or resisted). Increase target enemy's cooldowns by 1, which can't be resisted, and reduce their Turn Meter by 50% and Stun them for 1 turn. This attack can't be evaded. Call all Jedi allies to assist dealing 50% less damage.
 
 Marked: All enemies will target this unit</td><td>1255</td><td>93%</td></tr><tr><td data-order="uniqueskill_JEDIKNIGHTREVAN02"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Hero</td><td>Jedi Knight Revan is immune to Stun and Ability Block. Revan has +10% Tenacity, Health Steal, Max Health, Max Protection, Critical Hit Avoidance, Defense and Critical Damage. Other Light Side allies gain half these bonuses while Revan is active. These bonuses are doubled while Revan is in the leader slot and not the ally slot.</td><td>1295</td><td>96%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 2, 0, 1, 0, 1, 1, 11, 5, 11, 10, 11, 108, 10, 34, 53, 129, 126, 531, 89, 203, 11, 1 ],
+    y: [ 2, 0, 1, 0, 0, 2, 11, 3, 13, 10, 11, 106, 10, 34, 54, 130, 124, 532, 89, 203, 11, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.1483679525222552, 0.1483679525222552, 0.2225519287833828, 0.2225519287833828, 0.2967359050445104, 0.370919881305638, 1.1869436201780417, 1.5578635014836797, 2.3738872403560833, 3.1157270029673594, 3.931750741839763, 11.943620178041545, 12.685459940652821, 15.20771513353116, 19.139465875370924, 28.709198813056382, 38.05637982195846, 77.44807121661721, 84.05044510385757, 99.10979228486647, 99.92581602373888, 100.0 ],
+    y: [ 0.14847809948032664, 0.14847809948032664, 0.22271714922048996, 0.22271714922048996, 0.22271714922048996, 0.3711952487008166, 1.1878247958426131, 1.4105419450631032, 2.3756495916852263, 3.1180400890868594, 3.934669636228656, 11.804008908685969, 12.546399406087602, 15.070527097253155, 19.079435783221975, 28.73051224944321, 37.93615441722346, 77.43132887899036, 84.0386043058649, 99.10913140311806, 99.92576095025986, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -341,5 +341,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-09 06:24:16 +0000</font>
+<font size="-2">Generated 2023-02-11 21:48:19 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

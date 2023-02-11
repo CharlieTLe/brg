@@ -239,19 +239,19 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1286 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ARMORER01"><img src="https://game-assets.swgoh.gg/tex.ability_armorer_special01.png" style="width: 30px" /> Earn Your Signet</td><td>The Armorer loses all stacks of Beskar Ingot and grants target other ally a tier of Beskar Armor equal to the number of stacks of Beskar Ingot removed until the end of the encounter, which can't be copied, dispelled, or prevented. This ability can't be used if The Armorer has no stacks of Beskar Ingot or if the target's Tier of Beskar Armor won't be increased.
+</script><h2>Alliance Demographic Data</h2>Based on 1285 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ARMORER01"><img src="https://game-assets.swgoh.gg/tex.ability_armorer_special01.png" style="width: 30px" /> Earn Your Signet</td><td>The Armorer loses all stacks of Beskar Ingot and grants target other ally a tier of Beskar Armor equal to the number of stacks of Beskar Ingot removed until the end of the encounter, which can't be copied, dispelled, or prevented. This ability can't be used if The Armorer has no stacks of Beskar Ingot or if the target's Tier of Beskar Armor won't be increased.
 
 Beskar Armor - Beneficial effects build based on the cumulative number of stacks:
 1 Stack: +50% Defense and +15% Max Health
 2 Stacks: Recover 30% Protection at the end of turn
-3 Stacks: +100% Counter chance and can't be critically hit</td><td>423</td><td>33%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+3 Stacks: +100% Counter chance and can't be critically hit</td><td>426</td><td>33%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 397, 22, 19, 15, 23, 44, 123, 274, 115, 19, 21, 59, 15, 17, 11, 41, 8, 54, 0, 8, 1, 0 ],
+    y: [ 390, 21, 20, 15, 24, 45, 124, 275, 117, 19, 21, 60, 15, 16, 11, 41, 8, 54, 0, 8, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 30.870917573872475, 32.581648522550545, 34.05909797822706, 35.22550544323484, 37.01399688958009, 40.43545878693624, 50.0, 71.30637636080871, 80.248833592535, 81.72628304821151, 83.3592534992224, 87.94712286158632, 89.1135303265941, 90.43545878693625, 91.29082426127529, 94.47900466562987, 95.10108864696736, 99.30015552099535, 99.30015552099535, 99.92223950233283, 100.00000000000001, 100.00000000000001 ],
+    y: [ 30.35019455252918, 31.98443579766537, 33.540856031128406, 34.708171206225686, 36.57587548638133, 40.07782101167316, 49.72762645914398, 71.1284046692607, 80.23346303501945, 81.71206225680933, 83.34630350194551, 88.01556420233462, 89.18287937743189, 90.42801556420231, 91.28404669260698, 94.4747081712062, 95.09727626459141, 99.29961089494161, 99.29961089494161, 99.92217898832682, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -271,5 +271,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-09 06:24:16 +0000</font>
+<font size="-2">Generated 2023-02-11 21:48:19 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

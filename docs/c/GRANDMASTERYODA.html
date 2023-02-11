@@ -377,14 +377,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1579 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRANDMASTERYODA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Grand Master's Guidance</td><td>Jedi allies have +30% Tenacity. Whenever a Jedi ally Resists a debuff, they gain the following: 30% Turn Meter, Critical Chance Up for 2 turns, and Critical Damage Up for 2 turns. Whenever they suffer a debuff, they gain Tenacity Up for 1 turn at the end of that turn. Grand Master Yoda is immune to Shock.</td><td>642</td><td>41%</td></tr><tr><td data-order="specialskill_GRANDMASTERYODA03"><img src="https://game-assets.swgoh.gg/tex.ability_yodagrandmaster_special02.png" style="width: 30px" /> Battle Meditation</td><td>Yoda gains Tenacity Up, Protection Up (30%), and Foresight for 2 turns, then grants each ally every non-unique buff he has (excluding Stealth and Taunt) for 2 turns. Yoda grants himself +35% Turn Meter and an additional +10% Turn Meter for each other living Jedi ally.</td><td>1253</td><td>79%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1578 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRANDMASTERYODA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_removeharmful.png" style="width: 30px" /> Grand Master's Guidance</td><td>Jedi allies have +30% Tenacity. Whenever a Jedi ally Resists a debuff, they gain the following: 30% Turn Meter, Critical Chance Up for 2 turns, and Critical Damage Up for 2 turns. Whenever they suffer a debuff, they gain Tenacity Up for 1 turn at the end of that turn. Grand Master Yoda is immune to Shock.</td><td>640</td><td>41%</td></tr><tr><td data-order="specialskill_GRANDMASTERYODA03"><img src="https://game-assets.swgoh.gg/tex.ability_yodagrandmaster_special02.png" style="width: 30px" /> Battle Meditation</td><td>Yoda gains Tenacity Up, Protection Up (30%), and Foresight for 2 turns, then grants each ally every non-unique buff he has (excluding Stealth and Taunt) for 2 turns. Yoda grants himself +35% Turn Meter and an additional +10% Turn Meter for each other living Jedi ally.</td><td>1254</td><td>79%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 20, 2, 1, 3, 3, 9, 20, 24, 36, 38, 80, 268, 9, 15, 24, 71, 55, 198, 39, 91, 572, 1 ],
+    y: [ 18, 2, 1, 3, 3, 10, 18, 25, 37, 36, 82, 270, 9, 14, 23, 72, 56, 197, 38, 91, 572, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.266624445851805, 1.3932868904369855, 1.4566181127295756, 1.6466117796073463, 1.836605446485117, 2.4065864471184293, 3.6732108929702343, 5.1931602279924, 7.473084230525648, 9.879670677644079, 14.946168461051299, 31.918936035465485, 32.4889170360988, 33.438885370487654, 34.95883470550982, 39.45535148828373, 42.938568714376196, 55.47815072830906, 57.94806839772008, 63.71120962634579, 99.93666877770741, 100.0 ],
+    y: [ 1.1406844106463878, 1.2674271229404308, 1.3307984790874523, 1.520912547528517, 1.7110266159695817, 2.344740177439797, 3.4854245880861847, 5.069708491761723, 7.414448669201521, 9.695817490494296, 14.892268694550062, 32.00253485424588, 32.57287705956907, 33.460076045627375, 34.91761723700887, 39.48035487959442, 43.02915082382763, 55.51330798479087, 57.92141951837769, 63.68821292775665, 99.93662864385297, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -404,5 +404,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-09 06:24:16 +0000</font>
+<font size="-2">Generated 2023-02-11 21:48:20 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
