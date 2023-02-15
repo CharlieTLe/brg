@@ -313,19 +313,19 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1470 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_SAVAGEOPRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Brute</td><td>Whenever Savage takes damage, he gains Defense Up, Heal Over Time, and Offense Up for 2 turns, and gains 30% Turn Meter. At the end of his turn, Savage dispels all debuffs on a random other Sith ally and gains those debuffs for 1 turn. Dispel all debuffs from Savage whenever he is critically hit.
+</script><h2>Alliance Demographic Data</h2>Based on 1468 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_SAVAGEOPRESS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Brute</td><td>Whenever Savage takes damage, he gains Defense Up, Heal Over Time, and Offense Up for 2 turns, and gains 30% Turn Meter. At the end of his turn, Savage dispels all debuffs on a random other Sith ally and gains those debuffs for 1 turn. Dispel all debuffs from Savage whenever he is critically hit.
 
 [E7E7E7]While in Grand Arenas: Savage gains 50% Defense, Max Health, and Offense, and 30 Speed. At the start of the encounter, Savage gains 2 stacks of Resilient Defense. At the end of his turn, Savage gains 2 stacks of Resilient Defense (max 10) and 10% Turn Meter (max 50%) for each debuff on other Sith allies.
 Whenever Savage is critically hit, he gains 16% Health Steal and Offense (stacking, max 160%) and all other Sith allies gain 4% Health Steal and Offense (stacking, max 40%), recover 15% Health and Protection, and gain 10% Turn Meter until the end of the encounter.
 
-While Savage has Resilient Defense, he has +50% Defense per stack and is inflicted with Vulnerable, which can't be prevented or dispelled. Whenever Savage gains Taunt, he dispels it and gains 2 stacks of Resilient Defense.</td><td>574</td><td>39%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+While Savage has Resilient Defense, he has +50% Defense per stack and is inflicted with Vulnerable, which can't be prevented or dispelled. Whenever Savage gains Taunt, he dispels it and gains 2 stacks of Resilient Defense.</td><td>586</td><td>40%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 312, 23, 9, 19, 49, 60, 133, 124, 41, 112, 92, 298, 7, 24, 15, 44, 12, 70, 5, 19, 1, 1 ],
+    y: [ 306, 23, 9, 19, 48, 60, 136, 122, 42, 105, 94, 307, 7, 23, 15, 42, 13, 70, 6, 19, 1, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 21.224489795918366, 22.7891156462585, 23.401360544217685, 24.693877551020407, 28.02721088435374, 32.10884353741496, 41.15646258503401, 49.59183673469387, 52.38095238095237, 59.99999999999999, 66.25850340136054, 86.53061224489795, 87.00680272108843, 88.63945578231292, 89.65986394557822, 92.65306122448979, 93.46938775510203, 98.23129251700679, 98.57142857142856, 99.86394557823128, 99.93197278911563, 99.99999999999999 ],
+    y: [ 20.844686648501362, 22.411444141689373, 23.024523160762943, 24.318801089918257, 27.588555858310627, 31.675749318801092, 40.940054495912804, 49.25068119891008, 52.11171662125341, 59.264305177111716, 65.66757493188011, 86.58038147138964, 87.05722070844686, 88.62397820163487, 89.64577656675749, 92.50681198910081, 93.39237057220708, 98.16076294277929, 98.56948228882833, 99.86376021798364, 99.93188010899182, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +345,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-11 21:48:19 +0000</font>
+<font size="-2">Generated 2023-02-15 21:38:35 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

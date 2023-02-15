@@ -431,20 +431,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1129 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_50RT"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_spareparts.png" style="width: 30px" /> Spare Parts</td><td>Droid allies have +35% Defense and +35 Speed and gain Spare Parts until the end of battle, which can't be copied, dispelled or prevented. At the start of battle, if all allies are Droids, 50R-T gains 30% Max Health and +40 Speed.
+</script><h2>Alliance Demographic Data</h2>Based on 1118 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_50RT"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_spareparts.png" style="width: 30px" /> Spare Parts</td><td>Droid allies have +35% Defense and +35 Speed and gain Spare Parts until the end of battle, which can't be copied, dispelled or prevented. At the start of battle, if all allies are Droids, 50R-T gains 30% Max Health and +40 Speed.
 
 Spare Parts: +30% Critical Chance and +30% Offense; if this character is defeated, they are revived with 100% Health, gain Foresight and Protection Up (50%) for 2 turns, and dispel this buff from all allies; this revive can't be prevented
 
-[E7E7E7]While in Conquests, if all allies are non-Separatist Droids: The first time the first enemy to take a turn is defeated, if there are other active enemies (excluding summons), all allies are revived with 60% Health, and gain Damage Immunity and Instant Defeat Immunity for 2 turns, these buffs can't be copied, dispelled, or prevented. This revive can't be prevented.</td><td>21</td><td>2%</td></tr><tr><td data-order="specialskill_50RT01"><img src="https://game-assets.swgoh.gg/tex.ability_50rt_special01.png" style="width: 30px" /> Sabacc Shuffle</td><td>Deal Physical damage to all enemies 3 times and inflict Defense Down for 2 turns. At the start of battle if all allies are non-Separatist Droids, this attack has a 60% chance to inflict Target Lock and will remove 10% Turn Meter for each instance of damage (max 30%). Additionally, allies gain 10% Offense (stacking) until the end of the encounter each time this ability is used.
+[E7E7E7]While in Conquests, if all allies are non-Separatist Droids: The first time the first enemy to take a turn is defeated, if there are other active enemies (excluding summons), all allies are revived with 60% Health, and gain Damage Immunity and Instant Defeat Immunity for 2 turns, these buffs can't be copied, dispelled, or prevented. This revive can't be prevented.</td><td>23</td><td>2%</td></tr><tr><td data-order="specialskill_50RT01"><img src="https://game-assets.swgoh.gg/tex.ability_50rt_special01.png" style="width: 30px" /> Sabacc Shuffle</td><td>Deal Physical damage to all enemies 3 times and inflict Defense Down for 2 turns. At the start of battle if all allies are non-Separatist Droids, this attack has a 60% chance to inflict Target Lock and will remove 10% Turn Meter for each instance of damage (max 30%). Additionally, allies gain 10% Offense (stacking) until the end of the encounter each time this ability is used.
 
-All allies gain 5% Turn Meter for each debuff inflicted by this ability (max 60%).</td><td>97</td><td>9%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+All allies gain 5% Turn Meter for each debuff inflicted by this ability (max 60%).</td><td>99</td><td>9%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 633, 51, 22, 33, 25, 47, 82, 154, 37, 7, 11, 14, 0, 2, 1, 4, 0, 2, 0, 3, 1, 0 ],
+    y: [ 623, 50, 22, 34, 24, 46, 80, 154, 39, 7, 11, 13, 0, 2, 2, 4, 0, 2, 0, 3, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 56.067316209034544, 60.58458813108946, 62.53321523472099, 65.45615589016829, 67.67050487156776, 71.83348095659876, 79.09654561558902, 92.73693534100975, 96.01417183348097, 96.63418954827283, 97.6085031000886, 98.8485385296723, 98.8485385296723, 99.02568644818426, 99.11426040744024, 99.46855624446415, 99.46855624446415, 99.64570416297612, 99.64570416297612, 99.91142604074405, 100.00000000000003, 100.00000000000003 ],
+    y: [ 55.72450805008945, 60.196779964221825, 62.16457960644007, 65.20572450805008, 67.35241502683363, 71.46690518783541, 78.62254025044722, 92.39713774597494, 95.8855098389982, 96.51162790697674, 97.49552772808586, 98.65831842576029, 98.65831842576029, 98.83720930232558, 99.01610017889087, 99.37388193202146, 99.37388193202146, 99.55277280858675, 99.55277280858675, 99.8211091234347, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -464,5 +464,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-11 21:48:19 +0000</font>
+<font size="-2">Generated 2023-02-15 21:38:36 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
