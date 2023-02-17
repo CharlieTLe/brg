@@ -312,12 +312,12 @@ The first time each enemy reaches 6 stacks of Purge, Grand Inquisitor takes a bo
 
 [E7E7E7]While in Territory Wars: Whenever Jedi enemies with Purge gain Protection Up, they take damage equal to 25% of their Max Health at the end of that turn. This damage can't defeat enemies. If an enemy with 6 stacks of Purge were to reduce Grand Inquisitor to 1% Health, he recovers 100% Health and Protection (limit once per enemy).</td><td>15</td><td>22%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 1, 1, 0, 14, 3, 36, 7, 2 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1, 1, 1, 0, 14, 3, 35, 8, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4705882352941175, 1.4705882352941175, 4.411764705882352, 4.411764705882352, 5.88235294117647, 7.352941176470588, 8.823529411764705, 8.823529411764705, 29.411764705882348, 33.8235294117647, 86.76470588235294, 97.05882352941177, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4705882352941175, 1.4705882352941175, 4.411764705882352, 4.411764705882352, 5.88235294117647, 7.352941176470588, 8.823529411764705, 8.823529411764705, 29.411764705882348, 33.8235294117647, 85.29411764705881, 97.05882352941175, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -337,5 +337,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-15 21:38:35 +0000</font>
+<font size="-2">Generated 2023-02-17 00:16:52 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

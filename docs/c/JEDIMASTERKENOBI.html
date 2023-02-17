@@ -319,14 +319,14 @@ This unit has +10% Max Health and Max Protection per Relic Amplifier level, and 
 
 When another Light Side ally targets Jedi Master Kenobi with an ability, dispel all debuffs on him and he gains Mastery (stacking) equal to 10% of their current Mastery for the rest of the encounter. When Jedi Master Kenobi targets another Galactic Republic or Light Side Unaligned Force User ally with an ability, dispel all debuffs on them and they gain Mastery (stacking) equal to 20% of his current Mastery for the rest of the encounter. These effects can't be triggered by granted abilities and the Mastery gain will only trigger if the user has more than 0 Mastery.
 
-When a Galactic Republic ally attacks out of turn, all Galactic Republic allies recover 2% Health and Protection and call the weakest other Light Side ally to assist dealing 20% less damage (limit once per turn).</td><td>504</td><td>99%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+When a Galactic Republic ally attacks out of turn, all Galactic Republic allies recover 2% Health and Protection and call the weakest other Light Side ally to assist dealing 20% less damage (limit once per turn).</td><td>505</td><td>99%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 5, 0, 0, 0, 1, 1, 15, 10, 223, 223, 23 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 4, 4, 0, 0, 0, 1, 2, 14, 10, 222, 225, 23 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.19685039370078738, 0.7874015748031495, 1.3779527559055116, 2.3622047244094486, 2.3622047244094486, 2.3622047244094486, 2.3622047244094486, 2.559055118110236, 2.7559055118110236, 5.708661417322835, 7.677165354330709, 51.5748031496063, 95.4724409448819, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.19685039370078738, 0.5905511811023622, 1.3779527559055116, 2.165354330708661, 2.165354330708661, 2.165354330708661, 2.165354330708661, 2.3622047244094486, 2.755905511811023, 5.511811023622046, 7.48031496062992, 51.18110236220472, 95.47244094488188, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -346,5 +346,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-15 21:38:36 +0000</font>
+<font size="-2">Generated 2023-02-17 00:16:52 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

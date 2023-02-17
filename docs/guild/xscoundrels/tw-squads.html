@@ -1,0 +1,114 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><link rel="stylesheet" type="text/css" href="../../toons.css">
+<style type="text/css">
+.toT { text-align:center; font-size: 60%; }
+.toI {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.toIs {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.opponent {
+    border: 2px solid grey;
+}
+.hardCounter {
+    border: 2px solid red;
+}
+.softCounter {
+    border: 2px solid blue;
+}
+.squad {
+    border: 2px solid black;
+}
+.verbage {
+    font-size: 70%;
+}
+</style><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>    <script>
+    $(document).ready( function () {
+        $('#squads').DataTable({
+        "paging":   false,
+        "info":     false,
+        
+        
+        fixedHeader: true,
+        
+        
+        });
+    } );
+    </script><title>BRG Alliance Guild Reports: xScoundrels TW Squad Inventory</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: xScoundrels TW Squad Inventory</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../alliance/characters.html">Characters</a> |
+
+<div style="float:right;"><a href="../../r">Resources</a></div>
+<a href="index.html">Back</a>
+</div>
+<br/><p>
+You know your teams
+better than the program that generates this, so use this as a guideline,
+not hard facts.
+</p>
+
+<p>
+<img src="../../i/ls24.png"/>: Considered mainly an offensive team
+<br/>
+<img src="../../i/shield24.png"/>: Considered mainly an defensive team
+<br/>
+<img src="../../i/ls24.png"/><img src="../../i/shield24.png"/>: Can be offensive or defensive
+<br/>
+<img src="../../i/wrench24.png">: Team may be usable, but gear is recommended.  Hover or click to see more info.
+</p>
+<button onclick="$('.toggle-all').toggle()">show/hide all</button><br/>
+
+<table id="squads" class="display">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Count</th>
+<th>Squads</th>
+</tr>
+</thead><tr valign="top"><td data-order="Geonosians" align="center"><img class="toI squad GEONOSIANBROODALPHA-i" onclick="$('#squads1').toggle()"  title="Geonosians"/></td><td data-order="defense"><img src="../../i/shield24.png"/></td><td>1</td><td class="verbage"><a onclick="$('#squads1').toggle()">show/hide</a><br/><table id="squads1" class="toggle-all"><td><b><a href="../../player/tw-squads/329331261.html#Geonosians">Aaron</a></b></td><td>91k</td><td nowrap>zzGBA Sun Fac, Geo Soldier, Geo Spy, Poggle</td></tr></table></td></tr>
+<tr valign="top"><td data-order="Phoenix" align="center"><img class="toI squad HERASYNDULLAS3-i" onclick="$('#squads2').toggle()"  title="Phoenix"/></td><td data-order="defense"><img src="../../i/shield24.png"/></td><td>8</td><td class="verbage"><a onclick="$('#squads2').toggle()">show/hide</a><br/><table id="squads2" class="toggle-all"><td><b><a href="../../player/tw-squads/726342453.html#Phoenix">BSnerd172</a></b></td><td>73k</td><td nowrap>Hera Chopper Kanan G10, Ezra G10, Zeb G10</td></tr><td><b><a href="../../player/tw-squads/672269869.html#Phoenix">Shady</a></b></td><td>72k</td><td nowrap>Hera G10, Chopper G11, Kanan G9, Ezra G9, Zeb G9</td></tr><td><b><a href="../../player/tw-squads/836527794.html#Phoenix">Dallas</a></b></td><td>71k</td><td nowrap>Hera G9, Chopper G10, Kanan G10, zEzra G9, Zeb G8</td></tr><td><b><a href="../../player/tw-squads/486673168.html#Phoenix">Irish Pitt</a></b></td><td>71k</td><td nowrap>Hera G10, Chopper G10, Sabine G11, Kanan G10, Ezra G10</td></tr><td><b><a href="../../player/tw-squads/768494478.html#Phoenix">Bobert</a></b></td><td>66k</td><td nowrap>Hera G9, Chopper G9, Kanan G9, Ezra G9, Zeb G9</td></tr><td><b><a href="../../player/tw-squads/363918329.html#Phoenix">DaishoEFX</a></b></td><td>66k</td><td nowrap>Hera G10, Chopper G9, Kanan G10, Ezra G9, Zeb G9</td></tr><td><b><a href="../../player/tw-squads/749817979.html#Phoenix">TheLoneWanderer84</a></b></td><td>64k</td><td nowrap>Hera G11, Chopper G10, Kanan G8, Ezra G11, Zeb G8</td></tr><td><b><a href="../../player/tw-squads/185498168.html#Phoenix">Shula Taka</a></b></td><td>59k</td><td nowrap>Hera G10, Chopper G8, Kanan G8, Ezra G9, Zeb G9</td></tr></table></td></tr>
+</table><br/>
+<font size="-2">Generated 2023-02-17 00:16:16 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
