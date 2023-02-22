@@ -293,14 +293,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1375 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHTALON01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_provenloyalty.png" style="width: 30px" /> Proven Loyalty</td><td>If all allies are Sith at the start of battle (excluding summoned allies), whenever the Leader is damaged, all allies gain 5% Turn Meter. The first time they would be defeated while Darth Talon is active, they dispel all debuffs on themselves, recover 100% Health, and gain 100% Turn Meter; then, Darth Talon gains 3 stacks of Loyal Hand (max 20), loses 50% Health, and gains Stealth for 1 turn. Darth Talon can't be defeated by this damage. Additionally, Dark Frenzy's cooldown is refreshed.</td><td>528</td><td>38%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1375 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHTALON01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_provenloyalty.png" style="width: 30px" /> Proven Loyalty</td><td>If all allies are Sith at the start of battle (excluding summoned allies), whenever the Leader is damaged, all allies gain 5% Turn Meter. The first time they would be defeated while Darth Talon is active, they dispel all debuffs on themselves, recover 100% Health, and gain 100% Turn Meter; then, Darth Talon gains 3 stacks of Loyal Hand (max 20), loses 50% Health, and gains Stealth for 1 turn. Darth Talon can't be defeated by this damage. Additionally, Dark Frenzy's cooldown is refreshed.</td><td>535</td><td>39%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 365, 26, 8, 29, 14, 16, 79, 234, 59, 25, 48, 53, 5, 8, 6, 9, 11, 367, 6, 5, 2, 0 ],
+    y: [ 361, 25, 8, 28, 14, 17, 79, 232, 61, 19, 54, 50, 5, 9, 6, 9, 6, 377, 7, 6, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 26.545454545454543, 28.436363636363634, 29.018181818181816, 31.127272727272725, 32.14545454545454, 33.309090909090905, 39.05454545454545, 56.07272727272726, 60.36363636363635, 62.18181818181817, 65.67272727272726, 69.52727272727272, 69.89090909090908, 70.47272727272725, 70.90909090909089, 71.56363636363635, 72.36363636363635, 99.05454545454543, 99.49090909090907, 99.85454545454543, 99.99999999999997, 99.99999999999997 ],
+    y: [ 26.254545454545454, 28.07272727272727, 28.654545454545453, 30.690909090909088, 31.709090909090907, 32.945454545454545, 38.69090909090909, 55.56363636363636, 60.0, 61.38181818181818, 65.30909090909091, 68.94545454545455, 69.30909090909091, 69.96363636363637, 70.4, 71.05454545454546, 71.4909090909091, 98.90909090909092, 99.41818181818184, 99.85454545454547, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -320,5 +320,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-20 01:25:28 +0000</font>
+<font size="-2">Generated 2023-02-22 22:45:44 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
