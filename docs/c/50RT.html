@@ -431,20 +431,20 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-3', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1116 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_50RT"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_spareparts.png" style="width: 30px" /> Spare Parts</td><td>Droid allies have +35% Defense and +35 Speed and gain Spare Parts until the end of battle, which can't be copied, dispelled or prevented. At the start of battle, if all allies are Droids, 50R-T gains 30% Max Health and +40 Speed.
+</script><h2>Alliance Demographic Data</h2>Based on 1129 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_50RT"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_spareparts.png" style="width: 30px" /> Spare Parts</td><td>Droid allies have +35% Defense and +35 Speed and gain Spare Parts until the end of battle, which can't be copied, dispelled or prevented. At the start of battle, if all allies are Droids, 50R-T gains 30% Max Health and +40 Speed.
 
 Spare Parts: +30% Critical Chance and +30% Offense; if this character is defeated, they are revived with 100% Health, gain Foresight and Protection Up (50%) for 2 turns, and dispel this buff from all allies; this revive can't be prevented
 
 [E7E7E7]While in Conquests, if all allies are non-Separatist Droids: The first time the first enemy to take a turn is defeated, if there are other active enemies (excluding summons), all allies are revived with 60% Health, and gain Damage Immunity and Instant Defeat Immunity for 2 turns, these buffs can't be copied, dispelled, or prevented. This revive can't be prevented.</td><td>22</td><td>2%</td></tr><tr><td data-order="specialskill_50RT01"><img src="https://game-assets.swgoh.gg/tex.ability_50rt_special01.png" style="width: 30px" /> Sabacc Shuffle</td><td>Deal Physical damage to all enemies 3 times and inflict Defense Down for 2 turns. At the start of battle if all allies are non-Separatist Droids, this attack has a 60% chance to inflict Target Lock and will remove 10% Turn Meter for each instance of damage (max 30%). Additionally, allies gain 10% Offense (stacking) until the end of the encounter each time this ability is used.
 
-All allies gain 5% Turn Meter for each debuff inflicted by this ability (max 60%).</td><td>100</td><td>9%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+All allies gain 5% Turn Meter for each debuff inflicted by this ability (max 60%).</td><td>102</td><td>9%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 617, 50, 22, 35, 25, 43, 76, 161, 41, 6, 12, 14, 0, 0, 2, 5, 0, 2, 0, 3, 2, 0 ],
+    y: [ 621, 51, 22, 36, 25, 45, 75, 165, 41, 7, 12, 14, 0, 1, 2, 5, 0, 1, 1, 3, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 55.286738351254485, 59.76702508960574, 61.73835125448029, 64.87455197132617, 67.1146953405018, 70.96774193548387, 77.77777777777779, 92.20430107526883, 95.87813620071685, 96.415770609319, 97.4910394265233, 98.74551971326166, 98.74551971326166, 98.74551971326166, 98.92473118279571, 99.37275985663084, 99.37275985663084, 99.55197132616489, 99.55197132616489, 99.82078853046596, 100.00000000000001, 100.00000000000001 ],
+    y: [ 55.0044286979628, 59.52170062001772, 61.47032772364925, 64.65899025686448, 66.87333923826395, 70.859167404783, 77.5022143489814, 92.11691762621788, 95.74844995571301, 96.36846767050487, 97.43135518157662, 98.67139061116032, 98.67139061116032, 98.7599645704163, 98.93711248892826, 99.37998228520816, 99.37998228520816, 99.46855624446414, 99.55713020372012, 99.82285208148805, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -464,5 +464,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-27 05:53:34 +0000</font>
+<font size="-2">Generated 2023-03-02 00:24:37 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

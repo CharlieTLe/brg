@@ -303,24 +303,24 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 314 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_MAULS701"><img src="https://game-assets.swgoh.gg/tex.ability_maulcyborg_special01.png" style="width: 30px" /> Fervent Rush</td><td>Dispel all buffs on the target enemy. Deal Physical damage to all enemies and inflict Offense Down for 2 turns. This attack deals 5% more damage for each buff dispelled.
+</script><h2>Alliance Demographic Data</h2>Based on 320 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_MAULS701"><img src="https://game-assets.swgoh.gg/tex.ability_maulcyborg_special01.png" style="width: 30px" /> Fervent Rush</td><td>Dispel all buffs on the target enemy. Deal Physical damage to all enemies and inflict Offense Down for 2 turns. This attack deals 5% more damage for each buff dispelled.
 
-Maul gains 2 stacks of Anguish (stacking, max 5), if an enemy was defeated by this attack Maul instead gains the maximum stacks of Anguish.</td><td>268</td><td>85%</td></tr><tr><td data-order="specialskill_MAULS702"><img src="https://game-assets.swgoh.gg/tex.ability_maulcyborg_special02.png" style="width: 30px" /> Seething Rage</td><td>Deal true damage to target enemy and inflict Buff Immunity for 2 turns. If Maul has 5 Anguish, increase target enemy's cooldowns by 2 (excludes raid bosses and Galactic Legends). Maul loses 1 stack of Anguish and takes a bonus turn. This attack can't be countered.
+Maul gains 2 stacks of Anguish (stacking, max 5), if an enemy was defeated by this attack Maul instead gains the maximum stacks of Anguish.</td><td>273</td><td>85%</td></tr><tr><td data-order="specialskill_MAULS702"><img src="https://game-assets.swgoh.gg/tex.ability_maulcyborg_special02.png" style="width: 30px" /> Seething Rage</td><td>Deal true damage to target enemy and inflict Buff Immunity for 2 turns. If Maul has 5 Anguish, increase target enemy's cooldowns by 2 (excludes raid bosses and Galactic Legends). Maul loses 1 stack of Anguish and takes a bonus turn. This attack can't be countered.
 
 Each time this ability is used, it deals 60% more damage on subsequent uses and increases by an additional 60% until Maul uses a different ability during his turn.
 
-This ability can't be used unless Maul has Anguish.</td><td>271</td><td>86%</td></tr><tr><td data-order="uniqueskill_MAULS701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_boundbyhatred.png" style="width: 30px" /> Bound By Hatred</td><td>Mauls attacks can't be evaded and he has +15% Offense.
+This ability can't be used unless Maul has Anguish.</td><td>276</td><td>86%</td></tr><tr><td data-order="uniqueskill_MAULS701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_boundbyhatred.png" style="width: 30px" /> Bound By Hatred</td><td>Mauls attacks can't be evaded and he has +15% Offense.
 
 At the start of battle, Maul gains Frenzy and Retribution for 2 turns and 3 stacks of Anguish (stacking, max 5). If there is an enemy Kenobi, Maul instead gains the maximum stacks of Anguish.
 
-While Maul has 3 or more Anguish, he is immune to Stun and Ability Block. While Maul has 5 Anguish, he ignores Taunt and is always critically hit by enemy attacks.</td><td>279</td><td>89%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+While Maul has 3 or more Anguish, he is immune to Stun and Ability Block. While Maul has 5 Anguish, he ignores Taunt and is always critically hit by enemy attacks.</td><td>284</td><td>89%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 9, 1, 1, 0, 0, 2, 1, 3, 19, 10, 11, 20, 8, 11, 7, 23, 10, 87, 15, 59, 13, 4 ],
+    y: [ 9, 1, 1, 0, 0, 2, 1, 3, 20, 10, 11, 20, 8, 11, 7, 24, 10, 88, 17, 61, 13, 3 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.8662420382165608, 3.1847133757961785, 3.5031847133757963, 3.5031847133757963, 3.5031847133757963, 4.140127388535032, 4.4585987261146505, 5.414012738853504, 11.464968152866243, 14.649681528662422, 18.15286624203822, 24.522292993630575, 27.070063694267517, 30.573248407643312, 32.802547770700635, 40.12738853503184, 43.31210191082802, 71.01910828025477, 75.79617834394904, 94.5859872611465, 98.72611464968153, 100.0 ],
+    y: [ 2.8125, 3.125, 3.4375, 3.4375, 3.4375, 4.0625, 4.375, 5.3125, 11.5625, 14.6875, 18.125, 24.375, 26.875, 30.3125, 32.5, 40.0, 43.125, 70.625, 75.9375, 95.0, 99.0625, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-02-27 05:53:34 +0000</font>
+<font size="-2">Generated 2023-03-02 00:24:37 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
