@@ -293,21 +293,21 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1463 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHTECH01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_translation.png" style="width: 30px" /> Clone Interpreter</td><td>At the start of battle, Tech gains +1 Speed for each Clone Trooper ally, doubled for Bad Batch allies. If all allies are Clone Troopers, Tech gains Stealth for 1 turn. Tech has +25% Potency for each of his own stacks of Translation.
+</script><h2>Alliance Demographic Data</h2>Based on 1465 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BADBATCHTECH01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_translation.png" style="width: 30px" /> Clone Interpreter</td><td>At the start of battle, Tech gains +1 Speed for each Clone Trooper ally, doubled for Bad Batch allies. If all allies are Clone Troopers, Tech gains Stealth for 1 turn. Tech has +25% Potency for each of his own stacks of Translation.
 
 While Tech is active, Clone Trooper allies gain Translation for 3 turns (max 3 stacks) each time they use a Special ability. Translation cannot be copied. If the character already has Translation, the duration for all current stacks on that character resets to 3 turns. If all allies that can apply Translation are defeated, all stacks of Translation expire.
 
 Translation - Beneficial effects build based on the cumulative number of stacks:
 1: Gain +30% Max Health
 2: Gain +15% Critical Chance
-3: If only one ally who grants Translation is present, decrease this character's cooldowns by 1 when that ally uses their Basic ability (limit once per turn)</td><td>472</td><td>32%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+3: If only one ally who grants Translation is present, decrease this character's cooldowns by 1 when that ally uses their Basic ability (limit once per turn)</td><td>469</td><td>32%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 491, 28, 36, 62, 46, 35, 27, 127, 176, 73, 27, 52, 5, 11, 5, 9, 4, 239, 5, 5, 0, 0 ],
+    y: [ 491, 27, 37, 62, 45, 37, 27, 128, 176, 73, 28, 48, 4, 12, 6, 11, 3, 240, 4, 6, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 33.56117566643883, 35.47505126452495, 37.935748462064254, 42.173615857826384, 45.31784005468216, 47.71018455228981, 49.55570745044429, 58.236500341763495, 70.26657552973342, 75.25632262474367, 77.10184552289815, 80.65618591934381, 80.99794941900205, 81.74982911825018, 82.09159261790842, 82.70676691729324, 82.98017771701983, 99.31647300068353, 99.65823650034177, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 33.515358361774744, 35.358361774744026, 37.8839590443686, 42.1160409556314, 45.1877133105802, 47.71331058020478, 49.55631399317406, 58.29351535836177, 70.30716723549487, 75.29010238907848, 77.2013651877133, 80.47781569965869, 80.7508532423208, 81.56996587030714, 81.97952218430032, 82.73037542662114, 82.93515358361772, 99.31740614334468, 99.5904436860068, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -327,5 +327,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-10 04:11:23 +0000</font>
+<font size="-2">Generated 2023-03-13 03:35:56 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

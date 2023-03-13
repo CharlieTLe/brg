@@ -367,13 +367,13 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1401 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_BADBATCHOMEGA01"><img src="https://game-assets.swgoh.gg/tex.ability_badbatchomega_special01.png" style="width: 30px" /> Adaptive Learner</td><td>Deal Physical damage and inflict target enemy with Zeroed In. Dispel Zeroed In from all other enemies and Omega gains a stack of Target Practice. These effects can't be copied, dispelled, prevented, or resisted and last until the end of the encounter, Zeroed In is removed from an enemy, or Omega is defeated.
+</script><h2>Alliance Demographic Data</h2>Based on 1405 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_BADBATCHOMEGA01"><img src="https://game-assets.swgoh.gg/tex.ability_badbatchomega_special01.png" style="width: 30px" /> Adaptive Learner</td><td>Deal Physical damage and inflict target enemy with Zeroed In. Dispel Zeroed In from all other enemies and Omega gains a stack of Target Practice. These effects can't be copied, dispelled, prevented, or resisted and last until the end of the encounter, Zeroed In is removed from an enemy, or Omega is defeated.
 
 If the target enemy is Exposed, this attack inflicts Target Lock for 2 turns and removes 10% Turn Meter.
 
 Zeroed In: Omega has Target Practice while a character is afflicted by this; Omega can ignore Taunt to target this enemy
 
-Target Practice: +5% Critical Chance, and Offense, and +10% Critical Damage per stack</td><td>337</td><td>24%</td></tr><tr><td data-order="uniqueskill_BADBATCHOMEGA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_badbatchomega.png" style="width: 30px" /> Part of the Squad</td><td>At the start of the encounter, if all allies are Bad Batch, whenever the allied leader begins their turn, Omega gains 5 Speed and 2% Offense (stacking, max 50 Speed and 20% Offense) for the rest of the encounter.
+Target Practice: +5% Critical Chance, and Offense, and +10% Critical Damage per stack</td><td>334</td><td>24%</td></tr><tr><td data-order="uniqueskill_BADBATCHOMEGA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_badbatchomega.png" style="width: 30px" /> Part of the Squad</td><td>At the start of the encounter, if all allies are Bad Batch, whenever the allied leader begins their turn, Omega gains 5 Speed and 2% Offense (stacking, max 50 Speed and 20% Offense) for the rest of the encounter.
 
 While Omega has Stealth, she has +10% Critical Damage, and when another Bad Batch ally uses a Special ability, Omega assists, dealing 60% less damage. While Omega has Defense Up, she has +10% Critical Chance.
 
@@ -381,14 +381,14 @@ Omega's attacks deal 5% more damage for each buff she has and 5% more damage for
 
 [e7e7e7]While in Territory Battles: At the start of battle, all Bad Batch allies gain Max Health equal to 10% of their Max Protection for each of their own Relic Amplifier levels (max 100%). Then, they lose all Protection. Bad Batch allies take reduced damage from percent Health damage effects. These bonuses last until the first time Omega is defeated.
 
-At the start of each encounter, Bad Batch allies gain 10% bonus Protection for 2 turns for each of Omega's Relic Amplifier levels. Whenever Omega uses her Basic ability, she deals damage again for each other Bad Batch ally, dealing 50% less damage.</td><td>357</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+At the start of each encounter, Bad Batch allies gain 10% bonus Protection for 2 turns for each of Omega's Relic Amplifier levels. Whenever Omega uses her Basic ability, she deals damage again for each other Bad Batch ally, dealing 50% less damage.</td><td>353</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 558, 37, 34, 29, 11, 75, 45, 163, 210, 21, 19, 64, 5, 21, 5, 21, 7, 65, 6, 5, 0, 0 ],
+    y: [ 563, 36, 34, 29, 13, 73, 46, 161, 212, 20, 18, 65, 5, 20, 5, 22, 7, 65, 5, 6, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 39.82869379014989, 42.46966452533904, 44.89650249821556, 46.96645253390435, 47.75160599571734, 53.10492505353319, 56.316916488222695, 67.95146324054247, 82.94075660242683, 84.43968593861527, 85.79586009992862, 90.36402569593147, 90.7209136331192, 92.21984296930763, 92.57673090649536, 94.0756602426838, 94.57530335474661, 99.214846538187, 99.64311206281228, 100.0, 100.0, 100.0 ],
+    y: [ 40.0711743772242, 42.63345195729538, 45.053380782918154, 47.117437722419936, 48.042704626334526, 53.23843416370107, 56.51245551601424, 67.97153024911033, 83.06049822064058, 84.48398576512457, 85.76512455516016, 90.3914590747331, 90.7473309608541, 92.17081850533809, 92.52669039145908, 94.09252669039147, 94.59074733096087, 99.21708185053382, 99.57295373665481, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -408,5 +408,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-10 04:11:23 +0000</font>
+<font size="-2">Generated 2023-03-13 03:35:56 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
