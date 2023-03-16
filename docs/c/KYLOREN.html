@@ -308,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1568 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KYLOREN02"><img src="https://game-assets.swgoh.gg/tex.ability_kyloren_special01.png" style="width: 30px" /> Outrage</td><td>Deal Physical damage to target enemy and, if Kylo has full Health, inflict Stun for 1 turn. This attack deals 75% more damage if Kylo is below full Health. Recover Protection equal to the damage dealt.</td><td>973</td><td>62%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1566 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_KYLOREN02"><img src="https://game-assets.swgoh.gg/tex.ability_kyloren_special01.png" style="width: 30px" /> Outrage</td><td>Deal Physical damage to target enemy and, if Kylo has full Health, inflict Stun for 1 turn. This attack deals 75% more damage if Kylo is below full Health. Recover Protection equal to the damage dealt.</td><td>970</td><td>62%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 42, 1, 0, 16, 5, 13, 37, 258, 155, 19, 63, 190, 10, 16, 16, 19, 17, 25, 8, 654, 3, 1 ],
+    y: [ 42, 1, 1, 14, 4, 13, 36, 262, 154, 18, 64, 191, 11, 14, 17, 20, 16, 24, 7, 653, 3, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 2.6785714285714284, 2.74234693877551, 2.74234693877551, 3.762755102040816, 4.081632653061225, 4.910714285714286, 7.270408163265306, 23.724489795918366, 33.609693877551024, 34.82142857142858, 38.83928571428572, 50.956632653061234, 51.59438775510205, 52.614795918367356, 53.635204081632665, 54.84693877551022, 55.93112244897961, 57.52551020408165, 58.0357142857143, 99.74489795918367, 99.93622448979592, 100.0 ],
+    y: [ 2.681992337164751, 2.7458492975734354, 2.80970625798212, 3.7037037037037033, 3.9591315453384412, 4.7892720306513406, 7.088122605363984, 23.818646232439335, 33.652618135376756, 34.80204342273308, 38.888888888888886, 51.08556832694764, 51.78799489144317, 52.68199233716475, 53.76756066411239, 55.04469987228608, 56.06641123882503, 57.59897828863346, 58.04597701149425, 99.74457215836526, 99.93614303959131, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-13 03:35:56 +0000</font>
+<font size="-2">Generated 2023-03-16 04:31:12 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

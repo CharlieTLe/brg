@@ -303,18 +303,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1452 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td>At the start of battle, if Mon Mothma is in the Leader slot, she and all Rebel Fighter allies gain 8% of their combined base Max Health, Max Protection, Offense, Defense, Potency, and Tenacity.
+</script><h2>Alliance Demographic Data</h2>Based on 1445 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td>At the start of battle, if Mon Mothma is in the Leader slot, she and all Rebel Fighter allies gain 8% of their combined base Max Health, Max Protection, Offense, Defense, Potency, and Tenacity.
 
 Mon Mothma and Rebel Fighter allies have a 100% chance to assist each other whenever they use an ability during their turn, dealing 90% less damage (limit once per turn per ally). If that ability dealt no damage, the damage penalty is reduced to 45% less damage and that ally dispels all debuffs on the healthiest Rebel ally.</td><td>739</td><td>51%</td></tr><tr><td data-order="uniqueskill_MONMOTHMA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> This Is Our Rebellion</td><td>Mon Mothma has +50 Speed. Mon Mothma can't be targeted and is immune to taunt effects.
 
-If there are no other allied combatants at the start of a turn, Mon Mothma escapes from battle.</td><td>723</td><td>50%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+If there are no other allied combatants at the start of a turn, Mon Mothma escapes from battle.</td><td>722</td><td>50%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 351, 9, 6, 29, 16, 45, 67, 128, 86, 15, 13, 40, 3, 9, 4, 7, 0, 609, 2, 11, 1, 1 ],
+    y: [ 347, 10, 5, 26, 15, 46, 68, 125, 84, 16, 13, 42, 3, 9, 3, 6, 1, 611, 2, 11, 1, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 24.173553719008265, 24.793388429752067, 25.206611570247937, 27.2038567493113, 28.305785123966945, 31.404958677685954, 36.019283746556475, 44.83471074380165, 50.75757575757576, 51.790633608815426, 52.68595041322314, 55.44077134986226, 55.647382920110196, 56.267217630854, 56.54269972451791, 57.02479338842976, 57.02479338842976, 98.96694214876032, 99.10468319559229, 99.86225895316804, 99.93112947658402, 100.0 ],
+    y: [ 24.013840830449826, 24.705882352941178, 25.051903114186853, 26.851211072664363, 27.889273356401386, 31.072664359861594, 35.77854671280277, 44.42906574394464, 50.24221453287198, 51.34948096885814, 52.249134948096895, 55.15570934256056, 55.36332179930797, 55.986159169550184, 56.19377162629759, 56.6089965397924, 56.678200692041536, 98.96193771626298, 99.10034602076125, 99.86159169550173, 99.93079584775086, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -334,5 +334,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-13 03:35:56 +0000</font>
+<font size="-2">Generated 2023-03-16 04:31:12 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

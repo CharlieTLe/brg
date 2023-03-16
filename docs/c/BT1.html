@@ -229,18 +229,18 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1192 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BT101"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_homicidalcounterpart.png" style="width: 30px" /> Homicidal Counterpart</td><td>At the start of battle, BT-1 gains 10% Critical Damage for each Droid ally, 10% Potency for each Dark Side ally, and 5 Speed for each Scoundrel ally. If 0-0-0 is an active ally, gain the granted ability Kill Them All. Whenever 0-0-0 uses a Special ability, BT-1 assists dealing 40% less damage.
+</script><h2>Alliance Demographic Data</h2>Based on 1188 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BT101"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_homicidalcounterpart.png" style="width: 30px" /> Homicidal Counterpart</td><td>At the start of battle, BT-1 gains 10% Critical Damage for each Droid ally, 10% Potency for each Dark Side ally, and 5 Speed for each Scoundrel ally. If 0-0-0 is an active ally, gain the granted ability Kill Them All. Whenever 0-0-0 uses a Special ability, BT-1 assists dealing 40% less damage.
 
 Kill Them All: Deal Physical damage to all enemies and call 0-0-0 to assist
 
-[E7E7E7]While in 3v3 Grand Arenas: Whenever BT-1 or 0-0-0 defeat an enemy, their cooldowns are refreshed and they gain 30% Turn Meter.</td><td>2</td><td>0%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in 3v3 Grand Arenas: Whenever BT-1 or 0-0-0 defeat an enemy, their cooldowns are refreshed and they gain 30% Turn Meter.</td><td>3</td><td>0%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 735, 44, 16, 41, 37, 57, 72, 81, 14, 39, 31, 2, 0, 1, 0, 1, 0, 11, 2, 7, 0, 1 ],
+    y: [ 730, 45, 15, 38, 40, 56, 70, 83, 15, 41, 30, 2, 0, 1, 0, 0, 0, 12, 1, 8, 0, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 61.66107382550335, 65.35234899328859, 66.69463087248322, 70.13422818791946, 73.23825503355704, 78.02013422818791, 84.06040268456375, 90.85570469798657, 92.03020134228187, 95.30201342281879, 97.90268456375838, 98.07046979865771, 98.07046979865771, 98.15436241610738, 98.15436241610738, 98.23825503355704, 98.23825503355704, 99.16107382550335, 99.32885906040268, 99.91610738255032, 99.91610738255032, 99.99999999999999 ],
+    y: [ 61.44781144781145, 65.23569023569024, 66.4983164983165, 69.6969696969697, 73.06397306397307, 77.77777777777779, 83.67003367003367, 90.65656565656566, 91.91919191919192, 95.37037037037037, 97.89562289562289, 98.06397306397307, 98.06397306397307, 98.14814814814815, 98.14814814814815, 98.14814814814815, 98.14814814814815, 99.15824915824916, 99.24242424242425, 99.91582491582493, 99.91582491582493, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -260,5 +260,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-13 03:35:56 +0000</font>
+<font size="-2">Generated 2023-03-16 04:31:12 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
