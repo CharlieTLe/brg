@@ -293,22 +293,22 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 125 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_BENSOLO02"><img src="https://game-assets.swgoh.gg/tex.ability_bensolo_special02.png" style="width: 30px" /> Family Legacy</td><td>Deal Special damage to target enemy and inflict Armor Shred until the end of the encounter. If all allies were Light Side at the start of battle, dispel all buffs from all enemies and deal true damage again to all enemies. All allies gain 5% Turn Meter (max 25%) for each enemy damaged by this ability.
+</script><h2>Alliance Demographic Data</h2>Based on 126 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_BENSOLO02"><img src="https://game-assets.swgoh.gg/tex.ability_bensolo_special02.png" style="width: 30px" /> Family Legacy</td><td>Deal Special damage to target enemy and inflict Armor Shred until the end of the encounter. If all allies were Light Side at the start of battle, dispel all buffs from all enemies and deal true damage again to all enemies. All allies gain 5% Turn Meter (max 25%) for each enemy damaged by this ability.
 
 If this ability defeats an enemy, Ben Solo gains 10% Offense (stacking, max 50%) and all other Light Side allies gain 5% Offense (stacking, max 25%) until the end of battle.
 
-This attack can't be evaded.</td><td>85</td><td>68%</td></tr><tr><td data-order="uniqueskill_BENSOLO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_redeemed.png" style="width: 30px" /> Redeemed</td><td>At the start of battle, if all of Ben Solo’s allies were Light Side and there is any version of Rey in the allied Leader slot, Ben Solo gains 15% Max Health and 10 Speed for each Light Side ally (excluding summons). Ben Solo ignores taunt effects during his turn.
+This attack can't be evaded.</td><td>87</td><td>69%</td></tr><tr><td data-order="uniqueskill_BENSOLO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_redeemed.png" style="width: 30px" /> Redeemed</td><td>At the start of battle, if all of Ben Solo’s allies were Light Side and there is any version of Rey in the allied Leader slot, Ben Solo gains 15% Max Health and 10 Speed for each Light Side ally (excluding summons). Ben Solo ignores taunt effects during his turn.
 
 [E7E7E7]While in Grand Arenas: Ben Solo's attacks ignore Protection.</td><td>28</td><td>22%</td></tr><tr><td data-order="uniqueskill_BENSOLO02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_forcedyad.png" style="width: 30px" /> Force Dyad</td><td>If all allies were Light Side at the start of battle and there is any version of Rey in the allied Leader slot: All allies gain Instant Defeat Immunity for 1 turn at the start of each encounter, which can’t be copied, dispelled, or prevented. While Ben Solo is active, Rey can’t be defeated. Ben Solo can’t be defeated while Rey is above 50% Health.
 
-[E7E7E7]While in Grand Arenas, if Galactic Legend Rey is in the allied Leader slot: If the enemy in the Leader slot begins their turn with Ben Solo defeated and Ben still has an active ally, he revives with 51% Health and all allies gain Instant Defeat Immunity for the rest of the encounter, which can’t be copied, dispelled, or prevented.</td><td>56</td><td>45%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in Grand Arenas, if Galactic Legend Rey is in the allied Leader slot: If the enemy in the Leader slot begins their turn with Ben Solo defeated and Ben still has an active ally, he revives with 51% Health and all allies gain Instant Defeat Immunity for the rest of the encounter, which can’t be copied, dispelled, or prevented.</td><td>58</td><td>46%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 0, 1, 0, 1, 1, 5, 4, 29, 2, 0, 4, 1, 3, 0, 5, 1, 19, 11, 21, 6, 0 ],
+    y: [ 11, 0, 1, 0, 1, 1, 5, 4, 27, 4, 0, 4, 1, 3, 0, 5, 1, 20, 11, 21, 6, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.799999999999999, 8.799999999999999, 9.6, 9.6, 10.4, 11.200000000000001, 15.200000000000001, 18.400000000000002, 41.60000000000001, 43.20000000000001, 43.20000000000001, 46.40000000000001, 47.20000000000001, 49.60000000000001, 49.60000000000001, 53.60000000000001, 54.400000000000006, 69.60000000000001, 78.4, 95.2, 100.0, 100.0 ],
+    y: [ 8.73015873015873, 8.73015873015873, 9.523809523809524, 9.523809523809524, 10.317460317460318, 11.111111111111112, 15.07936507936508, 18.253968253968257, 39.682539682539684, 42.85714285714286, 42.85714285714286, 46.03174603174604, 46.82539682539683, 49.20634920634921, 49.20634920634921, 53.17460317460318, 53.96825396825397, 69.84126984126983, 78.57142857142857, 95.23809523809524, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -328,5 +328,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-16 04:31:12 +0000</font>
+<font size="-2">Generated 2023-03-20 01:41:20 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

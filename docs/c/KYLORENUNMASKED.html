@@ -367,14 +367,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1648 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_KYLORENUNMASKED"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Merciless Pursuit</td><td>First Order allies have +40% Critical Damage and +30 Speed. When a First Order ally scores a Critical Hit, they gain 20% Turn Meter. When a First Order ally gains a status effect, they recover 5% Health and 5% Protection.</td><td>1096</td><td>67%</td></tr><tr><td data-order="uniqueskill_KYLORENUNMASKED01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Scarred</td><td>When Kylo takes damage, he recovers 8% Health and a random First Order ally who doesn't have it gains Advantage for 2 turns. Kylo has +50% Counter Chance, doubled while he has Taunt. Kylo takes reduced damage from Percent Health damage effects and gains Taunt for 1 turn at the start of each encounter.</td><td>1025</td><td>62%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1646 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_KYLORENUNMASKED"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Merciless Pursuit</td><td>First Order allies have +40% Critical Damage and +30 Speed. When a First Order ally scores a Critical Hit, they gain 20% Turn Meter. When a First Order ally gains a status effect, they recover 5% Health and 5% Protection.</td><td>1094</td><td>66%</td></tr><tr><td data-order="uniqueskill_KYLORENUNMASKED01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Scarred</td><td>When Kylo takes damage, he recovers 8% Health and a random First Order ally who doesn't have it gains Advantage for 2 turns. Kylo has +50% Counter Chance, doubled while he has Taunt. Kylo takes reduced damage from Percent Health damage effects and gains Taunt for 1 turn at the start of each encounter.</td><td>1021</td><td>62%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 21, 16, 14, 9, 15, 29, 43, 247, 80, 47, 61, 174, 11, 18, 18, 43, 22, 68, 13, 684, 13, 2 ],
+    y: [ 18, 15, 15, 12, 16, 30, 42, 247, 82, 44, 61, 178, 12, 19, 19, 43, 22, 64, 13, 679, 13, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.2742718446601942, 2.245145631067961, 3.094660194174757, 3.640776699029126, 4.550970873786407, 6.310679611650485, 8.919902912621358, 23.90776699029126, 28.762135922330096, 31.614077669902912, 35.31553398058252, 45.873786407766985, 46.541262135922324, 47.63349514563106, 48.725728155339795, 51.33495145631067, 52.669902912621346, 56.79611650485435, 57.58495145631066, 99.0898058252427, 99.87864077669902, 99.99999999999999 ],
+    y: [ 1.0935601458080195, 2.0048602673147022, 2.916160388821385, 3.6452004860267313, 4.617253948967193, 6.439854191980558, 8.99149453219927, 23.99756986634265, 28.97934386391252, 31.652490886998788, 35.358444714459296, 46.172539489671934, 46.90157958687728, 48.05589307411908, 49.210206561360884, 51.822600243013376, 53.15917375455651, 57.04738760631836, 57.83718104495748, 99.08869987849333, 99.87849331713245, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -394,5 +394,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-16 04:31:12 +0000</font>
+<font size="-2">Generated 2023-03-20 01:41:20 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
