@@ -298,11 +298,11 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1228 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_HONDO01"><img src="https://game-assets.swgoh.gg/tex.ability_hondoohnaka_special01.png" style="width: 30px" /> I Don't Want to Kill You Per Se</td><td>Remove 20% Turn Meter from all enemies. Hondo gains Outmaneuver for 2 turns, which can't be copied. Inflict Captive on the target enemy (excluding Galactic Legends), which can't be copied, dispelled, evaded, prevented, or resisted, until the start of Hondo's second turn, enemies gain 25 buffs, or Hondo is defeated, and remove it from all other enemies. Whenever Captive expires, Hondo gains 10 stacks of Ransom.
+</script><h2>Alliance Demographic Data</h2>Based on 1235 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_HONDO01"><img src="https://game-assets.swgoh.gg/tex.ability_hondoohnaka_special01.png" style="width: 30px" /> I Don't Want to Kill You Per Se</td><td>Remove 20% Turn Meter from all enemies. Hondo gains Outmaneuver for 2 turns, which can't be copied. Inflict Captive on the target enemy (excluding Galactic Legends), which can't be copied, dispelled, evaded, prevented, or resisted, until the start of Hondo's second turn, enemies gain 25 buffs, or Hondo is defeated, and remove it from all other enemies. Whenever Captive expires, Hondo gains 10 stacks of Ransom.
 
 Captive on characters: Speed set to 0, can't bonus attack or gain bonus Turn Meter
 
-Captive on raid bosses: -30% Critical Damage, Defense, and Offense</td><td>140</td><td>11%</td></tr><tr><td data-order="uniqueskill_HONDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_thatsjustgoodbusiness.png" style="width: 30px" /> That's Just Good Business</td><td>Hondo has 100% Health Steal. Whenever Hondo evades an attack, he gains a stack of Ransom. If a Captive enemy is defeated and Hondo does not have at least 10 stacks of Ransom, Hondo escapes from battle.
+Captive on raid bosses: -30% Critical Damage, Defense, and Offense</td><td>139</td><td>11%</td></tr><tr><td data-order="uniqueskill_HONDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_thatsjustgoodbusiness.png" style="width: 30px" /> That's Just Good Business</td><td>Hondo has 100% Health Steal. Whenever Hondo evades an attack, he gains a stack of Ransom. If a Captive enemy is defeated and Hondo does not have at least 10 stacks of Ransom, Hondo escapes from battle.
 
 Hondo gains bonuses based on the amount of stacks of Ransom:
 
@@ -313,14 +313,14 @@ Hondo gains bonuses based on the amount of stacks of Ransom:
 
 At the start of his turn, if there is an enemy with the Captive debuff, Hondo gains 15% Critical Chance, Critical Damage, and Defense Penetration (stacking, max 150%), and 3 Speed (stacking, max 30) for the rest of the encounter.
 
-[E7E7E7]While in Grand Arenas: Hondo starts the encounter with 25% Turn Meter for each other Scoundrel or Smuggler ally. If there is an enemy with the Captive debuff at the start of Hondo's turn, Hondo gains an additional 15% Critical Chance, Critical Damage, and Defense Penetration per turn (stacking, max 150%) and 3 Speed (stacking, max 30).</td><td>40</td><td>3%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+[E7E7E7]While in Grand Arenas: Hondo starts the encounter with 25% Turn Meter for each other Scoundrel or Smuggler ally. If there is an enemy with the Captive debuff at the start of Hondo's turn, Hondo gains an additional 15% Critical Chance, Critical Damage, and Defense Penetration per turn (stacking, max 150%) and 3 Speed (stacking, max 30).</td><td>39</td><td>3%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 645, 43, 25, 43, 30, 65, 89, 105, 104, 10, 8, 6, 3, 1, 2, 1, 5, 21, 3, 15, 3, 1 ],
+    y: [ 644, 43, 25, 43, 31, 68, 91, 108, 104, 10, 8, 6, 3, 1, 2, 1, 5, 19, 4, 15, 3, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 52.52442996742671, 56.02605863192183, 58.06188925081434, 61.563517915309454, 64.00651465798046, 69.29967426710098, 76.54723127035831, 85.09771986970685, 93.56677524429969, 94.3811074918567, 95.0325732899023, 95.52117263843651, 95.76547231270361, 95.8469055374593, 96.0097719869707, 96.0912052117264, 96.4983713355049, 98.20846905537461, 98.4527687296417, 99.6742671009772, 99.9185667752443, 100.0 ],
+    y: [ 52.14574898785425, 55.62753036437247, 57.65182186234818, 61.1336032388664, 63.64372469635628, 69.14979757085021, 76.51821862348179, 85.26315789473685, 93.6842105263158, 94.49392712550608, 95.1417004048583, 95.62753036437246, 95.87044534412955, 95.95141700404858, 96.11336032388664, 96.19433198380567, 96.59919028340082, 98.13765182186235, 98.46153846153847, 99.6761133603239, 99.91902834008098, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-03-30 03:09:51 +0000</font>
+<font size="-2">Generated 2023-04-01 17:10:12 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
