@@ -52,7 +52,7 @@ document.getElementById(id).style.display = 'none';
 }
 .column {
   float: left;
-  width: 33%;
+  width: 50%;
 }
 .row:after {
   content: "";
@@ -70,7 +70,7 @@ function copyText(name) {
 }
 </script>
 There are several models of activity or you can come up with a <a href="tb.html?tb=ls&d=squad+name&player-summary=on">plan manually with some assistance</a>.
-<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li><li><b>KAM Shards</b> is the same as <b>Decreasing</b> but it tries to force the TB to reach 3 Bottom to obtain KAM shards.</li></ul>
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
 Contact @gorgatron#3094 to tailor these assumptions.
 <br/>
 <img src="../../i/ls_geo_tb_labels.jpeg" width="500"/>
@@ -137,6 +137,12 @@ Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
 Anarchos Asiago Ranch Chicken Club Bane537 Baryton BoabyFett BoabyFett2 CelticSasquatch chrisgamercool Dessel EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson magavaca MarkSolo MasterJediBerlin Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila SecretId shrumpbupski this is the way Wooteeki ƁułƄ ОbiWan Kenzobi
 
+**GR CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
+Ang Skywalker4 Ardoris Bane533 Bane537
+
+**GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
+
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Anarchos Asiago Ranch Chicken Club Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe JaYBuDi MarkSolo MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 shrumpbupski Wooteeki YodaMaul32
 
@@ -161,14 +167,8 @@ Anarchos Baryton BoabyFett chrisgamercool Goofrbums I dont like sand JaYBuDi JaY
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 Historics Lekku shrumpbupski
 
-**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-Ang Skywalker4 Ardoris Bane533 Bane537
-
 **LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
 Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
 
 </pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 23 -> 93m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 41 -> 134m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 93 -> 188m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 72 -> 260m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 23 -> 23m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 83 -> 106m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 69 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 2 :star:**
 **phase 3: 2 Middle -> 3 :star:**
@@ -249,7 +249,7 @@ Baryton shrumpbupski
 **LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
 Ang Skywalker4 Ardoris Asiago Ranch Chicken Club Bane533 Bane537 BoabyFett2 EAsuxMolElizasNutts JaYBuDi MarkSolo mini bendoverandpadme MINI IMatthewH ƁułƄ ОbiWan Kenzobi
 
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
+**LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
 Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
@@ -324,247 +324,9 @@ details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=3%2520Middle,%252
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 13 -> 13m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 72 -> 85m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 42 -> 42m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 125 -> 167m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 41 -> 41m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 30 -> 71m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 38 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 2 :star:**
-**phase 1: 1 Middle -> 2 :star:**
-**phase 1: 1 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**Jedi CM** JKL e.g. JKL GMY HYoda GK Aayla
-Anarchos Asiago Ranch Chicken Club Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe JaYBuDi Jeffrey Jeffson MarkSolo MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 shrumpbupski Wooteeki YodaMaul32
-
-**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
-Anaid Battlestar Bane533 Bane537 Goofrbums I dont like sand lil commie285 magavaca mini bendoverandpadme MINI IMatthewH RobYBFHS JediMaster77 SecretId ƁułƄ ОbiWan Kenzobi
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Anarchos Baryton Debt n Regret JaYBuDi
-
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-BoabyFett2 chrisgamercool EAsuxMolElizasNutts Horgus Borgus Deluxe Michael313
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Anarchos Asiago Ranch Chicken Club Bane537 BoabyFett BoabyFett2 CelticSasquatch ChiKinNunGet chrisgamercool clumptrees EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand MarkSolo Michael313 mini bendoverandpadme Mos Def QuiGonTequila Vultin Wooteeki YodaMaul32 ОbiWan Kenzobi
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Jeffrey Jeffson
-
-**LS CM** GAS e.g. GAS Rex Echo (501st), ARC Trooper, Fives
-JaYBuDi Paksenarrion
-
-**LS CM** GL Rey e.g. Rey Holdo GK RH Poe, RH Finn
-Anarchos Baryton JaYBuDi shrumpbupski
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-BoabyFett chrisgamercool Goofrbums I dont like sand JaYBuDi MarkSolo mini bendoverandpadme Mos Def Paksenarrion QuiGonTequila SecretId this is the way Vultin ƁułƄ ОbiWan Kenzobi
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Baryton Historics Lekku shrumpbupski
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Ang Skywalker4 Ardoris Bane533 Bane537 MINI IMatthewH RobYBFHS JediMaster77
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
-Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>2 &#11088; -- 57 to the next</td><tr><td>1</td><td>1 Middle</td><td>2 &#11088; -- 90 to the next</td><tr><td>1</td><td>1 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Bottom, 2 Middle</a></td><tr><td>2</td><td>1 Bottom</td><td><b>missions</b> 59 -> 130m</td><tr><td>2</td><td>1 Bottom</td><td><b>deploy</b> 50 -> 180m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 22 -> 22m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 49 -> 71m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 54 -> 54m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 41 -> 95m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 57 toons, 56 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top -> 1 :star:**
-**phase 2: 2 Middle HOLD AT ZERO :star:**
-**phase 2: 1 Bottom -> 3 :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Anarchos Asiago Ranch Chicken Club Bane537 Baryton BoabyFett BoabyFett2 CelticSasquatch chrisgamercool Dessel EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson magavaca MarkSolo MasterJediBerlin Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila SecretId shrumpbupski this is the way Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Anarchos Asiago Ranch Chicken Club Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe JaYBuDi MarkSolo MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 shrumpbupski Wooteeki YodaMaul32
-
-**Jedi CM** JKR e.g. JKR GMY HYoda BS Jolee
-Anaid Battlestar Bane533 Bane537 I dont like sand lil commie285 mini bendoverandpadme RobYBFHS JediMaster77 ОbiWan Kenzobi
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Debt n Regret
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Anarchos Asiago Ranch Chicken Club Bane537 BoabyFett BoabyFett2 CelticSasquatch ChiKinNunGet chrisgamercool clumptrees EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand MarkSolo Michael313 mini bendoverandpadme Mos Def QuiGonTequila Vultin Wooteeki YodaMaul32 ОbiWan Kenzobi
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Jeffrey Jeffson
-
-**LS CM** GL Rey e.g. Rey Holdo GK RH Poe, RH Finn
-Anarchos Baryton JaYBuDi shrumpbupski
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Anarchos Baryton BoabyFett chrisgamercool Goofrbums I dont like sand JaYBuDi JaYBuDi MarkSolo mini bendoverandpadme Mos Def Paksenarrion QuiGonTequila SecretId this is the way Vultin ƁułƄ ОbiWan Kenzobi
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Historics Lekku shrumpbupski
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-Ang Skywalker4 Ardoris Bane533 Bane537
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
-Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>1 &#11088; -- 63 to the next</td><tr><td>2</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 90 -> 185m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 75 -> 260m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 23 -> 23m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 67 -> 90m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 48 -> 91m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 53 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
-**phase 3: 2 Middle -> 3 :star:**
-**phase 3: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Anarchos Asiago Ranch Chicken Club Bane537 Baryton BoabyFett BoabyFett2 CelticSasquatch chrisgamercool Dessel EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson magavaca MarkSolo MasterJediBerlin Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila SecretId shrumpbupski this is the way Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Anarchos Baryton BoabyFett chrisgamercool Goofrbums I dont like sand JaYBuDi JaYBuDi MarkSolo mini bendoverandpadme Mos Def Paksenarrion QuiGonTequila SecretId this is the way Vultin ƁułƄ ОbiWan Kenzobi
-
-**GR CM** Padme e.g. Padme R2-D2 JKA GK Barriss
-Ang Skywalker4 Ardoris Asiago Ranch Chicken Club Bane533 Bane537 clumptrees RobYBFHS JediMaster77
-
-**GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Anarchos Asiago Ranch Chicken Club Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe JaYBuDi MarkSolo MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 shrumpbupski Wooteeki YodaMaul32
-
-**Jedi CM** JKR e.g. JKR GMY HYoda BS Jolee
-Anaid Battlestar Bane537 Debt n Regret lil commie285 mini bendoverandpadme ОbiWan Kenzobi
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Anarchos Asiago Ranch Chicken Club Bane537 BoabyFett BoabyFett2 CelticSasquatch ChiKinNunGet chrisgamercool EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe MarkSolo Michael313 mini bendoverandpadme Mos Def QuiGonTequila shrumpbupski Vultin Wooteeki YodaMaul32 ОbiWan Kenzobi
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-clumptrees Jeffrey Jeffson
-
-**LS CM** GL Rey e.g. Rey Holdo GK RH Poe, RH Finn
-Anarchos Baryton
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Bane533
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
-Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>4</td><td>2 Bottom</td><td><b>missions</b> 31 -> 121m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 43 -> 134m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 83 -> 217m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 26 -> 26m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 106 -> 132m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 30 toons, 13 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
-**phase 4: 3 Middle -> 1 :star:**
-**phase 4: 2 Bottom -> 1 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
-
-**GR Jedi CM** GR Jedi e.g. JMK GK GAS Ahsoka GMY
-Paksenarrion SecretId this is the way
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ahsoka
-Anarchos Asiago Ranch Chicken Club BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 shrumpbupski Wooteeki YodaMaul32
-
-**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
-Anaid Battlestar Bane537 Debt n Regret lil commie285 MINI IMatthewH
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Baryton Goofrbums I dont like sand JaYBuDi JaYBuDi MarkSolo mini bendoverandpadme ƁułƄ ОbiWan Kenzobi
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Anarchos Asiago Ranch Chicken Club Bane537 BoabyFett BoabyFett2 CelticSasquatch ChiKinNunGet chrisgamercool clumptrees EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand MarkSolo Michael313 mini bendoverandpadme Mos Def QuiGonTequila Vultin Wooteeki YodaMaul32 ОbiWan Kenzobi
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Jeffrey Jeffson
-
-**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
-MarkSolo
-
-**LS CM** GAS e.g. GAS Rex Echo (501st), ARC Trooper, Fives
-Bane533 BoabyFett2 EAsuxMolElizasNutts
-
-**LS CM** GL Rey e.g. Rey Holdo GK RH Poe, RH Finn
-Anarchos Baryton JaYBuDi shrumpbupski
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Anarchos BoabyFett chrisgamercool Mos Def QuiGonTequila Vultin
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Baryton shrumpbupski
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Ang Skywalker4 Ardoris Asiago Ranch Chicken Club Bane533 Bane537 BoabyFett2 EAsuxMolElizasNutts JaYBuDi MarkSolo mini bendoverandpadme MINI IMatthewH ƁułƄ ОbiWan Kenzobi
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Asiago Ranch Chicken Club Bane537 Baryton CelticSasquatch ChiKinNunGet Debt n Regret Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi Jeffrey Jeffson lil commie285 magavaca Michael313 mini bendoverandpadme MINI IMatthewH Paksenarrion this is the way ƁułƄ
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>3 Middle</td><td>1 &#11088; -- 125 to the next</td><tr><td>4</td><td>2 Bottom</td><td>1 &#11088; -- 96 to the next</td></tbody>
-</table>
-<br/>
-<br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
-**Estimated 16 :star:**
-
-**phase 1: active** 1 Top, 1 Middle, 1 Bottom
-phase 1: **missions** 1 Top 13 -> 13m
-phase 1: **deploy** 1 Top 72 -> 85m
-phase 1: **missions** 1 Middle 42 -> 42m
-phase 1: **deploy** 1 Middle 125 -> 167m
-phase 1: **missions** 1 Bottom 41 -> 41m
-phase 1: **deploy** 1 Bottom 30 -> 71m
-phase 1: remaining GP = 0 toons, 38 ships
-details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 1: 1 Top -> 2 :star:**
-**phase 1: 1 Middle -> 2 :star:**
-**phase 1: 1 Bottom HOLD AT ZERO :star:**
-
-**phase 2: active** 1 Bottom, 2 Top, 2 Middle
-phase 2: **missions** 1 Bottom 59 -> 130m
-phase 2: **deploy** 1 Bottom 50 -> 180m
-phase 2: **missions** 2 Top 22 -> 22m
-phase 2: **deploy** 2 Top 49 -> 71m
-phase 2: **missions** 2 Middle 54 -> 54m
-phase 2: **deploy** 2 Middle 41 -> 95m
-phase 2: remaining GP = 57 toons, 56 ships
-details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=2%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top -> 1 :star:**
-**phase 2: 2 Middle HOLD AT ZERO :star:**
-**phase 2: 1 Bottom -> 3 :star:**
-
-**phase 3: active** 2 Middle, 2 Bottom, 3 Top
-phase 3: **missions** 2 Middle 90 -> 185m
-phase 3: **deploy** 2 Middle 75 -> 260m
-phase 3: **missions** 2 Bottom 23 -> 23m
-phase 3: **deploy** 2 Bottom 67 -> 90m
-phase 3: **missions** 3 Top 43 -> 43m
-phase 3: **deploy** 3 Top 48 -> 91m
-phase 3: remaining GP = 0 toons, 53 ships
-details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 3 Top HOLD AT ZERO :star:**
-**phase 3: 2 Middle -> 3 :star:**
-**phase 3: 2 Bottom HOLD AT ZERO :star:**
-
-**phase 4: active** 2 Bottom, 3 Top, 3 Middle
-phase 4: **missions** 2 Bottom 31 -> 121m
-phase 4: **missions** 3 Top 43 -> 134m
-phase 4: **deploy** 3 Top 83 -> 217m
-phase 4: **missions** 3 Middle 26 -> 26m
-phase 4: **deploy** 3 Middle 106 -> 132m
-phase 4: remaining GP = 30 toons, 13 ships
-details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=3%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 3 Top -> 3 :star:**
-**phase 4: 3 Middle -> 1 :star:**
-**phase 4: 2 Bottom -> 1 :star:**
-
-</textarea>
-<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div><div class="column"><h2>KAM Shards Estimated: 16 &#11088;</h2>
-<br/>
-<table style="margin: 10px">
-<thead>
-    <tr>
-    <th>Phase</th>
-    <th>Section</th>
-    <th>Action</th>
-    </tr>
-</thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 13 -> 13m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 72 -> 85m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 42 -> 42m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 67 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 41 -> 41m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 79 -> 120m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 9 toons, 38 ships<pre id="kam-1-plan" style="display: none !important;">**phase 1: 1 Top -> 2 :star:**
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 13 -> 13m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 72 -> 85m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 42 -> 42m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 67 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 41 -> 41m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 79 -> 120m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 9 toons, 38 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 2 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 2 :star:**</pre><pre id="kam-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+**phase 1: 1 Bottom -> 2 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
 
 **Jedi CM** JKL e.g. JKL GMY HYoda GK Aayla
@@ -606,9 +368,9 @@ Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
 Asiago Ranch Chicken Club BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca Michael313 MINI IMatthewH
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>2 &#11088; -- 57 to the next</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>2 &#11088; -- 60 to the next</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 43 -> 152m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 105 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 22 -> 22m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 49 -> 71m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 48 -> 48m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 43 -> 91m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 56 ships<pre id="kam-2-plan" style="display: none !important;">**phase 2: 2 Top -> 1 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>2 &#11088; -- 57 to the next</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>2 &#11088; -- 60 to the next</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 43 -> 152m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 105 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 22 -> 22m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 49 -> 71m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 48 -> 48m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 43 -> 91m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 56 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top -> 1 :star:**
 **phase 2: 1 Middle -> 3 :star:**
-**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="kam-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ahsoka
@@ -641,15 +403,15 @@ Baryton Historics Lekku shrumpbupski
 **LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
 Ang Skywalker4 Ardoris Bane533 EAsuxMolElizasNutts I dont like sand JaYBuDi MINI IMatthewH Paksenarrion RobYBFHS JediMaster77 SecretId this is the way ƁułƄ ОbiWan Kenzobi
 
-**LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
+**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
 Asiago Ranch Chicken Club Bane537 BoabyFett2 CelticSasquatch ChiKinNunGet Debt n Regret Goofrbums Horgus Borgus Deluxe Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Paksenarrion this is the way ƁułƄ
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>1 &#11088; -- 63 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 90 -> 90m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 5 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 23 -> 114m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 103 -> 217m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 48 -> 91m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 34 toons, 53 ships<pre id="kam-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>1 &#11088; -- 63 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 90 -> 90m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 5 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 23 -> 114m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 103 -> 217m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 48 -> 91m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 34 toons, 53 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
 **phase 3: 2 Middle HOLD AT ZERO :star:**
-**phase 3: 2 Bottom -> 2 :star:**</pre><pre id="kam-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+**phase 3: 2 Bottom -> 2 :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
@@ -685,9 +447,9 @@ Bane533
 **LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
 Ang Skywalker4 Dessel JaYBuDi MasterJediBerlin RobYBFHS JediMaster77
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>2 &#11088; -- 93 to the next</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 75 -> 170m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 90 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 43 -> 134m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 83 -> 217m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 17 -> 17m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 46 -> 63m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 13 ships<pre id="kam-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
-**phase 4: 2 Middle -> 3 :star:**
-**phase 4: 3 Bottom HOLD AT ZERO :star:**</pre><pre id="kam-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>2 &#11088; -- 93 to the next</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 75 -> 170m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 4 -> 174m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 43 -> 134m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 83 -> 217m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 17 -> 17m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 94 -> 111m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 38 toons, 13 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
+**phase 4: 2 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 1 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool clumptrees Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 Saldag shrumpbupski this is the way Vultin Wooteeki ƁułƄ ОbiWan Kenzobi
 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
@@ -702,9 +464,6 @@ Ang Skywalker4 Ardoris Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFe
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Anarchos Baryton BoabyFett BoabyFett2 ChiKinNunGet chrisgamercool Dessel EAsuxMolElizasNutts Horgus Borgus Deluxe JaYBuDi MasterJediBerlin Michael313 Mos Def QuiGonTequila Shrimplet596 YodaMaul32
 
-**Jedi CM** JKR e.g. JKR GMY HYoda BS Jolee
-Anaid Battlestar Asiago Ranch Chicken Club Bane533 Bane537 Debt n Regret lil commie285 mini bendoverandpadme ОbiWan Kenzobi
-
 **KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
 Anarchos Asiago Ranch Chicken Club Bane533 Bane537 Baryton BoabyFett BoabyFett2 CelticSasquatch ChiKinNunGet chrisgamercool Debt n Regret EAsuxMolElizasNutts Goofrbums Horgus Borgus Deluxe I dont like sand JaYBuDi JaYBuDi Jeffrey Jeffson lil commie285 magavaca MarkSolo Michael313 mini bendoverandpadme MINI IMatthewH Mos Def Paksenarrion QuiGonTequila RobYBFHS JediMaster77 this is the way Vultin ƁułƄ ОbiWan Kenzobi
 
@@ -717,13 +476,16 @@ BoabyFett2 clumptrees EAsuxMolElizasNutts Horgus Borgus Deluxe Jeffrey Jeffson M
 **LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
 JaYBuDi
 
+**LS CM** JKR e.g. JKR GMY HYoda BS Jolee
+Anaid Battlestar Asiago Ranch Chicken Club Bane533 Bane537 Debt n Regret lil commie285 mini bendoverandpadme ОbiWan Kenzobi
+
 **LS CM** ROLO e.g. ROLO Cpt Solo, Leia Chewpio Lando
 Ang Skywalker4 Dessel MasterJediBerlin RobYBFHS JediMaster77
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td></tbody>
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>2 Middle</td><td>2 &#11088; -- 86 to the next</td><tr><td>4</td><td>3 Bottom</td><td>1 &#11088; -- 55 to the next</td></tbody>
 </table>
 <br/>
-<br/><textarea id="discordkam" style="display:none" rows="8" cols="40">
+<br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
 **Estimated 16 :star:**
 
 **phase 1: active** 1 Top, 1 Middle, 1 Bottom
@@ -767,18 +529,18 @@ details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=2%2520Middle,%252
 
 **phase 4: active** 2 Middle, 3 Top, 3 Bottom
 phase 4: **missions** 2 Middle 75 -> 170m
-phase 4: **deploy** 2 Middle 90 -> 260m
+phase 4: **deploy** 2 Middle 4 -> 174m
 phase 4: **missions** 3 Top 43 -> 134m
 phase 4: **deploy** 3 Top 83 -> 217m
 phase 4: **missions** 3 Bottom 17 -> 17m
-phase 4: **deploy** 3 Bottom 46 -> 63m
-phase 4: remaining GP = 0 toons, 13 ships
+phase 4: **deploy** 3 Bottom 94 -> 111m
+phase 4: remaining GP = 38 toons, 13 ships
 details: https://gorgatron1.github.io/brg/guild/tt/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 4: 3 Top -> 3 :star:**
-**phase 4: 2 Middle -> 3 :star:**
-**phase 4: 3 Bottom HOLD AT ZERO :star:**
+**phase 4: 2 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 1 :star:**
 
 </textarea>
-<button onclick="copyText('discordkam')">Copy For Discord</button></div></div><br/>
-<font size="-2">Generated 2023-04-01 14:57:06 +0000</font>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2023-04-02 20:55:11 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
