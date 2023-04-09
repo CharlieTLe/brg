@@ -313,11 +313,11 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 985 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.ability_generalanakin_basic.png" style="width: 30px" /> Furious Slash</td><td>Deal Physical damage to target enemy. This attack can't be evaded and has +65% Defense Penetration, tripled if all allies are 501st.
+</script><h2>Alliance Demographic Data</h2>Based on 988 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.ability_generalanakin_basic.png" style="width: 30px" /> Furious Slash</td><td>Deal Physical damage to target enemy. This attack can't be evaded and has +65% Defense Penetration, tripled if all allies are 501st.
 
 If this is the first ability General Skywalker uses during his turn, he immediately uses the Special ability Telekinesis, if able.
 
-Telekinesis: Deal Physical damage to target enemy. If possible, this attack will critically hit enemies with Armor Shred. If the target enemy is Dazed, reduce General Skywalker's ability cooldowns by 1.</td><td>949</td><td>96%</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> General of the 501st</td><td>All units can't be revived.
+Telekinesis: Deal Physical damage to target enemy. If possible, this attack will critically hit enemies with Armor Shred. If the target enemy is Dazed, reduce General Skywalker's ability cooldowns by 1.</td><td>952</td><td>96%</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_501.png" style="width: 30px" /> General of the 501st</td><td>All units can't be revived.
 All 501st allies have +50% Critical Damage.
 When an enemy gains a buff, all 501st allies gain 2% Offense (stacking) until the end of the encounter.
 
@@ -340,20 +340,20 @@ Whenever General Skywalker critically hits an enemy during his turn, increase th
 
 If he is critically hit, General Skywalker dispels all debuffs on himself. Enemies attacking out of turn can't critically hit.
 
-If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses and Galactic Legends), which can't be resisted.</td><td>957</td><td>97%</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Hero with no Fear</td><td>At the start of battle, General Skywalker gains 25% Defense, 15% Max Protection, and 25% Tenacity for each other 501st ally until all other 501st allies are defeated.
+If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses and Galactic Legends), which can't be resisted.</td><td>959</td><td>97%</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Hero with no Fear</td><td>At the start of battle, General Skywalker gains 25% Defense, 15% Max Protection, and 25% Tenacity for each other 501st ally until all other 501st allies are defeated.
 
 If all allies are 501st at the start of battle, General Skywalker gains the following:
 
 - 100% counter chance and 50% Critical Chance
 
-- When all other allies are defeated, General Skywalker can't be critically hit and gains 35% Turn Meter after every enemy turn</td><td>955</td><td>97%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+- When all other allies are defeated, General Skywalker can't be critically hit and gains 35% Turn Meter after every enemy turn</td><td>956</td><td>97%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 2, 1, 0, 0, 0, 0, 9, 11, 10, 4, 20, 26, 6, 9, 10, 20, 19, 140, 55, 316, 321, 6 ],
+    y: [ 2, 1, 0, 0, 0, 0, 9, 13, 7, 6, 22, 27, 5, 10, 11, 18, 20, 137, 56, 317, 321, 6 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.20304568527918782, 0.30456852791878175, 0.30456852791878175, 0.30456852791878175, 0.30456852791878175, 0.30456852791878175, 1.218274111675127, 2.3350253807106602, 3.3502538071065993, 3.7563451776649748, 5.786802030456853, 8.426395939086294, 9.035532994923857, 9.949238578680202, 10.964467005076141, 12.99492385786802, 14.923857868020304, 29.13705583756345, 34.72081218274111, 66.80203045685278, 99.39086294416242, 99.99999999999999 ],
+    y: [ 0.20242914979757085, 0.30364372469635625, 0.30364372469635625, 0.30364372469635625, 0.30364372469635625, 0.30364372469635625, 1.214574898785425, 2.530364372469635, 3.238866396761133, 3.846153846153846, 6.0728744939271255, 8.805668016194332, 9.31174089068826, 10.323886639676115, 11.437246963562755, 13.259109311740893, 15.283400809716602, 29.149797570850204, 34.81781376518219, 66.90283400809716, 99.39271255060729, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -373,5 +373,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-05 16:50:51 +0000</font>
+<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
