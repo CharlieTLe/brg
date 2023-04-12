@@ -234,14 +234,23 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1052 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ZORIIBLISS_V201"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_theresmoreofus.png" style="width: 30px" /> There's More of Us</td><td /><td>11</td><td>1%</td></tr><tr><td data-order="uniqueskill_ZORIIBLISS_V202"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_spicerunnerskills.png" style="width: 30px" /> Spice Runner Skills</td><td /><td>49</td><td>5%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1056 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_ZORIIBLISS_V201"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_theresmoreofus.png" style="width: 30px" /> There's More of Us</td><td>If the ally in the Leader slot is non-Unaligned Force User Resistance:<br/><br/>- Resistance allies have +100% Potency while they have more allies than enemies and have +35 Speed while they have equal or fewer allies than enemies
+- Whenever Zorii uses an ability while Stealthed, the ally in the Leader slot and any Poe Dameron gain Retribution for 1 turn; if Poe is Taunting, he also gains Critical Hit Immunity for 1 turn
+- Whenever a Resistance ally has less than 100% Turn Meter and gains bonus Turn Meter, they gain 35% Offense (stacking) for 1 turn
+- Whenever a non-Unaligned Force User Resistance ally removes Turn Meter from an enemy, they inflict Speed Down for 1 turn
+- Whenever a Resistance ally without Tenacity Up gains Tenacity Up, all other Resistance allies without Tenacity Up gain Tenacity Up for 1 turn
+- While Resistance allies have Tenacity Up, whenever they deal damage to an enemy, they have a 35% chance to inflict Expose for 1 turn
+- Whenever a non-Unaligned Force User Resistance Tank Taunts they gain 15% Max Health (stacking) for the rest of the encounter and whenever Taunt expires on them, they recover 15% Protection<br/><br/><b>Special:</b> While in Grand Arenas if there are no Galactic Legend allies and all allies are Resistance: If the ally in the Leader slot is non-Unaligned Force User Resistance, whenever Zorii is Stealthed at the start of her turn, all enemies without Expose are inflicted with Expose for 1 turn, which can't be evaded or resisted</td><td>12</td><td>1%</td></tr><tr><td data-order="uniqueskill_ZORIIBLISS_V202"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_spicerunnerskills.png" style="width: 30px" /> Spice Runner Skills</td><td>Zorii gains Stealth for 2 turns at the start of each encounter. Smuggler allies have +35% Accuracy and Health Steal. Whenever an ally triggers an Expose, all allies recover 5% Protection. The first time each Resistance or Smuggler ally falls below 100% Health, that ally gains 100% Turn Meter. If that ally was a non-Tank, also gain Protection Up (100%) and Stealth for 2 turns. If that ally was a Tank gain Damage Immunity and Taunt for 1 turn instead. If this Damage Immunity or Stealth is dispelled, that ally recovers 100% Protection.<br/><br/>Whenever Zorii uses an ability while Stealthed, Smuggler allies gain buffs based on their roles:
+- Attackers: Critical Damage Up for 2 turns
+- Healers and Supports: Speed Up for 2 turns
+- Tanks: Critical Hit Immunity for 2 turns</td><td>50</td><td>5%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 695, 30, 30, 34, 16, 42, 52, 47, 83, 5, 17, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
+    y: [ 694, 31, 31, 34, 17, 42, 52, 48, 82, 5, 18, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 66.06463878326996, 68.91634980988593, 71.7680608365019, 75.0, 76.52091254752851, 80.51330798479087, 85.45627376425855, 89.92395437262357, 97.81368821292776, 98.28897338403041, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 99.90494296577947, 100.0, 100.0, 100.0 ],
+    y: [ 65.71969696969697, 68.65530303030303, 71.5909090909091, 74.81060606060606, 76.42045454545455, 80.39772727272728, 85.3219696969697, 89.86742424242425, 97.63257575757576, 98.10606060606061, 99.81060606060606, 99.90530303030303, 99.90530303030303, 99.90530303030303, 99.90530303030303, 99.90530303030303, 99.90530303030303, 99.90530303030303, 99.90530303030303, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -261,5 +270,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

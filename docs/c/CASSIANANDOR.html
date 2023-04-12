@@ -308,19 +308,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1523 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CASSIANANDOR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Groundwork</td><td>At the start of each encounter, Rebel allies gain Protection Up (20%) for 3 turns, Rebel Attacker allies gain Defense Up for 3 turns, Rebel Support allies gain Potency Up for 3 turns, and Rebel Tank allies gain Tenacity Up for 3 turns. If K-2SO is present, he gains all of these buffs.
-
-[e7e7e7]While in Territory Battles: At the start of battle, if all allies are Rogue One, Cassian Andor takes a bonus turn to disguise himself as an enemy character until the end of battle. While disguised, Cassian retains his Unique ability and alignment and is part of the Rogue One faction in addition to his disguise's alignment and faction. At the start of each encounter, all Rebel allies gain Defense Up, Potency Up, and Tenacity Up for 3 turns. Whenever Cassian uses an ability, he gains 12% Turn Meter for each debuffed enemy, he inflicts Ability Block and Buff Immunity for 1 turn and Defense Down and Healing Immunity for 2 turns on target enemy, and K-2SO is called to assist, dealing 97.8% more damage.
-
-- Rebel Assault Territory Battle: Cassian disguises as Snowtrooper Ops (Elite).
-- Republic Offensive Territory Battle: Cassian disguises as Wat Tambor.</td><td>329</td><td>22%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1532 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CASSIANANDOR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Groundwork</td><td>At the start of each encounter, Rebel allies gain Protection Up (20%) for 3 turns, Rebel Attacker allies gain Defense Up for 3 turns, Rebel Support allies gain Potency Up for 3 turns, and Rebel Tank allies gain Tenacity Up for 3 turns. If K-2SO is present, he gains all of these buffs.<br/><br/><b>Special:</b> While in Territory Battles: At the start of battle, if all allies are Rogue One, Cassian Andor takes a bonus turn to disguise himself as an enemy character until the end of battle. While disguised, Cassian retains his Unique ability and alignment and is part of the Rogue One faction in addition to his disguise's alignment and faction. At the start of each encounter, all Rebel allies gain Defense Up, Potency Up, and Tenacity Up for 3 turns. Whenever Cassian uses an ability, he gains 12% Turn Meter for each debuffed enemy, he inflicts Ability Block and Buff Immunity for 1 turn and Defense Down and Healing Immunity for 2 turns on target enemy, and K-2SO is called to assist, dealing 97.8% more damage.<br/><br/>- Rebel Assault Territory Battle: Cassian disguises as Snowtrooper Ops (Elite).
+- Republic Offensive Territory Battle: Cassian disguises as Wat Tambor.
+- Rise of the Empire Territory Battle: Cassian disguises as a modified version of Magmatrooper.</td><td>331</td><td>22%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 164, 4, 16, 21, 66, 32, 75, 472, 154, 75, 74, 137, 10, 7, 6, 3, 4, 10, 2, 7, 184, 0 ],
+    y: [ 166, 4, 16, 21, 67, 32, 75, 472, 157, 76, 73, 137, 11, 6, 6, 4, 4, 11, 1, 7, 186, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 10.76822061720289, 11.03086014445174, 12.081418253447143, 13.46027577150361, 17.79382797110965, 19.894944189100457, 24.819435325016414, 55.81089954038083, 65.9225213394616, 70.84701247537755, 75.7058437294813, 84.70124753775444, 85.35784635587657, 85.81746552856207, 86.21142481943535, 86.40840446487199, 86.67104399212084, 87.32764281024298, 87.45896257386741, 87.9185817465529, 100.00000000000004, 100.00000000000004 ],
+    y: [ 10.835509138381202, 11.096605744125327, 12.140992167101828, 13.511749347258487, 17.885117493472585, 19.973890339425587, 24.869451697127936, 55.67885117493472, 65.92689295039165, 70.88772845953002, 75.65274151436032, 84.59530026109661, 85.31331592689295, 85.70496083550914, 86.09660574412533, 86.35770234986946, 86.61879895561358, 87.33681462140993, 87.40208877284596, 87.85900783289817, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +337,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

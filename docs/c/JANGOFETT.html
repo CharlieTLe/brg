@@ -313,22 +313,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1599 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JANGOFETT"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Anything to Get Ahead</td><td>Scoundrel allies have +30 Speed. Enemies have -20% Potency for each debuff on all Bounty Hunter allies and -40% Tenacity. Enemies that are Burning can't gain bonus Turn Meter. Bounty Hunters have +35% Offense while they have Bounty Hunter's Resolve. When Jango Fett is in the Leader slot, and not the Ally slot, the following Contract is active:
-
-Contract: Damage a debuffed enemy 20 times. Enemies must be debuffed before the start of an attack to count progress. (Only Bounty Hunter allies can contribute to the Contract.)
-
-Reward: All Bounty Hunters gain Bounty Hunter's Resolve at the start of their next turn and +25% Critical Chance. All Bounty Hunters have their Payouts activated.</td><td>703</td><td>44%</td></tr><tr><td data-order="uniqueskill_JANGOFETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Notorious Reputation</td><td>Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.
-
-At the start of encounter, and whenever he defeats an enemy, Jango Fett recovers 100% Protection and gains Bounty Hunter's Resolve until he is defeated.
-
-Bounty Hunter's Resolve: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.</td><td>931</td><td>58%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1606 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_JANGOFETT"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Anything to Get Ahead</td><td>Scoundrel allies have +30 Speed. Enemies have -20% Potency for each debuff on all Bounty Hunter allies and -40% Tenacity. Enemies that are Burning can't gain bonus Turn Meter. Bounty Hunters have +35% Offense while they have Bounty Hunter's Resolve. When Jango Fett is in the Leader slot, and not the Ally slot, the following Contract is active:<br/><br/>Contract: Damage a debuffed enemy 20 times. Enemies must be debuffed before the start of an attack to count progress. (Only Bounty Hunter allies can contribute to the Contract.)<br/><br/>Reward: All Bounty Hunters gain Bounty Hunter's Resolve at the start of their next turn and +25% Critical Chance. All Bounty Hunters have their Payouts activated.</td><td>707</td><td>44%</td></tr><tr><td data-order="uniqueskill_JANGOFETT01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Notorious Reputation</td><td>Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.<br/><br/>At the start of encounter, and whenever he defeats an enemy, Jango Fett recovers 100% Protection and gains Bounty Hunter's Resolve until he is defeated.<br/><br/>Bounty Hunter's Resolve: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.</td><td>938</td><td>58%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 56, 6, 4, 5, 10, 11, 54, 54, 61, 29, 187, 301, 30, 31, 34, 41, 31, 55, 6, 585, 8, 0 ],
+    y: [ 56, 6, 4, 2, 9, 11, 56, 52, 63, 29, 190, 305, 30, 29, 33, 41, 32, 55, 9, 586, 8, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.5021888680425266, 3.8774233896185115, 4.127579737335835, 4.440275171982489, 5.065666041275797, 5.7535959974984365, 9.130706691682303, 12.507817385866169, 16.322701688555348, 18.136335209505944, 29.831144465290812, 48.655409631019396, 50.53158223889932, 52.470293933708575, 54.59662288930582, 57.16072545340838, 59.09943714821764, 62.539086929330836, 62.91432145090682, 99.49968730456536, 100.0, 100.0 ],
+    y: [ 3.4869240348692405, 3.8605230386052307, 4.109589041095891, 4.2341220423412205, 4.794520547945206, 5.479452054794521, 8.966376089663761, 12.20423412204234, 16.127023661270236, 17.932752179327522, 29.763387297633873, 48.754669987546706, 50.622665006226654, 52.42839352428394, 54.483188044831884, 57.03611457036115, 59.02864259028643, 62.45330012453301, 63.01369863013699, 99.50186799501869, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -348,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

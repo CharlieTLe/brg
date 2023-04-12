@@ -377,14 +377,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1185 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_TUSKENCHIEFTAIN"><img src="https://game-assets.swgoh.gg/tex.ability_tuskenchieftain_basic.png" style="width: 30px" /> Ceremonial Dance</td><td /><td>108</td><td>9%</td></tr><tr><td data-order="leaderskill_TUSKENCHIEFTAIN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_nomadicpeople.png" style="width: 30px" /> Nomadic People</td><td /><td>3</td><td>0%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1195 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_TUSKENCHIEFTAIN"><img src="https://game-assets.swgoh.gg/tex.ability_tuskenchieftain_basic.png" style="width: 30px" /> Ceremonial Dance</td><td>Call a random other ally to assist, dealing 50% more damage. Grant Tusken allies 2 stacks of Momentum for 3 turns.</td><td>114</td><td>10%</td></tr><tr><td data-order="leaderskill_TUSKENCHIEFTAIN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_nomadicpeople.png" style="width: 30px" /> Nomadic People</td><td>Whenever an enemy gains bonus Turn Meter, grant Tusken allies 1 stack of Momentum for 3 turns. Tusken allies gain 20% Defense and Tenacity for each stack of Momentum on them.<br/><br/>Whenever a Tusken ally is targeted by an enemy and they have at least 10 stacks of Momentum, remove all stacks of Momentum, Stun all attacking enemies for 1 turn, which can't be resisted, and the targeted Tusken ally takes a bonus turn. For each stack of Momentum removed this way, there is a 20% chance (+5% per Relic Amplifier level, max 50% total) to inflict a stack of Damage Over Time on each attacking enemy for 2 turns.<br/><br/><b>Special:</b> While in 3v3 Grand Arenas: Boba Fett, Scion of Jango counts as a Tusken ally if there is no character that summons at the start of battle. Boba Fett, Scion of Jango's Payout is active and he can't lose Momentum stacks except through expiration.</td><td>3</td><td>0%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 566, 19, 4, 21, 18, 85, 92, 236, 96, 18, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    y: [ 548, 17, 3, 22, 19, 91, 99, 235, 111, 19, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 47.76371308016877, 49.36708860759493, 49.70464135021096, 51.47679324894514, 52.995780590717295, 60.16877637130801, 67.93248945147678, 87.84810126582278, 95.94936708860759, 97.46835443037973, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 45.85774058577406, 47.28033472803347, 47.53138075313807, 49.37238493723849, 50.96234309623431, 58.57740585774059, 66.86192468619247, 86.52719665271967, 95.81589958158996, 97.40585774058577, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -404,5 +404,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -244,18 +244,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1570 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BOSSK"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> On The Hunt</td><td>All Bounty Hunters gain +50% Max Protection and +50% Tenacity. All Bounty Hunter allies gain +100% Defense while at full Health. Whenever an enemy suffers a debuff or Resists, all Bounty Hunter allies recover 5% Health and Protection. When Bossk is in the Leader slot, and not the Ally slot, the following Contract is active:
-
-Contract: Deal damage to the weakest enemy 10 times. (Only Bounty Hunter allies can contribute to the Contract.)
-
-Reward: All Bounty Hunter allies gain +50 Speed for the rest of battle and their Payouts are activated.</td><td>1371</td><td>87%</td></tr><tr><td data-order="uniqueskill_BOSSK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hp.png" style="width: 30px" /> Trandoshan Rage</td><td>Bossk has +50% Defense and +50% Max Health while he has Taunt and gains +50% Offense and +50% Health Steal while attacking buffed enemies. When Bossk loses Taunt, he gains Taunt for 1 turn if the weakest enemy has Protection.</td><td>1177</td><td>75%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1582 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_BOSSK"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> On The Hunt</td><td>All Bounty Hunters gain +50% Max Protection and +50% Tenacity. All Bounty Hunter allies gain +100% Defense while at full Health. Whenever an enemy suffers a debuff or Resists, all Bounty Hunter allies recover 5% Health and Protection. When Bossk is in the Leader slot, and not the Ally slot, the following Contract is active:<br/><br/>Contract: Deal damage to the weakest enemy 10 times. (Only Bounty Hunter allies can contribute to the Contract.)<br/><br/>Reward: All Bounty Hunter allies gain +50 Speed for the rest of battle and their Payouts are activated.</td><td>1381</td><td>87%</td></tr><tr><td data-order="uniqueskill_BOSSK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_hp.png" style="width: 30px" /> Trandoshan Rage</td><td>Bossk has +50% Defense and +50% Max Health while he has Taunt and gains +50% Offense and +50% Health Steal while attacking buffed enemies. When Bossk loses Taunt, he gains Taunt for 1 turn if the weakest enemy has Protection.</td><td>1185</td><td>75%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 23, 1, 4, 2, 2, 8, 13, 15, 28, 8, 72, 281, 15, 27, 64, 88, 57, 665, 50, 126, 15, 6 ],
+    y: [ 22, 1, 4, 2, 2, 10, 13, 15, 27, 9, 75, 283, 15, 28, 64, 90, 56, 671, 49, 125, 15, 6 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.4649681528662422, 1.5286624203821657, 1.78343949044586, 1.910828025477707, 2.038216560509554, 2.5477707006369426, 3.3757961783439487, 4.3312101910828025, 6.114649681528663, 6.624203821656051, 11.210191082802549, 29.10828025477707, 30.063694267515924, 31.78343949044586, 35.85987261146497, 41.46496815286625, 45.09554140127389, 87.45222929936307, 90.63694267515925, 98.66242038216562, 99.61783439490448, 100.00000000000001 ],
+    y: [ 1.390644753476612, 1.4538558786346398, 1.706700379266751, 1.8331226295828067, 1.9595448798988624, 2.5916561314791404, 3.413400758533502, 4.361567635903919, 6.06826801517067, 6.6371681415929205, 11.378002528445005, 29.266750948166877, 30.214917825537295, 31.984829329962075, 36.03034134007586, 41.71934260429836, 45.25916561314792, 87.67383059418458, 90.77117572692794, 98.67256637168141, 99.62073324905182, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -275,5 +271,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

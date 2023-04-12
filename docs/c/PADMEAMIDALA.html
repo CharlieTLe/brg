@@ -229,20 +229,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1531 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PADMEAMIDALA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_courage.png" style="width: 30px" /> Unwavering Courage</td><td>Light Side allies have +50% Max Health, and while they have Protection Up they resist all debuffs and can't be critically hit.
-
-At the start of their turn, Galactic Republic allies dispel Protection Up buffs on themselves and gain 1 stack of Courage for each 5% Protection Up dispelled this way. Courage can't be copied, dispelled, or prevented.
-
-Courage: When damaging the target enemy with an ability, for each 5 stacks of Courage, dispel 5 stacks and deal bonus damage equal to 40% of the target's Max Health</td><td>1301</td><td>85%</td></tr><tr><td data-order="uniqueskill_PADMEAMIDALA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Always a Choice</td><td>Padmé is immune to Fear. Whenever a Light Side ally loses Protection Up, they recover 5% Health. Allies can't gain or lose bonus Turn Meter.
-
-Whenever an enemy attacks out of turn against a Galactic Republic ally, that ally gains Protection Up (10%, does not stack with itself) for 1 turn, increased to 40% if Padmé is their leader. This Protection Up can't be prevented or dispelled.</td><td>1295</td><td>85%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1542 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PADMEAMIDALA"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_courage.png" style="width: 30px" /> Unwavering Courage</td><td>Light Side allies have +50% Max Health, and while they have Protection Up they resist all debuffs and can't be critically hit.<br/><br/>At the start of their turn, Galactic Republic allies dispel Protection Up buffs on themselves and gain 1 stack of Courage for each 5% Protection Up dispelled this way. Courage can't be copied, dispelled, or prevented.<br/><br/>Courage: When damaging the target enemy with an ability, for each 5 stacks of Courage, dispel 5 stacks and deal bonus damage equal to 40% of the target's Max Health</td><td>1312</td><td>85%</td></tr><tr><td data-order="uniqueskill_PADMEAMIDALA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Always a Choice</td><td>Padmé is immune to Fear. Whenever a Light Side ally loses Protection Up, they recover 5% Health. Allies can't gain or lose bonus Turn Meter.<br/><br/>Whenever an enemy attacks out of turn against a Galactic Republic ally, that ally gains Protection Up (10%, does not stack with itself) for 1 turn, increased to 40% if Padmé is their leader. This Protection Up can't be prevented or dispelled.</td><td>1306</td><td>85%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 53, 14, 3, 1, 3, 5, 37, 76, 42, 30, 14, 155, 6, 15, 34, 113, 86, 445, 58, 74, 265, 2 ],
+    y: [ 53, 14, 2, 2, 2, 6, 36, 77, 45, 27, 15, 157, 5, 16, 35, 113, 85, 447, 61, 74, 268, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.4617896799477466, 4.376224689745264, 4.57217504898759, 4.637491835401698, 4.833442194644023, 5.160026126714565, 7.576747224036577, 12.540822991508819, 15.284128020901372, 17.243631613324624, 18.158066623122142, 28.282168517308946, 28.674069235793596, 29.653821032005222, 31.87459177008491, 39.25538863487916, 44.87263226649249, 73.93860222077073, 77.72697583278902, 82.56041802743304, 99.86936642717177, 99.99999999999999 ],
+    y: [ 3.4370946822308692, 4.345006485084307, 4.474708171206226, 4.604409857328145, 4.734111543450064, 5.123216601815823, 7.457846952010376, 12.45136186770428, 15.369649805447471, 17.120622568093385, 18.09338521400778, 28.27496757457847, 28.599221789883266, 29.636835278858623, 31.906614785992215, 39.23476005188067, 44.747081712062254, 73.73540856031128, 77.69130998702983, 82.49027237354085, 99.87029831387807, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -262,5 +256,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

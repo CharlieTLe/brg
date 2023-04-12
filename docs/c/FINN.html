@@ -328,16 +328,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1507 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_FINN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Balanced Tactics</td><td>Resistance allies have +60% Defense, Offense, and Potency, and other allies have half that amount. If an enemy is damaged by a Resistance ally, for each Expose on them: That enemy loses 5% Turn Meter for each Resistance ally, all Resistance allies gain 3% Turn Meter for each Resistance ally, and their cooldowns are reduced by 1.
-
-[e7e7e7]While in Territory Battles and if there are no Galactic Legend allies: Resistance allies gain 60% Max Health and Protection. Enemies attacking out of turn deal 50% less damage. At the start of the encounter, revive all Resistance allies with 100% Health, recover 100% Protection, and gain Protection Up (100%) for 2 turns, which can't be dispelled or prevented, and Finn gains Determination for 2 turns. While Finn has Determination, Resistance allies are immune to critical hits, and have 100% counter chance. Whenever a Resistance ally uses a Special ability, dispel all buffs on target enemy, and inflict Expose for 2 turns, which can't be evaded or resisted. Whenever another Resistance ally is damaged by an enemy attack, Finn has a 20% chance to gain 100% Turn Meter once per turn. If an enemy is damaged by a Resistance ally, for each Expose on them, deal additional true damage to all other enemies, then Resistance allies recover 10% Health and gain 2 Speed (max 60) for the rest of the battle.</td><td>502</td><td>33%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1515 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_FINN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Balanced Tactics</td><td>Resistance allies have +60% Defense, Offense, and Potency, and other allies have half that amount. If an enemy is damaged by a Resistance ally, for each Expose on them: That enemy loses 5% Turn Meter for each Resistance ally, all Resistance allies gain 3% Turn Meter for each Resistance ally, and their cooldowns are reduced by 1.<br/><br/><b>Special:</b> While in Territory Battles and if there are no Galactic Legend allies: Resistance allies gain 60% Max Health and Protection. Enemies attacking out of turn deal 50% less damage. At the start of the encounter, revive all Resistance allies with 100% Health, recover 100% Protection, and gain Protection Up (100%) for 2 turns, which can't be dispelled or prevented, and Finn gains Determination for 2 turns. While Finn has Determination, Resistance allies are immune to critical hits, and have 100% counter chance. Whenever a Resistance ally uses a Special ability, dispel all buffs on target enemy, and inflict Expose for 2 turns, which can't be evaded or resisted. Whenever another Resistance ally is damaged by an enemy attack, Finn has a 20% chance to gain 100% Turn Meter once per turn. If an enemy is damaged by a Resistance ally, for each Expose on them, deal additional true damage to all other enemies, then Resistance allies recover 10% Health and gain 2 Speed (max 60) for the rest of the battle.</td><td>504</td><td>33%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 97, 3, 11, 7, 5, 26, 30, 354, 201, 99, 119, 211, 6, 9, 5, 12, 6, 283, 7, 15, 1, 0 ],
+    y: [ 99, 4, 11, 7, 5, 25, 31, 353, 204, 99, 120, 212, 6, 9, 5, 12, 6, 284, 7, 15, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.436629064366291, 6.635700066357001, 7.36562707365627, 7.8301260783012605, 8.161911081619111, 9.887193098871931, 11.877903118779031, 35.36828135368282, 48.70603848706039, 55.27538155275382, 63.17186463171865, 77.17319177173192, 77.57133377571334, 78.16854678168548, 78.50033178500333, 79.29661579296616, 79.69475779694758, 98.4737889847379, 98.93828798938289, 99.93364299933644, 100.00000000000001, 100.00000000000001 ],
+    y: [ 6.534653465346535, 6.798679867986799, 7.524752475247525, 7.986798679867987, 8.316831683168317, 9.966996699669966, 12.013201320132012, 35.31353135313531, 48.77887788778878, 55.31353135313532, 63.23432343234324, 77.22772277227723, 77.62376237623762, 78.21782178217822, 78.54785478547855, 79.33993399339934, 79.73597359735973, 98.48184818481847, 98.94389438943894, 99.93399339933993, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -357,5 +355,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

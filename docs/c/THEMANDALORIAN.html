@@ -500,18 +500,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-4', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1619 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_THEMANDALORIAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> Asset Acquisition</td><td>All Scoundrel allies have +20 Speed, +35% Tenacity, and +30% Critical Chance. When the Mandalorian is in the Leader slot, and not the Ally slot, the following Contract is active:
-
-Contract: While buffed, score critical hits against enemies 20 times. (Only Bounty Hunter abilities can contribute to this Contract)
-
-Reward: For the rest of the battle, all Bounty Hunter allies have their Payouts activated and gain the following: while a Bounty Hunter ally is attacking, they have +20% Offense and Health Steal for each buffed ally.</td><td>543</td><td>34%</td></tr><tr><td data-order="uniqueskill_THEMANDALORIAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Disciplined Bounty Hunter</td><td>Each time the Mandalorian scores a critical hit, he gains 30% Turn Meter and other Bounty Hunter allies gain half that amount. At the start of encounter, the Mandalorian has Bounty Hunter's Resolve until he is defeated.</td><td>888</td><td>55%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1628 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_THEMANDALORIAN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> Asset Acquisition</td><td>All Scoundrel allies have +20 Speed, +35% Tenacity, and +30% Critical Chance. When the Mandalorian is in the Leader slot, and not the Ally slot, the following Contract is active:<br/><br/>Contract: While buffed, score critical hits against enemies 20 times. (Only Bounty Hunter abilities can contribute to this Contract)<br/><br/>Reward: For the rest of the battle, all Bounty Hunter allies have their Payouts activated and gain the following: while a Bounty Hunter ally is attacking, they have +20% Offense and Health Steal for each buffed ally.</td><td>546</td><td>34%</td></tr><tr><td data-order="uniqueskill_THEMANDALORIAN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_mandalorian.png" style="width: 30px" /> Disciplined Bounty Hunter</td><td>Each time the Mandalorian scores a critical hit, he gains 30% Turn Meter and other Bounty Hunter allies gain half that amount. At the start of encounter, the Mandalorian has Bounty Hunter's Resolve until he is defeated.</td><td>892</td><td>55%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 64, 1, 6, 7, 20, 17, 41, 282, 75, 205, 190, 375, 26, 42, 45, 84, 29, 91, 6, 13, 0, 0 ],
+    y: [ 66, 1, 6, 8, 19, 16, 40, 279, 77, 213, 190, 377, 26, 43, 43, 85, 29, 91, 6, 13, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.953057442865967, 4.014823965410748, 4.385423100679432, 4.817788758492897, 6.053119209388512, 7.103150092649784, 9.635577516985794, 27.05373687461396, 31.686226065472514, 44.348363187152565, 56.084002470660906, 79.24644842495368, 80.85237801111798, 83.44657195799877, 86.22606547251391, 91.4144533662755, 93.20568252007413, 98.82643607164918, 99.19703520691787, 100.00000000000003, 100.00000000000003, 100.00000000000003 ],
+    y: [ 4.054054054054054, 4.115479115479116, 4.4840294840294845, 4.975429975429976, 6.142506142506143, 7.125307125307126, 9.582309582309582, 26.71990171990172, 31.44963144963145, 44.533169533169534, 56.203931203931205, 79.36117936117935, 80.95823095823096, 83.5995085995086, 86.24078624078624, 91.46191646191646, 93.24324324324324, 98.83292383292383, 99.2014742014742, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -531,5 +527,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

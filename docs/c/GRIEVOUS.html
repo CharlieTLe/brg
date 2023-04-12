@@ -224,18 +224,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1550 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRIEVOUS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Daunting Presence</td><td>All enemies have -40% Critical Avoidance and -50% Defense. Whenever a Dark Side Droid ally is resisted, that Droid gains 10% Potency (stacking) for the rest of the encounter. Target Locked enemies can't counter attack.
-
-When a Target Locked enemy is damaged, each Droid and each Separatist ally gains 2% Turn Meter, doubled for Grievous. When damaged by an attack, Dark Side enemies lose 5% Turn Meter, and Light Side enemies lose 2% Potency (stacking).</td><td>1120</td><td>72%</td></tr><tr><td data-order="uniqueskill_GRIEVOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Metalloid Monstrosity</td><td>At the start of Grievous' turn, all other Droid allies take damage equal to 8% of his Max Health, doubled for Light Side Droids and he gains 5% Max Health and Potency for each other Droid ally for the rest of the encounter. This damage cannot defeat characters.
-
-At the start of every character's turn, if Grievous is below 100% Health, he dispels all debuffs on himself and inflicts Marked on the other healthiest Droid ally until the end of the turn. Whenever a Droid or Separatist ally is defeated, Grievous dispels all debuffs on himself, resets all ability cooldowns, and gains 1 bonus turn.</td><td>1128</td><td>73%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1559 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_GRIEVOUS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Daunting Presence</td><td>All enemies have -40% Critical Avoidance and -50% Defense. Whenever a Dark Side Droid ally is resisted, that Droid gains 10% Potency (stacking) for the rest of the encounter. Target Locked enemies can't counter attack.<br/><br/>When a Target Locked enemy is damaged, each Droid and each Separatist ally gains 2% Turn Meter, doubled for Grievous. When damaged by an attack, Dark Side enemies lose 5% Turn Meter, and Light Side enemies lose 2% Potency (stacking).</td><td>1124</td><td>72%</td></tr><tr><td data-order="uniqueskill_GRIEVOUS01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_speed.png" style="width: 30px" /> Metalloid Monstrosity</td><td>At the start of Grievous' turn, all other Droid allies take damage equal to 8% of his Max Health, doubled for Light Side Droids and he gains 5% Max Health and Potency for each other Droid ally for the rest of the encounter. This damage cannot defeat characters.<br/><br/>At the start of every character's turn, if Grievous is below 100% Health, he dispels all debuffs on himself and inflicts Marked on the other healthiest Droid ally until the end of the turn. Whenever a Droid or Separatist ally is defeated, Grievous dispels all debuffs on himself, resets all ability cooldowns, and gains 1 bonus turn.</td><td>1130</td><td>72%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 105, 1, 11, 5, 22, 4, 38, 61, 62, 20, 47, 214, 5, 21, 21, 48, 39, 120, 14, 670, 21, 1 ],
+    y: [ 104, 1, 10, 5, 22, 5, 38, 62, 64, 22, 45, 214, 4, 21, 22, 48, 40, 124, 14, 672, 21, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 6.774193548387098, 6.838709677419356, 7.548387096774195, 7.870967741935485, 9.290322580645162, 9.548387096774194, 12.0, 15.935483870967742, 19.935483870967744, 21.225806451612904, 24.258064516129032, 38.064516129032256, 38.387096774193544, 39.74193548387096, 41.09677419354838, 44.19354838709676, 46.709677419354826, 54.451612903225794, 55.35483870967741, 98.5806451612903, 99.93548387096773, 99.99999999999999 ],
+    y: [ 6.670942912123155, 6.735086593970493, 7.376523412443873, 7.697241821680564, 9.108402822322, 9.42912123155869, 11.866581141757536, 15.843489416292494, 19.948685054522127, 21.359846055163562, 24.246311738293773, 37.97305965362411, 38.22963438101346, 39.57665169980756, 40.987812700449, 44.066709429121225, 46.632456703014746, 54.586273252084666, 55.484284797947396, 98.58883899935856, 99.93585631815266, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -255,5 +251,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

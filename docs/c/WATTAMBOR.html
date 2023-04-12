@@ -229,22 +229,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1360 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>At the start of battle, Wat gains a bonus turn and access to the following Tech in the form of abilities. When Wat uses a piece of Tech, the target other ally gains its effects until defeated or the end of battle.
-
-The cooldown of each piece of Tech is set to max and can't be reduced if all allies have Tech or if it is active on an ally. Tech can't be copied, dispelled, or prevented, and an ally can only have one piece of Tech.
-
-Chiewab Medpac: Recover 5% Health and Protection at the start of every character's turn, and 5% bonus Protection if this character is a Separatist
-
-Baktoid Shield Generator: At the start of turn, recover 30% Protection and dispel own debuffs; Tanks Taunt while they have Protection
-
-BlasTech Weapon Mod: Gain 15% Turn Meter at the start of each enemy's turn; enemies defeated by this character can't be revived</td><td>1030</td><td>76%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1379 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_WATTAMBOR02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_systems.png" style="width: 30px" /> Mass Manufacture</td><td>At the start of battle, Wat gains a bonus turn and access to the following Tech in the form of abilities. When Wat uses a piece of Tech, the target other ally gains its effects until defeated or the end of battle.<br/><br/>The cooldown of each piece of Tech is set to max and can't be reduced if all allies have Tech or if it is active on an ally. Tech can't be copied, dispelled, or prevented, and an ally can only have one piece of Tech.<br/><br/>Chiewab Medpac: Recover 5% Health and Protection at the start of every character's turn, and 5% bonus Protection if this character is a Separatist<br/><br/>Baktoid Shield Generator: At the start of turn, recover 30% Protection and dispel own debuffs; Tanks Taunt while they have Protection<br/><br/>BlasTech Weapon Mod: Gain 15% Turn Meter at the start of each enemy's turn; enemies defeated by this character can't be revived</td><td>1037</td><td>75%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 126, 13, 6, 3, 27, 20, 30, 50, 124, 69, 90, 91, 15, 11, 16, 28, 8, 60, 9, 563, 1, 0 ],
+    y: [ 134, 13, 5, 3, 30, 19, 28, 53, 128, 70, 87, 96, 14, 11, 16, 29, 8, 61, 8, 565, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 9.264705882352942, 10.220588235294118, 10.661764705882353, 10.882352941176471, 12.867647058823529, 14.338235294117647, 16.544117647058822, 20.220588235294116, 29.338235294117645, 34.41176470588235, 41.02941176470588, 47.720588235294116, 48.8235294117647, 49.63235294117647, 50.80882352941177, 52.867647058823536, 53.45588235294118, 57.867647058823536, 58.52941176470589, 99.9264705882353, 100.00000000000001, 100.00000000000001 ],
+    y: [ 9.717186366932559, 10.659898477157359, 11.022480058013052, 11.240029006526468, 13.415518491660624, 14.793328498912256, 16.823785351704135, 20.667150108774475, 29.949238578680202, 35.025380710659896, 41.33430021754894, 48.29586656997824, 49.31109499637417, 50.1087744742567, 51.26903553299491, 53.37200870195793, 53.95213923132704, 58.375634517766485, 58.95576504713559, 99.92748368382885, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -264,5 +256,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

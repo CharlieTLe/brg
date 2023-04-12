@@ -239,16 +239,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1335 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_C3POLEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.ability_c3p0_special01.png" style="width: 30px" /> Oh My Goodness!</td><td>C-3PO gains Potency Up and Stealth for 2 turns, then he and target other ally gain Translation for 3 turns. C-3PO inflicts Confuse twice on target enemy for 3 turns, then calls all other allies with Translation to assist, dealing 50% less damage.
-
-(See Protocol Droid for a description of Translation.)</td><td>1156</td><td>87%</td></tr><tr><td data-order="uniqueskill_C3POLEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Wait for Me!</td><td>C-3PO and R2-D2 have +10% Evasion for each of their own stacks of Translation. At the start of encounter, C-3PO and R2-D2 gain Translation for 3 turns. When there are no other allied combatants, C-3PO escapes from battle.</td><td>940</td><td>70%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1346 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_C3POLEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.ability_c3p0_special01.png" style="width: 30px" /> Oh My Goodness!</td><td>C-3PO gains Potency Up and Stealth for 2 turns, then he and target other ally gain Translation for 3 turns. C-3PO inflicts Confuse twice on target enemy for 3 turns, then calls all other allies with Translation to assist, dealing 50% less damage.<br/><br/>(See Protocol Droid for a description of Translation.)</td><td>1163</td><td>86%</td></tr><tr><td data-order="uniqueskill_C3POLEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_stealth.png" style="width: 30px" /> Wait for Me!</td><td>C-3PO and R2-D2 have +10% Evasion for each of their own stacks of Translation. At the start of encounter, C-3PO and R2-D2 gain Translation for 3 turns. When there are no other allied combatants, C-3PO escapes from battle.</td><td>943</td><td>70%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 7, 0, 0, 0, 4, 5, 18, 16, 26, 14, 49, 155, 5, 16, 7, 122, 28, 612, 30, 219, 2, 0 ],
+    y: [ 8, 0, 0, 0, 5, 4, 18, 16, 25, 12, 52, 161, 5, 16, 6, 123, 29, 612, 31, 221, 2, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.5243445692883896, 0.5243445692883896, 0.5243445692883896, 0.5243445692883896, 0.8239700374531835, 1.198501872659176, 2.546816479400749, 3.7453183520599254, 5.692883895131086, 6.741573033707865, 10.411985018726591, 22.02247191011236, 22.39700374531835, 23.595505617977526, 24.119850187265914, 33.258426966292134, 35.355805243445694, 81.19850187265916, 83.44569288389512, 99.85018726591758, 99.99999999999999, 99.99999999999999 ],
+    y: [ 0.5943536404160475, 0.5943536404160475, 0.5943536404160475, 0.5943536404160475, 0.9658246656760772, 1.263001485884101, 2.6002971768202077, 3.789004457652303, 5.646359583952451, 6.537890044576523, 10.401188707280832, 22.362555720653788, 22.734026745913816, 23.92273402674591, 24.368499257057945, 33.506686478454675, 35.66121842496285, 81.12927191679049, 83.43239227340267, 99.85141158989597, 99.99999999999999, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -268,5 +266,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

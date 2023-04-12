@@ -333,18 +333,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1479 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_carthonasi"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Soldier of the Old Republic</td><td>Old Republic allies gain 30% Potency, Tenacity and Critical Avoidance. Whenever an enemy is inflicted with a Damage Over Time effect, all Old Republic allies recover 3% Health and Protection.
-
-When an Old Republic ally uses their Basic ability during their turn, they have an 80% chance to call another Old Republic ally to assist, dealing 50% less damage (limit once per turn).
-
-[e7e7e7]While in Territory Battles: Old Republic allies have +20% counter chance, Defense, and Max Health for each Old Republic ally. Whenever an Old Republic ally uses a Special ability, they inflict 4 Damage Over Time effects on the target enemy, which can't be evaded, and then Carth is called to assist. Whenever an Old Republic ally attacks out of turn, they recover 5% Health and Protection and gain 25% Offense (stacking) until the end of the encounter.</td><td>992</td><td>67%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1488 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_carthonasi"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_def.png" style="width: 30px" /> Soldier of the Old Republic</td><td>Old Republic allies gain 30% Potency, Tenacity and Critical Avoidance. Whenever an enemy is inflicted with a Damage Over Time effect, all Old Republic allies recover 3% Health and Protection.<br/><br/>When an Old Republic ally uses their Basic ability during their turn, they have an 80% chance to call another Old Republic ally to assist, dealing 50% less damage (limit once per turn).<br/><br/><b>Special:</b> While in Territory Battles: Old Republic allies have +20% counter chance, Defense, and Max Health for each Old Republic ally. Whenever an Old Republic ally uses a Special ability, they inflict 4 Damage Over Time effects on the target enemy, which can't be evaded, and then Carth is called to assist. Whenever an Old Republic ally attacks out of turn, they recover 5% Health and Protection and gain 25% Offense (stacking) until the end of the encounter.</td><td>998</td><td>67%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 129, 7, 4, 6, 5, 18, 30, 21, 39, 138, 455, 578, 4, 7, 8, 8, 10, 7, 1, 4, 0, 0 ],
+    y: [ 131, 6, 3, 6, 5, 17, 30, 23, 41, 137, 460, 580, 4, 7, 8, 8, 10, 7, 1, 4, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 8.72210953346856, 9.195402298850574, 9.465855307640297, 9.87153482082488, 10.209601081812034, 11.426639621365787, 13.455037187288708, 14.874915483434753, 17.51183231913455, 26.842461122379987, 57.606490872210955, 96.6869506423259, 96.95740365111563, 97.43069641649764, 97.97160243407708, 98.51250845165653, 99.18864097363084, 99.66193373901285, 99.72954699121028, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 8.803763440860216, 9.206989247311828, 9.408602150537634, 9.811827956989246, 10.14784946236559, 11.29032258064516, 13.306451612903224, 14.852150537634406, 17.60752688172043, 26.814516129032256, 57.72849462365591, 96.70698924731182, 96.9758064516129, 97.44623655913978, 97.98387096774192, 98.52150537634407, 99.19354838709675, 99.66397849462363, 99.7311827956989, 99.99999999999997, 99.99999999999997, 99.99999999999997 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -364,5 +360,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-09 23:21:21 +0000</font>
+<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

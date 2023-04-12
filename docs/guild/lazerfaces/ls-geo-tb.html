@@ -52,7 +52,7 @@ document.getElementById(id).style.display = 'none';
 }
 .column {
   float: left;
-  width: 50%;
+  width: 33%;
 }
 .row:after {
   content: "";
@@ -70,7 +70,7 @@ function copyText(name) {
 }
 </script>
 There are several models of activity or you can come up with a <a href="tb.html?tb=ls&d=squad+name&player-summary=on">plan manually with some assistance</a>.
-<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li><li><b>KAM Shards</b> is the same as <b>Decreasing</b> but it tries to force the TB to reach 3 Bottom to obtain KAM shards.</li></ul>
 Contact @gorgatron#3094 to tailor these assumptions.
 <br/>
 <img src="../../i/ls_geo_tb_labels.jpeg" width="500"/>
@@ -85,13 +85,13 @@ Contact @gorgatron#3094 to tailor these assumptions.
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 126 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 72 -> 72m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 185 -> 257m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 13 -> 81m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 11 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 71 -> 71m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 126 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 186 -> 257m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 8 -> 76m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 8 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle -> 3 :star:**
 **phase 1: 1 Bottom HOLD AT ZERO :star:**</pre><pre id="optimal-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll ReturnOfTheFett Revanoch Ryiun Starkiller3333
@@ -104,9 +104,6 @@ Ardilla Blazebot7000 DanMan1975 Darדh Freeday Donkey Kong Jr E2d2 Gok Hanshotfi
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Brill Cadeus
 
 **LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
 ReturnOfTheFett Ryiun
@@ -130,24 +127,24 @@ mudhead3323 Starkiller3333 Wes Harcrow
 DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Brill Cadeus CaptBlinky Crazy Skew DeathComestoAll dompizan FRM Gok Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik Mateus Jak mugsy Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
+CaptBlinky Crazy Skew DeathComestoAll dompizan FRM Gok Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik Mateus Jak mugsy Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>1</td><td>1 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Bottom, 2 Middle</a></td><tr><td>2</td><td>1 Bottom</td><td><b>missions</b> 85 -> 166m</td><tr><td>2</td><td>1 Bottom</td><td><b>deploy</b> 14 -> 180m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 27 -> 27m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 43 -> 70m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 97 -> 97m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 163 -> 260m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 21 toons, 94 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>1</td><td>1 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Bottom, 2 Middle</a></td><tr><td>2</td><td>1 Bottom</td><td><b>missions</b> 84 -> 160m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 27 -> 27m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 96 -> 96m</td><tr><td>2</td><td>1 Bottom</td><td><b>deploy</b> 20 -> 180m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 43 -> 70m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 164 -> 260m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 10 toons, 91 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 2 Middle -> 3 :star:**
 **phase 2: 1 Bottom -> 3 :star:**</pre><pre id="optimal-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **GR CM** Padme e.g. Padme Shaak Ti, JKA GK C-3PO
 mudhead3323 Wes Harcrow
 
 **GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Brill Cadeus Business Time Crazy Skew DeathComestoAll dompizan Gok Hanshotfirst ishotfirst modestdinosaur Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
+Business Time Crazy Skew DeathComestoAll dompizan Gok Hanshotfirst ishotfirst modestdinosaur Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku Tyler Vodzkha Wes Harcrow ZilloTea
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll Ryiun
@@ -159,7 +156,7 @@ NimueN SmallMexiFrys
 Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Brill Cadeus FRM
+FRM
 
 **LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
 ReturnOfTheFett
@@ -179,7 +176,7 @@ CaptBlinky Griz Man Hanshotfirst ishotfirst Kynareth Saber Skills
 **LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
 DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 27 -> 97m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 118 -> 215m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 93 -> 93m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 124 -> 217m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 52 -> 52m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 74 -> 126m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 19 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 27 -> 97m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 91 -> 91m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 52 -> 52m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 118 -> 215m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 126 -> 217m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 68 -> 120m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 16 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
 **phase 3: 3 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 2 :star:**</pre><pre id="optimal-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
@@ -188,7 +185,7 @@ Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCa
 Lakotnik
 
 **Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Aayla
-Brill Cadeus Business Time Crazy Skew dompizan Donkey Kong Jr Ewokslayer Gok Hanshotfirst Hyrnia Strain ishotfirst Mateus Jak modestdinosaur Mythical NimueN raza RiverCityJedi Saber Skills SmallMexiFrys Wes Harcrow
+Business Time Crazy Skew dompizan Donkey Kong Jr Ewokslayer Gok Hanshotfirst Hyrnia Strain ishotfirst Mateus Jak modestdinosaur Mythical NimueN raza RiverCityJedi Saber Skills SmallMexiFrys Wes Harcrow
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll Revanoch Ryiun Starkiller3333
@@ -224,9 +221,9 @@ Ardilla Blazebot7000 DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr E2d2
 DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Ardilla Brill Cadeus Business Time CaptBlinky Crazy Skew Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Grimm Keiffer Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik modestdinosaur mugsy NimueN Nymeria Nymeria II Saber Skills ScoobyDooku Starkiller3333 ZilloTea
+Ardilla Business Time CaptBlinky Crazy Skew Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Grimm Keiffer Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik modestdinosaur mugsy NimueN Nymeria Nymeria II Saber Skills ScoobyDooku Starkiller3333 ZilloTea
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>2 &#11088; -- 93 to the next</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 55 -> 55m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 97 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 95 -> 221m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 36 -> 257m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 127 -> 166m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 35 toons, 40 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>2 &#11088; -- 93 to the next</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 55 -> 55m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 95 -> 215m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 38 -> 38m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 97 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 42 -> 257m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 128 -> 166m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 24 toons, 37 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
 **phase 4: 3 Middle -> 2 :star:**
 **phase 4: 3 Bottom -> 2 :star:**</pre><pre id="optimal-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
@@ -235,7 +232,7 @@ Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCa
 Ardilla C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 Ewokslayer FRM Grimm Keiffer Griz Man Haaly Hyrnia Strain Kynareth Lakotnik Mateus Jak mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Vodzkha ZilloTea
 
 **Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Ahsoka
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo dompizan Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Hanshotfirst ishotfirst Kynareth modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills SmallMexiFrys Tyler Wes Harcrow
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo dompizan Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Hanshotfirst ishotfirst Kynareth modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills SmallMexiFrys Tyler Wes Harcrow
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll Starkiller3333
@@ -244,7 +241,7 @@ DeathComestoAll Starkiller3333
 Darדh Freeday
 
 **KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Ardilla Blazebot7000 Brill Cadeus Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
+Ardilla Blazebot7000 Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer Gok Griz Man Hyrnia Strain Kynareth modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
@@ -278,25 +275,25 @@ DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Sa
 
 **phase 1: active** 1 Top, 1 Middle, 1 Bottom
 phase 1: **missions** 1 Top 16 -> 16m
-phase 1: **deploy** 1 Top 126 -> 142m
-phase 1: **missions** 1 Middle 72 -> 72m
-phase 1: **deploy** 1 Middle 185 -> 257m
+phase 1: **missions** 1 Middle 71 -> 71m
 phase 1: **missions** 1 Bottom 68 -> 68m
-phase 1: **deploy** 1 Bottom 13 -> 81m
-phase 1: remaining GP = 0 toons, 11 ships
+phase 1: **deploy** 1 Top 126 -> 142m
+phase 1: **deploy** 1 Middle 186 -> 257m
+phase 1: **deploy** 1 Bottom 8 -> 76m
+phase 1: remaining GP = 0 toons, 8 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle -> 3 :star:**
 **phase 1: 1 Bottom HOLD AT ZERO :star:**
 
 **phase 2: active** 1 Bottom, 2 Top, 2 Middle
-phase 2: **missions** 1 Bottom 85 -> 166m
-phase 2: **deploy** 1 Bottom 14 -> 180m
+phase 2: **missions** 1 Bottom 84 -> 160m
 phase 2: **missions** 2 Top 27 -> 27m
+phase 2: **missions** 2 Middle 96 -> 96m
+phase 2: **deploy** 1 Bottom 20 -> 180m
 phase 2: **deploy** 2 Top 43 -> 70m
-phase 2: **missions** 2 Middle 97 -> 97m
-phase 2: **deploy** 2 Middle 163 -> 260m
-phase 2: remaining GP = 21 toons, 94 ships
+phase 2: **deploy** 2 Middle 164 -> 260m
+phase 2: remaining GP = 10 toons, 91 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=2%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 2 Middle -> 3 :star:**
@@ -304,12 +301,12 @@ details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=2%2520Mid
 
 **phase 3: active** 2 Top, 2 Bottom, 3 Middle
 phase 3: **missions** 2 Top 27 -> 97m
-phase 3: **deploy** 2 Top 118 -> 215m
-phase 3: **missions** 2 Bottom 93 -> 93m
-phase 3: **deploy** 2 Bottom 124 -> 217m
+phase 3: **missions** 2 Bottom 91 -> 91m
 phase 3: **missions** 3 Middle 52 -> 52m
-phase 3: **deploy** 3 Middle 74 -> 126m
-phase 3: remaining GP = 0 toons, 19 ships
+phase 3: **deploy** 2 Top 118 -> 215m
+phase 3: **deploy** 2 Bottom 126 -> 217m
+phase 3: **deploy** 3 Middle 68 -> 120m
+phase 3: remaining GP = 0 toons, 16 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 3: 2 Top -> 3 :star:**
 **phase 3: 3 Middle HOLD AT ZERO :star:**
@@ -317,12 +314,12 @@ details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Mid
 
 **phase 4: active** 3 Top, 3 Middle, 3 Bottom
 phase 4: **missions** 3 Top 55 -> 55m
+phase 4: **missions** 3 Middle 95 -> 215m
+phase 4: **missions** 3 Bottom 38 -> 38m
 phase 4: **deploy** 3 Top 97 -> 152m
-phase 4: **missions** 3 Middle 95 -> 221m
-phase 4: **deploy** 3 Middle 36 -> 257m
-phase 4: **missions** 3 Bottom 39 -> 39m
-phase 4: **deploy** 3 Bottom 127 -> 166m
-phase 4: remaining GP = 35 toons, 40 ships
+phase 4: **deploy** 3 Middle 42 -> 257m
+phase 4: **deploy** 3 Bottom 128 -> 166m
+phase 4: remaining GP = 24 toons, 37 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 4: 3 Top -> 2 :star:**
 **phase 4: 3 Middle -> 2 :star:**
@@ -339,13 +336,13 @@ details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Mid
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 126 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 72 -> 72m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 37 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 112 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 49 toons, 11 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 71 -> 71m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 126 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 38 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 112 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 44 toons, 8 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
 **phase 1: 1 Bottom -> 3 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll ReturnOfTheFett Revanoch Ryiun Starkiller3333
@@ -358,9 +355,6 @@ Ardilla Blazebot7000 DanMan1975 Darדh Freeday Donkey Kong Jr E2d2 Gok Hanshotfi
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Brill Cadeus
 
 **LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
 ReturnOfTheFett Ryiun
@@ -384,15 +378,15 @@ mudhead3323 Starkiller3333 Wes Harcrow
 DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Brill Cadeus CaptBlinky Crazy Skew DeathComestoAll dompizan FRM Gok Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik Mateus Jak mugsy Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
+CaptBlinky Crazy Skew DeathComestoAll dompizan FRM Gok Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik Mateus Jak mugsy Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 59 -> 168m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 89 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 44 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 81 -> 81m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 40 -> 121m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 61 toons, 87 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 58 -> 167m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 79 -> 79m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 90 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 44 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 42 -> 121m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 54 toons, 84 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 1 Middle -> 3 :star:**
 **phase 2: 2 Bottom -> 1 :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Aayla
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills SmallMexiFrys Tyler Vodzkha Wes Harcrow
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills SmallMexiFrys Tyler Vodzkha Wes Harcrow
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll Revanoch Ryiun Starkiller3333
@@ -405,9 +399,6 @@ Donkey Kong Jr SmallMexiFrys
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Brill Cadeus
 
 **LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
 ReturnOfTheFett
@@ -431,15 +422,15 @@ Gok mudhead3323 ReturnOfTheFett ScoobyDooku Starkiller3333 Vodzkha Wes Harcrow
 DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Ardilla Blazebot7000 Brill Cadeus CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan E2d2 FRM Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Tyler ZilloTea
+Ardilla Blazebot7000 CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan E2d2 FRM Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Tyler ZilloTea
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td>1 &#11088; -- 96 to the next</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 26 -> 96m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 119 -> 215m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 118 -> 118m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 142 -> 260m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 40 -> 83m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 7 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td>1 &#11088; -- 96 to the next</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 26 -> 96m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 116 -> 116m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 119 -> 215m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 144 -> 260m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 34 -> 77m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 4 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
 **phase 3: 2 Middle -> 3 :star:**
 **phase 3: 3 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
 
 **GR CM** JMK GR e.g. JMK CAT Mace Padme R2-D2
 Ardilla C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 FRM Grimm Keiffer Griz Man Haaly Kynareth Mateus Jak mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Tyler Vodzkha ZilloTea
@@ -454,13 +445,13 @@ Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCa
 DeathComestoAll Ryiun
 
 **KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Ardilla Blazebot7000 Brill Cadeus Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
+Ardilla Blazebot7000 Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla CaptBlinky DanMan1975 Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer Griz Man Hyrnia Strain mugsy Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
-Blazebot7000 Brill Cadeus Business Time Crazy Skew Gok Mythical NimueN ZilloTea
+Blazebot7000 Business Time Crazy Skew Gok Mythical NimueN ZilloTea
 
 **LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
 DarthCarmeedo Donkey Kong Jr modestdinosaur
@@ -471,7 +462,7 @@ C3MO Grimm Keiffer Kynareth Lakotnik
 **LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
 FRM Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 50 -> 50m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 102 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 87 -> 87m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 45 -> 132m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 36 -> 119m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 102 -> 221m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 27 toons, 18 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 50 -> 50m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 87 -> 87m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 35 -> 112m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 102 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 45 -> 132m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 109 -> 221m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 16 toons, 15 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
 **phase 4: 3 Middle -> 1 :star:**
 **phase 4: 3 Bottom -> 3 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
@@ -480,7 +471,7 @@ Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCa
 Ardilla C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 Ewokslayer FRM Grimm Keiffer Griz Man Haaly Hyrnia Strain Kynareth Lakotnik Mateus Jak mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Vodzkha ZilloTea
 
 **Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Ahsoka
-Ardilla Blazebot7000 Brill Cadeus Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo dompizan Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Hanshotfirst ishotfirst Kynareth modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills SmallMexiFrys Tyler Wes Harcrow
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo dompizan Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Hanshotfirst ishotfirst Kynareth modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills SmallMexiFrys Tyler Wes Harcrow
 
 **Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
 DeathComestoAll Starkiller3333
@@ -489,7 +480,7 @@ DeathComestoAll Starkiller3333
 Darדh Freeday
 
 **KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Ardilla Blazebot7000 Brill Cadeus Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
+Ardilla Blazebot7000 Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
 Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer Gok Griz Man Hyrnia Strain Kynareth modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
@@ -523,25 +514,25 @@ DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Sa
 
 **phase 1: active** 1 Top, 1 Middle, 1 Bottom
 phase 1: **missions** 1 Top 16 -> 16m
-phase 1: **deploy** 1 Top 126 -> 142m
-phase 1: **missions** 1 Middle 72 -> 72m
-phase 1: **deploy** 1 Middle 37 -> 109m
+phase 1: **missions** 1 Middle 71 -> 71m
 phase 1: **missions** 1 Bottom 68 -> 68m
+phase 1: **deploy** 1 Top 126 -> 142m
+phase 1: **deploy** 1 Middle 38 -> 109m
 phase 1: **deploy** 1 Bottom 112 -> 180m
-phase 1: remaining GP = 49 toons, 11 ships
+phase 1: remaining GP = 44 toons, 8 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
 **phase 1: 1 Bottom -> 3 :star:**
 
 **phase 2: active** 1 Middle, 2 Top, 2 Bottom
-phase 2: **missions** 1 Middle 59 -> 168m
-phase 2: **deploy** 1 Middle 89 -> 257m
+phase 2: **missions** 1 Middle 58 -> 167m
 phase 2: **missions** 2 Top 26 -> 26m
+phase 2: **missions** 2 Bottom 79 -> 79m
+phase 2: **deploy** 1 Middle 90 -> 257m
 phase 2: **deploy** 2 Top 44 -> 70m
-phase 2: **missions** 2 Bottom 81 -> 81m
-phase 2: **deploy** 2 Bottom 40 -> 121m
-phase 2: remaining GP = 61 toons, 87 ships
+phase 2: **deploy** 2 Bottom 42 -> 121m
+phase 2: remaining GP = 54 toons, 84 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 1 Middle -> 3 :star:**
@@ -549,12 +540,12 @@ details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Mid
 
 **phase 3: active** 2 Top, 2 Middle, 3 Bottom
 phase 3: **missions** 2 Top 26 -> 96m
-phase 3: **deploy** 2 Top 119 -> 215m
-phase 3: **missions** 2 Middle 118 -> 118m
-phase 3: **deploy** 2 Middle 142 -> 260m
+phase 3: **missions** 2 Middle 116 -> 116m
 phase 3: **missions** 3 Bottom 43 -> 43m
-phase 3: **deploy** 3 Bottom 40 -> 83m
-phase 3: remaining GP = 0 toons, 7 ships
+phase 3: **deploy** 2 Top 119 -> 215m
+phase 3: **deploy** 2 Middle 144 -> 260m
+phase 3: **deploy** 3 Bottom 34 -> 77m
+phase 3: remaining GP = 0 toons, 4 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 3: 2 Top -> 3 :star:**
 **phase 3: 2 Middle -> 3 :star:**
@@ -562,18 +553,257 @@ details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=2%2520Mid
 
 **phase 4: active** 3 Top, 3 Middle, 3 Bottom
 phase 4: **missions** 3 Top 50 -> 50m
-phase 4: **deploy** 3 Top 102 -> 152m
 phase 4: **missions** 3 Middle 87 -> 87m
+phase 4: **missions** 3 Bottom 35 -> 112m
+phase 4: **deploy** 3 Top 102 -> 152m
 phase 4: **deploy** 3 Middle 45 -> 132m
-phase 4: **missions** 3 Bottom 36 -> 119m
-phase 4: **deploy** 3 Bottom 102 -> 221m
-phase 4: remaining GP = 27 toons, 18 ships
+phase 4: **deploy** 3 Bottom 109 -> 221m
+phase 4: remaining GP = 16 toons, 15 ships
 details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 4: 3 Top -> 2 :star:**
 **phase 4: 3 Middle -> 1 :star:**
 **phase 4: 3 Bottom -> 3 :star:**
 
 </textarea>
-<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
-<font size="-2">Generated 2023-04-09 23:14:20 +0000</font>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div><div class="column"><h2>KAM Shards Estimated: 22 &#11088;</h2>
+<br/>
+<table style="margin: 10px">
+<thead>
+    <tr>
+    <th>Phase</th>
+    <th>Section</th>
+    <th>Action</th>
+    </tr>
+</thead>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 71 -> 71m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 126 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 38 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 112 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 44 toons, 8 ships<pre id="kam-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+**phase 1: 1 Middle HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="kam-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+
+**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
+
+**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
+DeathComestoAll ReturnOfTheFett Revanoch Ryiun Starkiller3333
+
+**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
+C3MO CaptBlinky DarthCarmeedo Dr med den Rasen FRM Grimm Keiffer Griz Man Haaly Kynareth Lakotnik Mateus Jak mugsy
+
+**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
+Ardilla Blazebot7000 DanMan1975 Darדh Freeday Donkey Kong Jr E2d2 Gok Hanshotfirst Mythical NimueN Nymeria Nymeria II RiverCityJedi SmallMexiFrys Tyler
+
+**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
+Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
+
+**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
+ReturnOfTheFett Ryiun
+
+**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
+DarthCarmeedo Donkey Kong Jr modestdinosaur
+
+**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
+Business Time C3MO CaptBlinky Dr med den Rasen Grimm Keiffer Griz Man Kynareth Lakotnik mugsy
+
+**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
+Ardilla Blazebot7000 DanMan1975 Darדh Freeday E2d2 Ewokslayer Hyrnia Strain Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Tyler Vodzkha ZilloTea
+
+**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
+C3MO Dr med den Rasen
+
+**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
+mudhead3323 Starkiller3333 Wes Harcrow
+
+**LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
+DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
+
+**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+CaptBlinky Crazy Skew DeathComestoAll dompizan FRM Gok Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik Mateus Jak mugsy Mythical NimueN raza Saber Skills SmallMexiFrys Starkiller3333
+
+</pre><p><a href="#" onclick="CopyToClipboard('kam-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 58 -> 167m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 79 -> 79m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 90 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 108 -> 134m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 42 -> 121m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 54 toons, 20 ships<pre id="kam-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
+**phase 2: 1 Middle -> 3 :star:**
+**phase 2: 2 Bottom -> 1 :star:**</pre><pre id="kam-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+
+**Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Aayla
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills SmallMexiFrys Tyler Vodzkha Wes Harcrow
+
+**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
+DeathComestoAll Revanoch Ryiun Starkiller3333
+
+**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
+Ardilla Blazebot7000 C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 FRM Grimm Keiffer Griz Man Haaly Kynareth Lakotnik mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett ScoobyDooku Tyler Vodzkha ZilloTea
+
+**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
+Donkey Kong Jr SmallMexiFrys
+
+**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
+Ardilla Blazebot7000 Business Time Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr E2d2 Ewokslayer Gok Hyrnia Strain modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
+
+**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
+ReturnOfTheFett
+
+**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
+DarthCarmeedo Donkey Kong Jr modestdinosaur
+
+**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
+Business Time C3MO CaptBlinky Dr med den Rasen Grimm Keiffer Griz Man Kynareth Lakotnik mugsy
+
+**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
+Ewokslayer Hyrnia Strain Mateus Jak Revanoch RiverCityJedi Ryiun
+
+**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
+C3MO Dr med den Rasen
+
+**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
+Gok mudhead3323 ReturnOfTheFett ScoobyDooku Starkiller3333 Vodzkha Wes Harcrow
+
+**LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
+DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
+
+**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+Ardilla Blazebot7000 CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan E2d2 FRM Griz Man Haaly Hanshotfirst ishotfirst Kynareth Lakotnik mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Tyler ZilloTea
+
+</pre><p><a href="#" onclick="CopyToClipboard('kam-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td>1 &#11088; -- 96 to the next</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 116 -> 116m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 50 -> 50m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 144 -> 260m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 102 -> 152m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 34 -> 77m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 21 ships<pre id="kam-3-plan" style="display: none !important;">**phase 3: 3 Top -> 2 :star:**
+**phase 3: 2 Middle -> 3 :star:**
+**phase 3: 3 Bottom HOLD AT ZERO :star:**</pre><pre id="kam-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+
+**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+
+**GR CM** JMK GR e.g. JMK CAT Mace Padme R2-D2
+Ardilla C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 FRM Grimm Keiffer Griz Man Haaly Kynareth Mateus Jak mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Tyler Vodzkha ZilloTea
+
+**GR CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
+Blazebot7000 Business Time Crazy Skew Donkey Kong Jr Gok Hanshotfirst ishotfirst modestdinosaur mudhead3323 Mythical NimueN Saber Skills SmallMexiFrys Wes Harcrow
+
+**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza RiverCityJedi Saber Skills ScoobyDooku SmallMexiFrys Tyler Vodzkha Wes Harcrow ZilloTea
+
+**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
+DeathComestoAll Ryiun
+
+**KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+Ardilla Blazebot7000 Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
+
+**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
+Ardilla CaptBlinky DanMan1975 Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer Griz Man Hyrnia Strain mugsy Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow
+
+**LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
+Blazebot7000 Business Time Crazy Skew Gok Mythical NimueN ZilloTea
+
+**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
+DarthCarmeedo Donkey Kong Jr modestdinosaur
+
+**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
+C3MO Grimm Keiffer Kynareth Lakotnik
+
+**LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
+FRM Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
+
+</pre><p><a href="#" onclick="CopyToClipboard('kam-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=4%20Top&tb=ls&d=squad+name&player-summary=on">4 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 87 -> 87m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 35 -> 112m</td><tr><td>4</td><td>4 Top</td><td><b>missions</b> 74 -> 74m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 45 -> 132m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 109 -> 221m</td><tr><td>4</td><td>4 Top</td><td><b>deploy</b> 49 -> 123m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 16 toons, 68 ships<pre id="kam-4-plan" style="display: none !important;">**phase 4: 4 Top -> 1 :star:**
+**phase 4: 3 Middle -> 1 :star:**
+**phase 4: 3 Bottom -> 3 :star:**</pre><pre id="kam-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak mudhead3323 mugsy Mythical NimueN Nymeria Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills SmallMexiFrys Starkiller3333 Tyler Vodzkha Wes Harcrow ZilloTea
+
+**GR Jedi CM** GR Jedi e.g. JMK GK GAS Ahsoka GMY
+Ardilla C3MO CaptBlinky DanMan1975 DarthCarmeedo Darדh Freeday Dr med den Rasen E2d2 Ewokslayer FRM Grimm Keiffer Griz Man Haaly Hyrnia Strain Kynareth Lakotnik Mateus Jak mugsy Nymeria Nymeria II Pyromancer ReturnOfTheFett Revanoch RiverCityJedi Ryiun ScoobyDooku Vodzkha ZilloTea
+
+**Jedi CM** JKL e.g. JKL GAS HYoda Old Ben, Ahsoka
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo dompizan Donkey Kong Jr Dr med den Rasen E2d2 FRM Gok Grimm Keiffer Griz Man Hanshotfirst ishotfirst Kynareth modestdinosaur Mythical NimueN Nymeria Nymeria II Pyromancer raza Saber Skills SmallMexiFrys Tyler Wes Harcrow
+
+**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
+DeathComestoAll Starkiller3333
+
+**Jedi CM** JMLS e.g. JMLS JKL HYoda Old Ben, Ezra
+Darדh Freeday
+
+**KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+Ardilla Blazebot7000 Business Time CaptBlinky Crazy Skew DanMan1975 DarthCarmeedo Darדh Freeday DeathComestoAll dompizan Dr med den Rasen E2d2 Ewokslayer FRM Gok Grimm Keiffer Griz Man Haaly Hanshotfirst Hyrnia Strain ishotfirst Kynareth Lakotnik Mateus Jak modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer raza ReturnOfTheFett Revanoch RiverCityJedi Ryiun Saber Skills ScoobyDooku SmallMexiFrys Starkiller3333 Vodzkha ZilloTea
+
+**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
+Ardilla Blazebot7000 Business Time C3MO CaptBlinky Crazy Skew DanMan1975 Darדh Freeday DeathComestoAll dompizan Donkey Kong Jr Dr med den Rasen E2d2 Ewokslayer Gok Griz Man Hyrnia Strain Kynareth modestdinosaur mugsy Mythical NimueN Nymeria Nymeria II Pyromancer RiverCityJedi Tyler Vodzkha Wes Harcrow ZilloTea
+
+**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
+FRM
+
+**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
+DarthCarmeedo Donkey Kong Jr modestdinosaur
+
+**LS CM** GL Rey e.g. Rey Holdo GK RH Poe, RH Finn
+Business Time
+
+**LS CM** JMK GR e.g. JMK CAT Mace Padme Shaak Ti
+Tyler
+
+**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
+Grimm Keiffer Haaly ishotfirst Lakotnik Saber Skills
+
+**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
+Gok mudhead3323 Starkiller3333
+
+**LS CM** ROLO e.g. ROLO Cpt Solo, Biggs Chewpio Lando
+DarthCarmeedo FRM Grimm Keiffer Haaly Hanshotfirst ishotfirst Mateus Jak raza Saber Skills SmallMexiFrys
+
+</pre><p><a href="#" onclick="CopyToClipboard('kam-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>4 Top</td><td>1 &#11088; -- 217 to the next</td><tr><td>4</td><td>3 Middle</td><td>1 &#11088; -- 125 to the next</td><tr><td>4</td><td>3 Bottom</td><td>3 &#11088;</td></tbody>
+</table>
+<br/>
+<br/><textarea id="discordkam" style="display:none" rows="8" cols="40">
+**Estimated 22 :star:**
+
+**phase 1: active** 1 Top, 1 Middle, 1 Bottom
+phase 1: **missions** 1 Top 16 -> 16m
+phase 1: **missions** 1 Middle 71 -> 71m
+phase 1: **missions** 1 Bottom 68 -> 68m
+phase 1: **deploy** 1 Top 126 -> 142m
+phase 1: **deploy** 1 Middle 38 -> 109m
+phase 1: **deploy** 1 Bottom 112 -> 180m
+phase 1: remaining GP = 44 toons, 8 ships
+details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 1: 1 Top -> 3 :star:**
+**phase 1: 1 Middle HOLD AT ZERO :star:**
+**phase 1: 1 Bottom -> 3 :star:**
+
+**phase 2: active** 1 Middle, 2 Top, 2 Bottom
+phase 2: **missions** 1 Middle 58 -> 167m
+phase 2: **missions** 2 Top 26 -> 26m
+phase 2: **missions** 2 Bottom 79 -> 79m
+phase 2: **deploy** 1 Middle 90 -> 257m
+phase 2: **deploy** 2 Top 108 -> 134m
+phase 2: **deploy** 2 Bottom 42 -> 121m
+phase 2: remaining GP = 54 toons, 20 ships
+details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 2: 2 Top -> 2 :star:**
+**phase 2: 1 Middle -> 3 :star:**
+**phase 2: 2 Bottom -> 1 :star:**
+
+**phase 3: active** 2 Middle, 3 Top, 3 Bottom
+phase 3: **missions** 2 Middle 116 -> 116m
+phase 3: **missions** 3 Top 50 -> 50m
+phase 3: **missions** 3 Bottom 43 -> 43m
+phase 3: **deploy** 2 Middle 144 -> 260m
+phase 3: **deploy** 3 Top 102 -> 152m
+phase 3: **deploy** 3 Bottom 34 -> 77m
+phase 3: remaining GP = 0 toons, 21 ships
+details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 3: 3 Top -> 2 :star:**
+**phase 3: 2 Middle -> 3 :star:**
+**phase 3: 3 Bottom HOLD AT ZERO :star:**
+
+**phase 4: active** 3 Middle, 3 Bottom, 4 Top
+phase 4: **missions** 3 Middle 87 -> 87m
+phase 4: **missions** 3 Bottom 35 -> 112m
+phase 4: **missions** 4 Top 74 -> 74m
+phase 4: **deploy** 3 Middle 45 -> 132m
+phase 4: **deploy** 3 Bottom 109 -> 221m
+phase 4: **deploy** 4 Top 49 -> 123m
+phase 4: remaining GP = 16 toons, 68 ships
+details: https://gorgatron1.github.io/brg/guild/lazerfaces/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 4: 4 Top -> 1 :star:**
+**phase 4: 3 Middle -> 1 :star:**
+**phase 4: 3 Bottom -> 3 :star:**
+
+</textarea>
+<button onclick="copyText('discordkam')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2023-04-12 03:37:20 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
