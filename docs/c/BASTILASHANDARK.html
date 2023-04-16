@@ -239,14 +239,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1499 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BASTILASHANDARK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Sith Apprentice</td><td>Bastila and the character in the leader slot have +50% Defense, Potency, and Tenacity and gain Foresight for 1 turn at the start of battle.<br/><br/>If Bastila's leader is another Sith, whenever an enemy is inflicted with Deathmark, Fear, Marked, or Shock, they both gain 5% Offense (stacking up to 100%) for the rest of battle. This ability does not apply to characters in the ally slot.</td><td>1169</td><td>78%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1498 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_BASTILASHANDARK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_sith.png" style="width: 30px" /> Sith Apprentice</td><td>Bastila and the character in the leader slot have +50% Defense, Potency, and Tenacity and gain Foresight for 1 turn at the start of battle.<br/><br/>If Bastila's leader is another Sith, whenever an enemy is inflicted with Deathmark, Fear, Marked, or Shock, they both gain 5% Offense (stacking up to 100%) for the rest of battle. This ability does not apply to characters in the ally slot.</td><td>1174</td><td>78%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 111, 10, 1, 2, 4, 11, 16, 32, 7, 15, 117, 309, 13, 46, 42, 144, 124, 370, 41, 80, 3, 1 ],
+    y: [ 105, 9, 1, 2, 5, 10, 16, 32, 8, 15, 115, 315, 13, 48, 44, 143, 126, 370, 40, 78, 3, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 7.404936624416278, 8.072048032021348, 8.138759172781855, 8.272181454302869, 8.539026017344897, 9.272848565710474, 10.340226817878586, 12.47498332221481, 12.941961307538358, 13.942628418945963, 21.747831887925283, 42.361574382921944, 43.22881921280854, 46.29753168779186, 49.099399599733154, 58.70580386924616, 66.97798532354904, 91.66110740493663, 94.39626417611741, 99.73315543695797, 99.9332888592395, 100.0 ],
+    y: [ 7.009345794392523, 7.610146862483311, 7.6769025367156205, 7.81041388518024, 8.144192256341789, 8.811748998664886, 9.879839786381842, 12.016021361815753, 12.55006675567423, 13.551401869158877, 21.228304405874496, 42.256341789052065, 43.12416555407209, 46.32843791722296, 49.26568758344459, 58.81174899866488, 67.22296395193591, 91.92256341789052, 94.5927903871829, 99.79973297730307, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -266,5 +266,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-12 03:44:01 +0000</font>
+<font size="-2">Generated 2023-04-16 21:09:06 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
