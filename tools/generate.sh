@@ -15,7 +15,7 @@ guilds=(
 	'honor 337228443'
 	'lazerfaces 552198166'
 	'ahsoka 842227845'
-	'mandos_periperi 443596224'
+	'mandos_periperi w53E_OdzQfmvfbZrbu-1kw'
 	'space-dragons 499445554'
 	'odor 933888673'
 	'holocron 684712353'
@@ -35,7 +35,7 @@ guilds=(
 	'darkforce 938276726'
 	'zeros 287952553'
 	'deathless 762819711'
-	'high-council 991936212'
+	'high-council zfBluFnbQHGR8ySBhDc7RA'
 	'xscoundrels 749817979'
 )
 
