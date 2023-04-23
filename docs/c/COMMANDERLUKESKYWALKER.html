@@ -318,14 +318,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1553 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_COMMANDERLUKESKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Rebel Maneuvers</td><td>Rebel allies have +50% Counter Chance, +50% Defense, and +15% Offense. Whenever an enemy Resists a detrimental effect, Rebel allies gain 5% Turn Meter.</td><td>1302</td><td>84%</td></tr><tr><td data-order="uniqueskill_COMMANDERLUKESKYWALKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Learn Control</td><td>While Luke doesn't have Call to Action, he has +50% Counter Chance, +50% Critical Avoidance, +50% Defense, +100% Tenacity, and gains 10% Turn Meter whenever another Rebel ally takes damage.</td><td>1196</td><td>77%</td></tr><tr><td data-order="uniqueskill_COMMANDERLUKESKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> It Binds All Things</td><td>Luke has +40% Potency. Whenever Luke Resists a detrimental effect he recovers 5% Health and 5% Protection. Whenever Luke inflicts a debuff he gains 10% Turn Meter and other allies gain half that amount.</td><td>1328</td><td>86%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1553 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_COMMANDERLUKESKYWALKER"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> Rebel Maneuvers</td><td>Rebel allies have +50% Counter Chance, +50% Defense, and +15% Offense. Whenever an enemy Resists a detrimental effect, Rebel allies gain 5% Turn Meter.</td><td>1301</td><td>84%</td></tr><tr><td data-order="uniqueskill_COMMANDERLUKESKYWALKER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_counterattack.png" style="width: 30px" /> Learn Control</td><td>While Luke doesn't have Call to Action, he has +50% Counter Chance, +50% Critical Avoidance, +50% Defense, +100% Tenacity, and gains 10% Turn Meter whenever another Rebel ally takes damage.</td><td>1194</td><td>77%</td></tr><tr><td data-order="uniqueskill_COMMANDERLUKESKYWALKER02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> It Binds All Things</td><td>Luke has +40% Potency. Whenever Luke Resists a detrimental effect he recovers 5% Health and 5% Protection. Whenever Luke inflicts a debuff he gains 10% Turn Meter and other allies gain half that amount.</td><td>1327</td><td>85%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 11, 2, 1, 4, 1, 7, 9, 51, 21, 14, 16, 224, 5, 23, 15, 186, 91, 619, 100, 144, 8, 1 ],
+    y: [ 10, 2, 1, 4, 2, 5, 12, 49, 22, 12, 18, 223, 4, 23, 16, 188, 92, 618, 101, 142, 8, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.7083065035415326, 0.8370895041854476, 0.9014810045074051, 1.1590470057952351, 1.2234385061171926, 1.6741790083708952, 2.2537025112685125, 5.537669027688345, 6.889890534449453, 7.791371538956858, 8.821635544108178, 23.245331616226657, 23.567289117836445, 25.048293625241467, 26.01416613007083, 37.99098518995493, 43.85061171925306, 83.70895041854476, 90.14810045074051, 99.4204764971024, 99.93560849967805, 100.00000000000001 ],
+    y: [ 0.643915003219575, 0.77269800386349, 0.8370895041854475, 1.0946555054732774, 1.2234385061171924, 1.54539600772698, 2.3180940115904702, 5.473277527366388, 6.889890534449453, 7.662588538312943, 8.821635544108178, 23.180940115904697, 23.438506117192528, 24.91951062459755, 25.94977462974887, 38.05537669027688, 43.97939471989697, 83.77334191886672, 90.27688345138442, 99.42047649710238, 99.93560849967804, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -345,5 +345,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-21 03:21:24 +0000</font>
+<font size="-2">Generated 2023-04-23 23:22:31 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

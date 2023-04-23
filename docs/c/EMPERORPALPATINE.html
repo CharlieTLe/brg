@@ -303,14 +303,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1655 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_EMPERORPALPATINE"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Emperor of the Galactic Empire</td><td>Empire and Sith allies have +35% Potency and 35% Max Health. Jedi and Rebel enemies have -35% Potency and -35% Evasion. When an Empire ally inflicts a debuff during their turn, they gain 20% Turn Meter. When a Sith ally inflicts a debuff during their turn, they recover 20% Health. When a debuff on an enemy expires, Empire and Sith allies gain 5% Turn Meter.</td><td>1391</td><td>84%</td></tr><tr><td data-order="uniqueskill_EMPERORPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_shock.png" style="width: 30px" /> Crackling Doom</td><td>While Palpatine is active, at the start of each enemy turn, they take damage equal to 20% of their Max Health for each of the following: they are Shocked; they are a Jedi; they are a Rebel. This damage can't defeat enemies. Palpatine has +50% Max Protection, and, when he inflicts Shock, he gains 5% Max Protection until the end of the encounter.</td><td>1259</td><td>76%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1655 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_EMPERORPALPATINE"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_empire.png" style="width: 30px" /> Emperor of the Galactic Empire</td><td>Empire and Sith allies have +35% Potency and 35% Max Health. Jedi and Rebel enemies have -35% Potency and -35% Evasion. When an Empire ally inflicts a debuff during their turn, they gain 20% Turn Meter. When a Sith ally inflicts a debuff during their turn, they recover 20% Health. When a debuff on an enemy expires, Empire and Sith allies gain 5% Turn Meter.</td><td>1391</td><td>84%</td></tr><tr><td data-order="uniqueskill_EMPERORPALPATINE01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_shock.png" style="width: 30px" /> Crackling Doom</td><td>While Palpatine is active, at the start of each enemy turn, they take damage equal to 20% of their Max Health for each of the following: they are Shocked; they are a Jedi; they are a Rebel. This damage can't defeat enemies. Palpatine has +50% Max Protection, and, when he inflicts Shock, he gains 5% Max Protection until the end of the encounter.</td><td>1254</td><td>76%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 9, 1, 0, 2, 0, 6, 9, 26, 41, 41, 90, 203, 7, 25, 30, 54, 29, 84, 13, 975, 9, 1 ],
+    y: [ 8, 1, 0, 2, 0, 6, 10, 26, 40, 42, 91, 201, 9, 25, 32, 53, 29, 81, 16, 974, 8, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.5438066465256798, 0.6042296072507554, 0.6042296072507554, 0.7250755287009064, 0.7250755287009064, 1.0876132930513596, 1.6314199395770395, 3.2024169184290034, 5.6797583081570995, 8.157099697885196, 13.595166163141993, 25.861027190332326, 26.283987915407856, 27.794561933534744, 29.607250755287012, 32.87009063444109, 34.62235649546828, 39.69788519637463, 40.48338368580061, 99.39577039274926, 99.93957703927494, 100.00000000000001 ],
+    y: [ 0.4833836858006042, 0.5438066465256797, 0.5438066465256797, 0.6646525679758307, 0.6646525679758307, 1.0271903323262839, 1.631419939577039, 3.202416918429003, 5.619335347432024, 8.157099697885197, 13.65558912386707, 25.800604229607252, 26.344410876132933, 27.85498489425982, 29.788519637462237, 32.99093655589124, 34.74320241691843, 39.637462235649544, 40.60422960725075, 99.45619335347432, 99.93957703927492, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -330,5 +330,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-21 03:21:24 +0000</font>
+<font size="-2">Generated 2023-04-23 23:22:31 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -328,14 +328,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1654 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PHASMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Fire at Will</td><td>First Order allies have +20% Potency, gain Advantage for 2 turns at the start of each encounter, and can't be critically hit while they have Advantage. Whenever an ally attacks, they have a 20% chance to call a random ally to assist. This chance is tripled if the attacking ally is First Order. If that ally had Advantage, they regain it for 2 turns.<br/><br/><b>Special:</b> While in Territory Wars: Additional +10% chance to call a random ally to assist. Captain Phasma has +100 Speed. Whenever a First Order ally attacks out of turn, First Order allies recover 5% Health and Protection. Whenever a First Order ally gains Advantage, they also gain 10% Offense (stacking) for the rest of battle and all First Order allies gain 7.5% Turn Meter.</td><td>804</td><td>49%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1654 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_PHASMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Fire at Will</td><td>First Order allies have +20% Potency, gain Advantage for 2 turns at the start of each encounter, and can't be critically hit while they have Advantage. Whenever an ally attacks, they have a 20% chance to call a random ally to assist. This chance is tripled if the attacking ally is First Order. If that ally had Advantage, they regain it for 2 turns.<br/><br/><b>Special:</b> While in Territory Wars: Additional +10% chance to call a random ally to assist. Captain Phasma has +100 Speed. Whenever a First Order ally attacks out of turn, First Order allies recover 5% Health and Protection. Whenever a First Order ally gains Advantage, they also gain 10% Offense (stacking) for the rest of battle and all First Order allies gain 7.5% Turn Meter.</td><td>800</td><td>48%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 57, 7, 7, 25, 10, 24, 125, 375, 93, 17, 66, 119, 8, 11, 11, 10, 7, 660, 3, 18, 1, 0 ],
+    y: [ 57, 7, 6, 27, 10, 24, 122, 376, 94, 20, 67, 118, 8, 10, 11, 11, 8, 656, 3, 18, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 3.4461910519951635, 3.8694074969770256, 4.292623941958888, 5.804111245465538, 6.408706166868199, 7.859733978234583, 15.417170495767836, 38.0894800483676, 43.712212817412336, 44.740024183796855, 48.73035066505442, 55.92503022974607, 56.4087061668682, 57.073760580411125, 57.73881499395405, 58.34340991535671, 58.76662636033857, 98.66989117291413, 98.85126964933494, 99.93954050785973, 100.0, 100.0 ],
+    y: [ 3.4461910519951635, 3.8694074969770256, 4.2321644498186215, 5.8645707376058045, 6.469165659008465, 7.9201934703748496, 15.296251511487304, 38.02902055622733, 43.712212817412336, 44.92140266021766, 48.97218863361548, 56.106408706166874, 56.590084643289, 57.19467956469166, 57.85973397823459, 58.52478839177751, 59.00846432889964, 98.66989117291415, 98.85126964933495, 99.93954050785975, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -355,5 +355,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-21 03:21:24 +0000</font>
+<font size="-2">Generated 2023-04-23 23:22:31 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
