@@ -52,7 +52,7 @@ document.getElementById(id).style.display = 'none';
 }
 .column {
   float: left;
-  width: 33%;
+  width: 50%;
 }
 .row:after {
   content: "";
@@ -70,7 +70,7 @@ function copyText(name) {
 }
 </script>
 There are several models of activity or you can come up with a <a href="tb.html?tb=ls&d=squad+name&player-summary=on">plan manually with some assistance</a>.
-<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li><li><b>KAM Shards</b> is the same as <b>Decreasing</b> but it tries to force the TB to reach 3 Bottom to obtain KAM shards.</li></ul>
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
 Contact @gorgatron#3094 to tailor these assumptions.
 <br/>
 <img src="../../i/ls_geo_tb_labels.jpeg" width="500"/>
@@ -85,7 +85,7 @@ Contact @gorgatron#3094 to tailor these assumptions.
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 14 -> 14m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 62 -> 62m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 128 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 49 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 118 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 26 toons, 3 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 14 -> 14m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 62 -> 62m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 128 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 49 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 118 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 27 toons, 4 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
 **phase 1: 1 Bottom -> 3 :star:**</pre><pre id="optimal-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -118,7 +118,7 @@ Kilum Natta lottatrotta69 Sixx Shooter
 Balakay Berzerk Hobo Rikka light side ShadyT Thiffy Gorebreg
 
 **LS CM** JMK GR e.g. JMK CAT Fives Padme R2-D2
-Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Jason Krumpch lottatrotta69 name polarariel Scarb Fir Sleazy E TheFoggy Will Obi1 Zoltar
+Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Jason Krumpch lottatrotta69 name polarariel Scarb Fir Sleazy E TheFoggy TheWildKarrde Will Obi1 Zoltar
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 Adonis13 JasonTheAsian ShadyT Thiffy Gorebreg
@@ -130,9 +130,9 @@ HarryTheHutt ObiJuan Keithnobi Ronzool Scrotie McBoogerballs Sixx Shooter Soko S
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Micahtron MrDusty Nearly Headless Nick NuMex Plagarian Rikka light side Salacious Thumb Tenzin TheWildKarrde Tim WWG1WG2PRISON
+Balakay Micahtron MrDusty Nearly Headless Nick NuMex Plagarian Rikka light side Salacious Thumb Tenzin Tim WWG1WG2PRISON
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 55 -> 164m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 25 -> 25m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 93 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 45 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 52 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 48 toons, 86 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 55 -> 164m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 25 -> 25m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 68 -> 68m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 93 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 109 -> 134m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 52 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 49 toons, 23 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
 **phase 2: 1 Middle -> 3 :star:**
 **phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="optimal-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -162,7 +162,7 @@ Gero Zurn Jason Meetra Surik WWG1WG2PRISON
 Balakay Berzerk Hobo Rikka light side Thiffy Gorebreg
 
 **LS CM** JMK GR e.g. JMK CAT Fives JKA Shaak Ti
-Krumpch name Rikka light side Scarb Fir ShadyT Sleazy E Zoltar
+Krumpch name Rikka light side Scarb Fir ShadyT Sleazy E TheWildKarrde Zoltar
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 Adonis13 JasonTheAsian Ronzool Thiffy Gorebreg
@@ -174,9 +174,9 @@ Blak3oakfield Bsville ClîtCommander12345 DarthSacaMando HarryTheHutt Jason Jiva
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Dannimadd Micahtron MrDusty Nearly Headless Nick NuMex Plagarian polarariel Stephman Darksipper Tenzin TheFoggy TheWildKarrde WWG1WG2PRISON
+Balakay Dannimadd Micahtron MrDusty Nearly Headless Nick NuMex Plagarian polarariel Stephman Darksipper Tenzin TheFoggy WWG1WG2PRISON
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 25 -> 95m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 45 -> 165m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 120 -> 215m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 145 -> 310m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 48 toons, 11 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 44 -> 164m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 51 -> 51m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 146 -> 310m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 40 -> 91m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 48 toons, 92 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
 **phase 3: 2 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 3 :star:**</pre><pre id="optimal-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -185,13 +185,13 @@ Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon
 Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason Krumpch Micahtron name Nearly Headless Nick polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
+Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason Krumpch Micahtron name Nearly Headless Nick polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
 Droguito HarryTheHutt lottatrotta69 Scrotie McBoogerballs Soko Wilk79
 
 **GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Berzerk Hobo JasonTheAsian lottatrotta69 Meetra Surik MrDusty NuMex Plagarian Salacious Thumb Sixx Shooter Stephman Darksipper Tenzin TheWildKarrde Tim
+Berzerk Hobo JasonTheAsian lottatrotta69 Meetra Surik MrDusty NuMex Plagarian Salacious Thumb Sixx Shooter Stephman Darksipper Tenzin Tim
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Adonis13 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
@@ -218,12 +218,12 @@ Rikka light side Thiffy Gorebreg
 DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Adonis13 Berzerk Hobo JasonTheAsian Rikka light side Ronzool TheWildKarrde
+Adonis13 Berzerk Hobo JasonTheAsian Rikka light side Ronzool
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 107 -> 202m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 51 -> 51m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 36 -> 36m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 58 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 101 -> 152m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 130 -> 166m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 5 toons, 30 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 107 -> 202m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 51 -> 142m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 36 -> 36m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 58 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 75 -> 217m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 130 -> 166m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 57 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
 **phase 4: 2 Middle -> 3 :star:**
 **phase 4: 3 Bottom -> 2 :star:**</pre><pre id="optimal-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -232,10 +232,10 @@ Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon
 Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** JMK GR e.g. JMK CAT Mace JKA R2-D2
-Balakay Blak3oakfield Bsville DarthSacaMando Jason Jason Krumpch Micahtron name polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1
+Balakay Blak3oakfield Bsville DarthSacaMando Jason Jason Krumpch Micahtron name polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1
 
 **GR CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Adonis13 ClîtCommander12345 Dannimadd Droguito Gero Zurn JasonTheAsian Jivan Mukti Meetra Surik Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian Ronzool Salacious Thumb Scrotie McBoogerballs Soko Stephman Darksipper Tenzin TheWildKarrde Tim Wilk79 WWG1WG2PRISON Zoltar
+Adonis13 ClîtCommander12345 Dannimadd Droguito Gero Zurn JasonTheAsian Jivan Mukti Meetra Surik Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian Ronzool Salacious Thumb Scrotie McBoogerballs Soko Stephman Darksipper Tenzin Tim Wilk79 WWG1WG2PRISON Zoltar
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Adonis13 Balakay Berzerk Hobo Bsville Dannimadd Gero Zurn Jason Jason Krumpch Meetra Surik Micahtron name Nearly Headless Nick ObiJuan Keithnobi Plagarian polarariel Rikka light side Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
@@ -264,7 +264,7 @@ ClîtCommander12345 DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 Adonis13 Berzerk Hobo JasonTheAsian Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 55 to the next</td></tbody>
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 55 to the next</td></tbody>
 </table>
 <br/>
 <br/><textarea id="discordoptimal" style="display:none" rows="8" cols="40">
@@ -277,7 +277,7 @@ phase 1: **missions** 1 Bottom 62 -> 62m
 phase 1: **deploy** 1 Top 128 -> 142m
 phase 1: **deploy** 1 Middle 49 -> 109m
 phase 1: **deploy** 1 Bottom 118 -> 180m
-phase 1: remaining GP = 26 toons, 3 ships
+phase 1: remaining GP = 27 toons, 4 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
@@ -288,36 +288,36 @@ phase 2: **missions** 1 Middle 55 -> 164m
 phase 2: **missions** 2 Top 25 -> 25m
 phase 2: **missions** 2 Bottom 68 -> 68m
 phase 2: **deploy** 1 Middle 93 -> 257m
-phase 2: **deploy** 2 Top 45 -> 70m
+phase 2: **deploy** 2 Top 109 -> 134m
 phase 2: **deploy** 2 Bottom 52 -> 120m
-phase 2: remaining GP = 48 toons, 86 ships
+phase 2: remaining GP = 49 toons, 23 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top HOLD AT ZERO :star:**
+**phase 2: 2 Top -> 2 :star:**
 **phase 2: 1 Middle -> 3 :star:**
 **phase 2: 2 Bottom HOLD AT ZERO :star:**
 
-**phase 3: active** 2 Top, 2 Middle, 2 Bottom
-phase 3: **missions** 2 Top 25 -> 95m
+**phase 3: active** 2 Middle, 2 Bottom, 3 Top
 phase 3: **missions** 2 Middle 95 -> 95m
-phase 3: **missions** 2 Bottom 45 -> 165m
-phase 3: **deploy** 2 Top 120 -> 215m
-phase 3: **deploy** 2 Bottom 145 -> 310m
-phase 3: remaining GP = 48 toons, 11 ships
+phase 3: **missions** 2 Bottom 44 -> 164m
+phase 3: **missions** 3 Top 51 -> 51m
+phase 3: **deploy** 2 Bottom 146 -> 310m
+phase 3: **deploy** 3 Top 40 -> 91m
+phase 3: remaining GP = 48 toons, 92 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 2 Top -> 3 :star:**
+**phase 3: 3 Top HOLD AT ZERO :star:**
 **phase 3: 2 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 3 :star:**
 
 **phase 4: active** 2 Middle, 3 Top, 3 Bottom
 phase 4: **missions** 2 Middle 107 -> 202m
-phase 4: **missions** 3 Top 51 -> 51m
+phase 4: **missions** 3 Top 51 -> 142m
 phase 4: **missions** 3 Bottom 36 -> 36m
 phase 4: **deploy** 2 Middle 58 -> 260m
-phase 4: **deploy** 3 Top 101 -> 152m
+phase 4: **deploy** 3 Top 75 -> 217m
 phase 4: **deploy** 3 Bottom 130 -> 166m
-phase 4: remaining GP = 5 toons, 30 ships
+phase 4: remaining GP = 6 toons, 57 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Top -> 3 :star:**
 **phase 4: 2 Middle -> 3 :star:**
 **phase 4: 3 Bottom -> 2 :star:**
 
@@ -332,7 +332,7 @@ details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 14 -> 14m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 62 -> 62m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 128 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 49 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 118 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 26 toons, 3 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 14 -> 14m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 62 -> 62m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 128 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 49 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 118 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 27 toons, 4 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
 **phase 1: 1 Bottom -> 3 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -365,7 +365,7 @@ Kilum Natta lottatrotta69 Sixx Shooter
 Balakay Berzerk Hobo Rikka light side ShadyT Thiffy Gorebreg
 
 **LS CM** JMK GR e.g. JMK CAT Fives Padme R2-D2
-Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Jason Krumpch lottatrotta69 name polarariel Scarb Fir Sleazy E TheFoggy Will Obi1 Zoltar
+Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Jason Krumpch lottatrotta69 name polarariel Scarb Fir Sleazy E TheFoggy TheWildKarrde Will Obi1 Zoltar
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 Adonis13 JasonTheAsian ShadyT Thiffy Gorebreg
@@ -377,9 +377,9 @@ HarryTheHutt ObiJuan Keithnobi Ronzool Scrotie McBoogerballs Sixx Shooter Soko S
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Micahtron MrDusty Nearly Headless Nick NuMex Plagarian Rikka light side Salacious Thumb Tenzin TheWildKarrde Tim WWG1WG2PRISON
+Balakay Micahtron MrDusty Nearly Headless Nick NuMex Plagarian Rikka light side Salacious Thumb Tenzin Tim WWG1WG2PRISON
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 55 -> 164m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 24 -> 24m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 65 -> 65m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 93 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 110 -> 134m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 55 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 37 toons, 15 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 55 -> 164m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 24 -> 24m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 65 -> 65m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 93 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 46 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 55 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 38 toons, 80 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 1 Middle -> 3 :star:**
 **phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -409,7 +409,7 @@ Gero Zurn Jason Meetra Surik WWG1WG2PRISON
 Balakay Berzerk Hobo Rikka light side Thiffy Gorebreg
 
 **LS CM** JMK GR e.g. JMK CAT Fives JKA Shaak Ti
-Krumpch name Rikka light side Scarb Fir ShadyT Sleazy E Zoltar
+Krumpch name Rikka light side Scarb Fir ShadyT Sleazy E TheWildKarrde Zoltar
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 Adonis13 JasonTheAsian Ronzool Thiffy Gorebreg
@@ -421,9 +421,9 @@ Blak3oakfield Bsville ClîtCommander12345 DarthSacaMando HarryTheHutt Jason Jiva
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Dannimadd Micahtron MrDusty Nearly Headless Nick NuMex Plagarian polarariel Stephman Darksipper Tenzin TheFoggy TheWildKarrde WWG1WG2PRISON
+Balakay Dannimadd Micahtron MrDusty Nearly Headless Nick NuMex Plagarian polarariel Stephman Darksipper Tenzin TheFoggy WWG1WG2PRISON
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 43 -> 163m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 47 -> 47m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 147 -> 310m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 44 -> 91m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 30 toons, 76 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 24 -> 94m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 43 -> 163m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 121 -> 215m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 147 -> 310m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 31 toons, 0 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
 **phase 3: 2 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 3 :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -432,13 +432,13 @@ Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon
 Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason Krumpch Micahtron name Nearly Headless Nick polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
+Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason Krumpch Micahtron name Nearly Headless Nick polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
 Droguito HarryTheHutt lottatrotta69 Scrotie McBoogerballs Soko Wilk79
 
 **GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Berzerk Hobo JasonTheAsian lottatrotta69 Meetra Surik MrDusty NuMex Plagarian Salacious Thumb Sixx Shooter Stephman Darksipper Tenzin TheWildKarrde Tim
+Berzerk Hobo JasonTheAsian lottatrotta69 Meetra Surik MrDusty NuMex Plagarian Salacious Thumb Sixx Shooter Stephman Darksipper Tenzin Tim
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Adonis13 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
@@ -465,12 +465,12 @@ Rikka light side Thiffy Gorebreg
 DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Adonis13 Berzerk Hobo JasonTheAsian Rikka light side Ronzool TheWildKarrde
+Adonis13 Berzerk Hobo JasonTheAsian Rikka light side Ronzool
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 103 -> 198m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 47 -> 138m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 34 -> 34m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 62 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 79 -> 217m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 77 -> 111m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 30 toons, 36 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 103 -> 198m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 47 -> 47m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 34 -> 34m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 62 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 105 -> 152m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 77 -> 111m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 31 toons, 11 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
 **phase 4: 2 Middle -> 3 :star:**
 **phase 4: 3 Bottom -> 1 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
@@ -479,10 +479,10 @@ Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon
 Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
 
 **GR CM** JMK GR e.g. JMK CAT Mace JKA R2-D2
-Balakay Blak3oakfield Bsville DarthSacaMando Jason Jason Krumpch Micahtron name polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1
+Balakay Blak3oakfield Bsville DarthSacaMando Jason Jason Krumpch Micahtron name polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1
 
 **GR CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Adonis13 ClîtCommander12345 Dannimadd Droguito Gero Zurn JasonTheAsian Jivan Mukti Meetra Surik Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian Ronzool Salacious Thumb Scrotie McBoogerballs Soko Stephman Darksipper Tenzin TheWildKarrde Tim Wilk79 WWG1WG2PRISON Zoltar
+Adonis13 ClîtCommander12345 Dannimadd Droguito Gero Zurn JasonTheAsian Jivan Mukti Meetra Surik Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian Ronzool Salacious Thumb Scrotie McBoogerballs Soko Stephman Darksipper Tenzin Tim Wilk79 WWG1WG2PRISON Zoltar
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 Adonis13 Balakay Berzerk Hobo Bsville Dannimadd Gero Zurn Jason Jason Krumpch Meetra Surik Micahtron name Nearly Headless Nick ObiJuan Keithnobi Plagarian polarariel Rikka light side Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
@@ -511,7 +511,7 @@ ClîtCommander12345 DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 Adonis13 Berzerk Hobo JasonTheAsian Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>3 Bottom</td><td>1 &#11088; -- 55 to the next</td></tbody>
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>3 Bottom</td><td>1 &#11088; -- 55 to the next</td></tbody>
 </table>
 <br/>
 <br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
@@ -524,7 +524,7 @@ phase 1: **missions** 1 Bottom 62 -> 62m
 phase 1: **deploy** 1 Top 128 -> 142m
 phase 1: **deploy** 1 Middle 49 -> 109m
 phase 1: **deploy** 1 Bottom 118 -> 180m
-phase 1: remaining GP = 26 toons, 3 ships
+phase 1: remaining GP = 27 toons, 4 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
 **phase 1: 1 Middle HOLD AT ZERO :star:**
@@ -535,286 +535,40 @@ phase 2: **missions** 1 Middle 55 -> 164m
 phase 2: **missions** 2 Top 24 -> 24m
 phase 2: **missions** 2 Bottom 65 -> 65m
 phase 2: **deploy** 1 Middle 93 -> 257m
-phase 2: **deploy** 2 Top 110 -> 134m
+phase 2: **deploy** 2 Top 46 -> 70m
 phase 2: **deploy** 2 Bottom 55 -> 120m
-phase 2: remaining GP = 37 toons, 15 ships
+phase 2: remaining GP = 38 toons, 80 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top -> 2 :star:**
+**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 1 Middle -> 3 :star:**
 **phase 2: 2 Bottom HOLD AT ZERO :star:**
 
-**phase 3: active** 2 Middle, 2 Bottom, 3 Top
+**phase 3: active** 2 Top, 2 Middle, 2 Bottom
+phase 3: **missions** 2 Top 24 -> 94m
 phase 3: **missions** 2 Middle 95 -> 95m
 phase 3: **missions** 2 Bottom 43 -> 163m
-phase 3: **missions** 3 Top 47 -> 47m
+phase 3: **deploy** 2 Top 121 -> 215m
 phase 3: **deploy** 2 Bottom 147 -> 310m
-phase 3: **deploy** 3 Top 44 -> 91m
-phase 3: remaining GP = 30 toons, 76 ships
+phase 3: remaining GP = 31 toons, 0 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 3 Top HOLD AT ZERO :star:**
+**phase 3: 2 Top -> 3 :star:**
 **phase 3: 2 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 3 :star:**
 
 **phase 4: active** 2 Middle, 3 Top, 3 Bottom
 phase 4: **missions** 2 Middle 103 -> 198m
-phase 4: **missions** 3 Top 47 -> 138m
+phase 4: **missions** 3 Top 47 -> 47m
 phase 4: **missions** 3 Bottom 34 -> 34m
 phase 4: **deploy** 2 Middle 62 -> 260m
-phase 4: **deploy** 3 Top 79 -> 217m
+phase 4: **deploy** 3 Top 105 -> 152m
 phase 4: **deploy** 3 Bottom 77 -> 111m
-phase 4: remaining GP = 30 toons, 36 ships
+phase 4: remaining GP = 31 toons, 11 ships
 details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 3 Top -> 3 :star:**
+**phase 4: 3 Top -> 2 :star:**
 **phase 4: 2 Middle -> 3 :star:**
 **phase 4: 3 Bottom -> 1 :star:**
 
 </textarea>
-<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div><div class="column"><h2>KAM Shards Estimated: 21 &#11088;</h2>
-<br/>
-<table style="margin: 10px">
-<thead>
-    <tr>
-    <th>Phase</th>
-    <th>Section</th>
-    <th>Action</th>
-    </tr>
-</thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 14 -> 14m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 60 -> 60m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 62 -> 62m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 128 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 49 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 118 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 26 toons, 3 ships<pre id="kam-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="kam-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Adonis13 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 Zoltar
-
-**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
-Blak3oakfield DarthSacaMando HarryTheHutt MrDusty Scrotie McBoogerballs
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Balakay Gero Zurn Jason Micahtron Nearly Headless Nick Rikka light side ShadyT Thiffy Gorebreg WWG1WG2PRISON
-
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-Adonis13 Berzerk Hobo Dannimadd Jason Jivan Mukti Meetra Surik name polarariel Salacious Thumb Scarb Fir Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Tim Zoltar
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason Jivan Mukti Krumpch name polarariel Salacious Thumb Scarb Fir Sleazy E Stephman Darksipper Tenzin TheFoggy Tim Will Obi1 Zoltar
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-NuMex
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Gero Zurn Jason Meetra Surik WWG1WG2PRISON
-
-**LS CM** GAS e.g. GAS Rex Echo (501st), ARC Trooper, Fives
-Kilum Natta lottatrotta69 Sixx Shooter
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-Balakay Berzerk Hobo Rikka light side ShadyT Thiffy Gorebreg
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme R2-D2
-Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Jason Krumpch lottatrotta69 name polarariel Scarb Fir Sleazy E TheFoggy Will Obi1 Zoltar
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Adonis13 JasonTheAsian ShadyT Thiffy Gorebreg
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-HarryTheHutt ObiJuan Keithnobi Ronzool Scrotie McBoogerballs Sixx Shooter Soko Stephman Darksipper Wilk79
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Micahtron MrDusty Nearly Headless Nick NuMex Plagarian Rikka light side Salacious Thumb Tenzin TheWildKarrde Tim WWG1WG2PRISON
-
-</pre><p><a href="#" onclick="CopyToClipboard('kam-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 55 -> 164m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 24 -> 24m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 65 -> 65m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 93 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 110 -> 134m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 55 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 37 toons, 15 ships<pre id="kam-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
-**phase 2: 1 Middle -> 3 :star:**
-**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="kam-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Adonis13 Balakay Berzerk Hobo Dannimadd Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch Meetra Surik name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Zoltar
-
-**Jedi CM** JKR e.g. JKR GMY HYoda BS Jolee
-HarryTheHutt Kilum Natta MrDusty Scrotie McBoogerballs Sixx Shooter
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason lottatrotta69 Micahtron Nearly Headless Nick polarariel TheFoggy Thiffy Gorebreg Will Obi1 WWG1WG2PRISON
-
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-Adonis13 Berzerk Hobo Krumpch Rikka light side Scarb Fir ShadyT Sleazy E Stephman Darksipper TheWildKarrde Will Obi1 Zoltar
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Bsville Dannimadd Delmon Ciiid'r Droguito Gero Zurn Jason Jason Jivan Mukti Krumpch name polarariel Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy Tim Will Obi1 Zoltar
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-NuMex
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Gero Zurn Jason Meetra Surik WWG1WG2PRISON
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-Balakay Berzerk Hobo Rikka light side Thiffy Gorebreg
-
-**LS CM** JMK GR e.g. JMK CAT Fives JKA Shaak Ti
-Krumpch name Rikka light side Scarb Fir ShadyT Sleazy E Zoltar
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Adonis13 JasonTheAsian Ronzool Thiffy Gorebreg
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Blak3oakfield Bsville ClîtCommander12345 DarthSacaMando HarryTheHutt Jason Jivan Mukti lottatrotta69 Salacious Thumb Scrotie McBoogerballs Sixx Shooter Soko Tim Wilk79 Will Obi1
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Dannimadd Micahtron MrDusty Nearly Headless Nick NuMex Plagarian polarariel Stephman Darksipper Tenzin TheFoggy TheWildKarrde WWG1WG2PRISON
-
-</pre><p><a href="#" onclick="CopyToClipboard('kam-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 43 -> 163m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 47 -> 47m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 147 -> 310m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 105 -> 152m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 30 toons, 15 ships<pre id="kam-3-plan" style="display: none !important;">**phase 3: 3 Top -> 2 :star:**
-**phase 3: 2 Middle HOLD AT ZERO :star:**
-**phase 3: 2 Bottom -> 3 :star:**</pre><pre id="kam-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
-
-**GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Balakay Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn Jason Jason Krumpch Micahtron name Nearly Headless Nick polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**GR CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-Droguito HarryTheHutt lottatrotta69 Scrotie McBoogerballs Soko Wilk79
-
-**GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Berzerk Hobo JasonTheAsian lottatrotta69 Meetra Surik MrDusty NuMex Plagarian Salacious Thumb Sixx Shooter Stephman Darksipper Tenzin TheWildKarrde Tim
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Adonis13 Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-lottatrotta69
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Balakay Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason Jivan Mukti Krumpch name polarariel Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy Tim Will Obi1 Zoltar
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-NuMex
-
-**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
-Thiffy Gorebreg
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Gero Zurn Jason Meetra Surik WWG1WG2PRISON
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-Rikka light side Thiffy Gorebreg
-
-**LS CM** JKR e.g. JKR GMY HYoda BS Jolee
-DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Adonis13 Berzerk Hobo JasonTheAsian Rikka light side Ronzool TheWildKarrde
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-Adonis13 Berzerk Hobo JasonTheAsian Meetra Surik Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
-
-</pre><p><a href="#" onclick="CopyToClipboard('kam-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=4%20Top&tb=ls&d=squad+name&player-summary=on">4 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 79 -> 174m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 34 -> 34m</td><tr><td>4</td><td>4 Top</td><td><b>missions</b> 68 -> 68m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 132 -> 166m</td><tr><td>4</td><td>4 Top</td><td><b>deploy</b> 55 -> 123m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 37 toons, 60 ships<pre id="kam-4-plan" style="display: none !important;">**phase 4: 4 Top -> 1 :star:**
-**phase 4: 2 Middle -> 2 :star:**
-**phase 4: 3 Bottom -> 2 :star:**</pre><pre id="kam-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-Balakay Berzerk Hobo Bsville ClîtCommander12345 Dannimadd DarthSacaMando Delmon Ciiid'r Droguito Gero Zurn Jason Jason JasonTheAsian Jivan Mukti Krumpch lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scrotie McBoogerballs ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-Adonis13 Balakay Berzerk Hobo Blak3oakfield Bsville ClîtCommander12345 Dannimadd DarthSacaMando Droguito Gero Zurn HarryTheHutt Jason Jason Jivan Mukti Krumpch Meetra Surik Micahtron name Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian polarariel Rikka light side Ronzool Salacious Thumb Scarb Fir ShadyT Sixx Shooter Sleazy E Stephman Darksipper TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
-
-**GR CM** JMK GR e.g. JMK CAT Mace JKA R2-D2
-Balakay Blak3oakfield Bsville DarthSacaMando Jason Jason Krumpch Micahtron name polarariel Rikka light side Scarb Fir ShadyT Sleazy E TheFoggy Thiffy Gorebreg Will Obi1
-
-**GR CM** Padme e.g. Padme Ahsoka JKA GK Shaak Ti
-Adonis13 ClîtCommander12345 Dannimadd Droguito Gero Zurn JasonTheAsian Jivan Mukti Meetra Surik Nearly Headless Nick NuMex ObiJuan Keithnobi Plagarian Ronzool Salacious Thumb Scrotie McBoogerballs Soko Stephman Darksipper Tenzin TheWildKarrde Tim Wilk79 WWG1WG2PRISON Zoltar
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-Adonis13 Balakay Berzerk Hobo Bsville Dannimadd Gero Zurn Jason Jason Krumpch Meetra Surik Micahtron name Nearly Headless Nick ObiJuan Keithnobi Plagarian polarariel Rikka light side Salacious Thumb Scarb Fir ShadyT Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Tim Will Obi1 WWG1WG2PRISON Zoltar
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-lottatrotta69
-
-**KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-Balakay Berzerk Hobo ClîtCommander12345 Dannimadd DarthSacaMando Gero Zurn HarryTheHutt Jason Jason JasonTheAsian lottatrotta69 Meetra Surik Micahtron MrDusty name Nearly Headless Nick NuMex Plagarian polarariel Rikka light side Salacious Thumb Scarb Fir Sixx Shooter Sleazy E Stephman Darksipper Tenzin TheFoggy TheWildKarrde Thiffy Gorebreg Will Obi1 WWG1WG2PRISON Zoltar
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Balakay Bsville Delmon Ciiid'r Droguito Jason Krumpch name polarariel Rikka light side Scarb Fir Sleazy E TheFoggy Thiffy Gorebreg Tim Will Obi1
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
-Dannimadd Jivan Mukti Salacious Thumb Stephman Darksipper Tenzin
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Gero Zurn Jason Meetra Surik WWG1WG2PRISON
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-ShadyT
-
-**LS CM** JKR e.g. JKR GMY HYoda BS Jolee
-ClîtCommander12345 DarthSacaMando Kilum Natta MrDusty Scrotie McBoogerballs
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-Adonis13 Berzerk Hobo JasonTheAsian Micahtron Nearly Headless Nick ObiJuan Keithnobi Plagarian Ronzool TheWildKarrde
-
-</pre><p><a href="#" onclick="CopyToClipboard('kam-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>4 Top</td><td>1 &#11088; -- 217 to the next</td><tr><td>4</td><td>2 Middle</td><td>2 &#11088; -- 86 to the next</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 55 to the next</td></tbody>
-</table>
-<br/>
-<br/><textarea id="discordkam" style="display:none" rows="8" cols="40">
-**Estimated 21 :star:**
-
-**phase 1: active** 1 Top, 1 Middle, 1 Bottom
-phase 1: **missions** 1 Top 14 -> 14m
-phase 1: **missions** 1 Middle 60 -> 60m
-phase 1: **missions** 1 Bottom 62 -> 62m
-phase 1: **deploy** 1 Top 128 -> 142m
-phase 1: **deploy** 1 Middle 49 -> 109m
-phase 1: **deploy** 1 Bottom 118 -> 180m
-phase 1: remaining GP = 26 toons, 3 ships
-details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**
-
-**phase 2: active** 1 Middle, 2 Top, 2 Bottom
-phase 2: **missions** 1 Middle 55 -> 164m
-phase 2: **missions** 2 Top 24 -> 24m
-phase 2: **missions** 2 Bottom 65 -> 65m
-phase 2: **deploy** 1 Middle 93 -> 257m
-phase 2: **deploy** 2 Top 110 -> 134m
-phase 2: **deploy** 2 Bottom 55 -> 120m
-phase 2: remaining GP = 37 toons, 15 ships
-details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top -> 2 :star:**
-**phase 2: 1 Middle -> 3 :star:**
-**phase 2: 2 Bottom HOLD AT ZERO :star:**
-
-**phase 3: active** 2 Middle, 2 Bottom, 3 Top
-phase 3: **missions** 2 Middle 95 -> 95m
-phase 3: **missions** 2 Bottom 43 -> 163m
-phase 3: **missions** 3 Top 47 -> 47m
-phase 3: **deploy** 2 Bottom 147 -> 310m
-phase 3: **deploy** 3 Top 105 -> 152m
-phase 3: remaining GP = 30 toons, 15 ships
-details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 3 Top -> 2 :star:**
-**phase 3: 2 Middle HOLD AT ZERO :star:**
-**phase 3: 2 Bottom -> 3 :star:**
-
-**phase 4: active** 2 Middle, 3 Bottom, 4 Top
-phase 4: **missions** 2 Middle 79 -> 174m
-phase 4: **missions** 3 Bottom 34 -> 34m
-phase 4: **missions** 4 Top 68 -> 68m
-phase 4: **deploy** 3 Bottom 132 -> 166m
-phase 4: **deploy** 4 Top 55 -> 123m
-phase 4: remaining GP = 37 toons, 60 ships
-details: https://gorgatron1.github.io/brg/guild/lop/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 4 Top -> 1 :star:**
-**phase 4: 2 Middle -> 2 :star:**
-**phase 4: 3 Bottom -> 2 :star:**
-
-</textarea>
-<button onclick="copyText('discordkam')">Copy For Discord</button></div></div><br/>
-<font size="-2">Generated 2023-04-16 20:59:27 +0000</font>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2023-04-23 23:02:18 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -52,7 +52,7 @@ document.getElementById(id).style.display = 'none';
 }
 .column {
   float: left;
-  width: 33%;
+  width: 50%;
 }
 .row:after {
   content: "";
@@ -70,7 +70,7 @@ function copyText(name) {
 }
 </script>
 There are several models of activity or you can come up with a <a href="tb.html?tb=ls&d=squad+name&player-summary=on">plan manually with some assistance</a>.
-<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li><li><b>KAM Shards</b> is the same as <b>Decreasing</b> but it tries to force the TB to reach 3 Bottom to obtain KAM shards.</li></ul>
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
 Contact @gorgatron#3094 to tailor these assumptions.
 <br/>
 <img src="../../i/ls_geo_tb_labels.jpeg" width="500"/>
@@ -85,9 +85,9 @@ Contact @gorgatron#3094 to tailor these assumptions.
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 17 -> 17m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 79 -> 79m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 77 -> 77m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 125 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 30 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 103 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 87 toons, 27 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="optimal-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 17 -> 17m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 79 -> 79m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 78 -> 78m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 125 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 178 -> 257m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 42 -> 120m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 27 ships<pre id="optimal-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+**phase 1: 1 Middle -> 3 :star:**
+**phase 1: 1 Bottom -> 2 :star:**</pre><pre id="optimal-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
@@ -100,10 +100,10 @@ Lenders Quizan
 AnalkinSkyballer BB8 Byrd DLeviticus Docbones D2 Jace Kavgill Largie Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
 
 **Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-A Bail Writte SBR Bäne Carl Chim Chubler DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko MINI SeahawksRule Mr Bhaumik Qui Hanobi Santosh Sho Nuff skyCapt Wal Enetia Xian Thencal
+A Bail Writte SBR Bäne Carl Chim Chubler DE210 DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko MINI SeahawksRule Mr Bhaumik Qui Hanobi Santosh Sho Nuff skyCapt Wal Enetia Xian Thencal
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt The Great One US Wal Enetia Xian Thencal Zeech
+Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal Zeech
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
 Kreacher OBI  haaave
@@ -123,37 +123,75 @@ Amun Diin Bail Writte SBR Carl carnage007 Chubler Defenestrația DoubleA1977 Eeo
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 DPrice25 Maldorin MINI SeahawksRule
 
-**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-DE210 Soulhunter
-
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A AnalkinSkyballer BB8 Bäne Chim Dingleberries DLeviticus Jace JollyRoger99 Kavgill Maong Nolei Soulhunter Ventress Wannabee Zeech
+A AnalkinSkyballer BB8 Bäne Chim DE210 Dingleberries DLeviticus Jace JollyRoger99 Kavgill Maong Nolei Soulhunter Ventress Wannabee Zeech
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 58 -> 167m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 29 -> 29m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 92 -> 92m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 41 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 218 -> 310m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 2 toons, 111 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
-**phase 2: 1 Middle -> 2 :star:**
-**phase 2: 2 Bottom -> 3 :star:**</pre><pre id="optimal-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>1</td><td>1 Bottom</td><td>2 &#11088; -- 60 to the next</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 29 -> 29m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 149 -> 149m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 55 -> 55m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 105 -> 134m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 111 -> 260m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 65 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 44 toons, 47 ships<pre id="optimal-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
+**phase 2: 2 Middle -> 3 :star:**
+**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="optimal-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
+
+**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
+A AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
+
+**GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
+Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Kavgill Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
+
+**GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
+A Bäne Chim DE210 Dingleberries JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Zeech
+
+**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
+A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
+
+**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
+Amun Diin AnalkinSkyballer Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Koneko Largie Lenders Quizan Maldorin MINI SeahawksRule Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
+
+**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
+Kreacher OBI  haaave
+
+**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
+BB8 Carl Qui Hanobi
+
+**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
+Docbones D2 Largie Santosh
+
+**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
+A Kavgill Maong
+
+**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
+A DLeviticus Maong
+
+**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
+BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
+
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 99 -> 219m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 59 -> 59m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 63 -> 63m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 91 -> 310m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 32 -> 91m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 68 -> 131m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 61 toons, 120 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 3 Top HOLD AT ZERO :star:**
+**phase 3: 3 Middle HOLD AT ZERO :star:**
+**phase 3: 2 Bottom -> 3 :star:**</pre><pre id="optimal-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ahsoka
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal Zeech
+A Amun Diin AnalkinSkyballer BB8 Bäne Chim DE210 Dingleberries DPrice25 havok935 JollyRoger99 Kavgill Kreacher Maong MINI SeahawksRule Mr Bhaumik OBI  haaave Santosh Soulhunter The Great One US Zeech
 
 **Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
 Bail Writte SBR Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
 
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-A BB8 Chim Kavgill Maong Mr Bhaumik Santosh
-
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan MINI SeahawksRule Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal Zeech
+Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan MINI SeahawksRule Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
 OBI  haaave
 
+**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
+Carl
+
 **LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
 Docbones D2 Largie Santosh
+
+**LS CM** GAS e.g. GAS Rex Echo (501st), ARC Trooper, Fives
+A BB8 Chim
 
 **LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
 A AnalkinSkyballer Byrd Jace Kavgill Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
@@ -162,53 +200,18 @@ A AnalkinSkyballer Byrd Jace Kavgill Lex Skywalkers Maldorin Maong Nolei Ventres
 Amun Diin AnalkinSkyballer BB8 havok935 Kavgill Maong Mr Bhaumik
 
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Maldorin
+A AnalkinSkyballer Jace Maldorin Maong Nolei Ventress Wannabee
 
 **LS CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
-Chim DE210 Eeotchbay Kreacher RAGNAR777 Sho Nuff The Great One US Wal Enetia
+Bail Writte SBR Carl carnage007 Chim Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko Kreacher Largie Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A Bäne Carl carnage007 Chubler Defenestrația Dingleberries DLeviticus DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace JollyRoger99 Koneko Kreacher Lenders Quizan MINI SeahawksRule Nolei OBI  haaave Qui Hanobi skyCapt Soulhunter The Great One US Ventress Wannabee Xian Thencal Zeech
+Byrd Bäne carnage007 Chubler DE210 Defenestrația Dingleberries DLeviticus Eeotchbay Flacko Gäb Freezefiveoh Jace JollyRoger99 Koneko Kreacher Lenders Quizan Lex Skywalkers Maldorin MINI SeahawksRule Nolei OBI  haaave Qui Hanobi skyCapt Soulhunter The Great One US Ventress Wannabee Xian Thencal Zeech
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>2 &#11088; -- 90 to the next</td><tr><td>2</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 29 -> 99m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 143 -> 143m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 47 -> 47m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 116 -> 215m</td><tr><td>3</td><td>2 Middle</td><td><b>deploy</b> 117 -> 260m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 63 -> 110m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 40 toons, 36 ships<pre id="optimal-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
-**phase 3: 2 Middle -> 3 :star:**
-**phase 3: 3 Bottom HOLD AT ZERO :star:**</pre><pre id="optimal-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-A AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GR CM** JMK GR e.g. JMK CAT Mace Padme R2-D2
-Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Kavgill Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Wal Enetia Xian Thencal
-
-**GR CM** Padme e.g. Padme Shaak Ti, JKA GK R2-D2
-A Bäne Chim DE210 DoubleA1977 DPrice25 JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Ventress Wannabee Zeech
-
-**Jedi CM** JKL e.g. JKL GMY HYoda GK Aayla
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter Ventress Wannabee Wal Enetia Xian Thencal
-
-**KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A AnalkinSkyballer BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin AnalkinSkyballer Bail Writte SBR Carl carnage007 Chubler Defenestrația Dingleberries DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Kavgill Koneko Maldorin Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
-A Bäne Chim DE210 DoubleA1977 MINI SeahawksRule
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Docbones D2 Largie Santosh
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-Byrd Jace Lex Skywalkers Maong Nolei
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-BB8 DLeviticus JollyRoger99
-
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>3</td><td>3 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 59 -> 59m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 109 -> 109m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 42 -> 152m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 93 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 148 -> 257m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 69 -> 221m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 3 toons, 59 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 59 -> 150m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 110 -> 241m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 42 -> 42m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 67 -> 217m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 16 -> 257m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 179 -> 221m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 25 toons, 85 ships<pre id="optimal-4-plan" style="display: none !important;">**phase 4: 3 Top -> 3 :star:**
 **phase 4: 3 Middle -> 2 :star:**
 **phase 4: 3 Bottom -> 3 :star:**</pre><pre id="optimal-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
@@ -244,12 +247,12 @@ Amun Diin
 A BB8 Byrd DLeviticus Kavgill Lex Skywalkers Ventress Wannabee
 
 **LS CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
-Bäne DE210 Kreacher
+Bäne JollyRoger99 Kreacher
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
-</pre><p><a href="#" onclick="CopyToClipboard('optimal-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>4</td><td>3 Middle</td><td>2 &#11088; -- 121 to the next</td><tr><td>4</td><td>3 Bottom</td><td>3 &#11088;</td></tbody>
+</pre><p><a href="#" onclick="CopyToClipboard('optimal-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('optimal-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>3 &#11088;</td><tr><td>4</td><td>3 Middle</td><td>2 &#11088; -- 121 to the next</td><tr><td>4</td><td>3 Bottom</td><td>3 &#11088;</td></tbody>
 </table>
 <br/>
 <br/><textarea id="discordoptimal" style="display:none" rows="8" cols="40">
@@ -258,51 +261,52 @@ BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 **phase 1: active** 1 Top, 1 Middle, 1 Bottom
 phase 1: **missions** 1 Top 17 -> 17m
 phase 1: **missions** 1 Middle 79 -> 79m
-phase 1: **missions** 1 Bottom 77 -> 77m
+phase 1: **missions** 1 Bottom 78 -> 78m
 phase 1: **deploy** 1 Top 125 -> 142m
-phase 1: **deploy** 1 Middle 30 -> 109m
-phase 1: **deploy** 1 Bottom 103 -> 180m
-phase 1: remaining GP = 87 toons, 27 ships
+phase 1: **deploy** 1 Middle 178 -> 257m
+phase 1: **deploy** 1 Bottom 42 -> 120m
+phase 1: remaining GP = 0 toons, 27 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**
+**phase 1: 1 Middle -> 3 :star:**
+**phase 1: 1 Bottom -> 2 :star:**
 
-**phase 2: active** 1 Middle, 2 Top, 2 Bottom
-phase 2: **missions** 1 Middle 58 -> 167m
+**phase 2: active** 2 Top, 2 Middle, 2 Bottom
 phase 2: **missions** 2 Top 29 -> 29m
-phase 2: **missions** 2 Bottom 92 -> 92m
-phase 2: **deploy** 2 Top 41 -> 70m
-phase 2: **deploy** 2 Bottom 218 -> 310m
-phase 2: remaining GP = 2 toons, 111 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top HOLD AT ZERO :star:**
-**phase 2: 1 Middle -> 2 :star:**
-**phase 2: 2 Bottom -> 3 :star:**
+phase 2: **missions** 2 Middle 149 -> 149m
+phase 2: **missions** 2 Bottom 55 -> 55m
+phase 2: **deploy** 2 Top 105 -> 134m
+phase 2: **deploy** 2 Middle 111 -> 260m
+phase 2: **deploy** 2 Bottom 65 -> 120m
+phase 2: remaining GP = 44 toons, 47 ships
+details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 2: 2 Top -> 2 :star:**
+**phase 2: 2 Middle -> 3 :star:**
+**phase 2: 2 Bottom HOLD AT ZERO :star:**
 
-**phase 3: active** 2 Top, 2 Middle, 3 Bottom
-phase 3: **missions** 2 Top 29 -> 99m
-phase 3: **missions** 2 Middle 143 -> 143m
-phase 3: **missions** 3 Bottom 47 -> 47m
-phase 3: **deploy** 2 Top 116 -> 215m
-phase 3: **deploy** 2 Middle 117 -> 260m
-phase 3: **deploy** 3 Bottom 63 -> 110m
-phase 3: remaining GP = 40 toons, 36 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 2 Top -> 3 :star:**
-**phase 3: 2 Middle -> 3 :star:**
-**phase 3: 3 Bottom HOLD AT ZERO :star:**
+**phase 3: active** 2 Bottom, 3 Top, 3 Middle
+phase 3: **missions** 2 Bottom 99 -> 219m
+phase 3: **missions** 3 Top 59 -> 59m
+phase 3: **missions** 3 Middle 63 -> 63m
+phase 3: **deploy** 2 Bottom 91 -> 310m
+phase 3: **deploy** 3 Top 32 -> 91m
+phase 3: **deploy** 3 Middle 68 -> 131m
+phase 3: remaining GP = 61 toons, 120 ships
+details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=3%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
+**phase 3: 3 Top HOLD AT ZERO :star:**
+**phase 3: 3 Middle HOLD AT ZERO :star:**
+**phase 3: 2 Bottom -> 3 :star:**
 
 **phase 4: active** 3 Top, 3 Middle, 3 Bottom
-phase 4: **missions** 3 Top 59 -> 59m
-phase 4: **missions** 3 Middle 109 -> 109m
-phase 4: **missions** 3 Bottom 42 -> 152m
-phase 4: **deploy** 3 Top 93 -> 152m
-phase 4: **deploy** 3 Middle 148 -> 257m
-phase 4: **deploy** 3 Bottom 69 -> 221m
-phase 4: remaining GP = 3 toons, 59 ships
+phase 4: **missions** 3 Top 59 -> 150m
+phase 4: **missions** 3 Middle 110 -> 241m
+phase 4: **missions** 3 Bottom 42 -> 42m
+phase 4: **deploy** 3 Top 67 -> 217m
+phase 4: **deploy** 3 Middle 16 -> 257m
+phase 4: **deploy** 3 Bottom 179 -> 221m
+phase 4: remaining GP = 25 toons, 85 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Top -> 3 :star:**
 **phase 4: 3 Middle -> 2 :star:**
 **phase 4: 3 Bottom -> 3 :star:**
 
@@ -317,9 +321,9 @@ details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=3%2520Middle,%25
     <th>Action</th>
     </tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 17 -> 17m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 79 -> 79m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 77 -> 77m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 125 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 30 -> 109m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 103 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 87 toons, 27 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 17 -> 17m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 79 -> 79m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 78 -> 78m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 125 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 178 -> 257m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 42 -> 120m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 27 ships<pre id="decreasing-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
+**phase 1: 1 Middle -> 3 :star:**
+**phase 1: 1 Bottom -> 2 :star:**</pre><pre id="decreasing-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
@@ -332,10 +336,10 @@ Lenders Quizan
 AnalkinSkyballer BB8 Byrd DLeviticus Docbones D2 Jace Kavgill Largie Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
 
 **Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-A Bail Writte SBR Bäne Carl Chim Chubler DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko MINI SeahawksRule Mr Bhaumik Qui Hanobi Santosh Sho Nuff skyCapt Wal Enetia Xian Thencal
+A Bail Writte SBR Bäne Carl Chim Chubler DE210 DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko MINI SeahawksRule Mr Bhaumik Qui Hanobi Santosh Sho Nuff skyCapt Wal Enetia Xian Thencal
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt The Great One US Wal Enetia Xian Thencal Zeech
+Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal Zeech
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
 Kreacher OBI  haaave
@@ -355,250 +359,15 @@ Amun Diin Bail Writte SBR Carl carnage007 Chubler Defenestrația DoubleA1977 Eeo
 **LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
 DPrice25 Maldorin MINI SeahawksRule
 
-**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-DE210 Soulhunter
-
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A AnalkinSkyballer BB8 Bäne Chim Dingleberries DLeviticus Jace JollyRoger99 Kavgill Maong Nolei Soulhunter Ventress Wannabee Zeech
+A AnalkinSkyballer BB8 Bäne Chim DE210 Dingleberries DLeviticus Jace JollyRoger99 Kavgill Maong Nolei Soulhunter Ventress Wannabee Zeech
 
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=1%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 2 Bottom</a></td><tr><td>2</td><td>1 Middle</td><td><b>missions</b> 66 -> 175m</td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 28 -> 28m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 88 -> 88m</td><tr><td>2</td><td>1 Middle</td><td><b>deploy</b> 82 -> 257m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 42 -> 70m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 129 -> 217m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 103 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
-**phase 2: 1 Middle -> 3 :star:**
-**phase 2: 2 Bottom -> 2 :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ahsoka
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal Zeech
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-Bail Writte SBR Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
-
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-A BB8 Chim Kavgill Maong Mr Bhaumik Santosh
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan MINI SeahawksRule Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal Zeech
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-OBI  haaave
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Docbones D2 Largie Santosh
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-A AnalkinSkyballer Byrd Jace Kavgill Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Amun Diin AnalkinSkyballer BB8 havok935 Kavgill Maong Mr Bhaumik
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-Maldorin
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
-Chim DE210 Eeotchbay Kreacher RAGNAR777 Sho Nuff The Great One US Wal Enetia
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A Bäne Carl carnage007 Chubler Defenestrația Dingleberries DLeviticus DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace JollyRoger99 Koneko Kreacher Lenders Quizan MINI SeahawksRule Nolei OBI  haaave Qui Hanobi skyCapt Soulhunter The Great One US Ventress Wannabee Xian Thencal Zeech
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td>2 &#11088; -- 93 to the next</td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 3 Bottom</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 28 -> 98m</td><tr><td>3</td><td>2 Middle</td><td><b>missions</b> 95 -> 95m</td><tr><td>3</td><td>3 Bottom</td><td><b>missions</b> 43 -> 43m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 117 -> 215m</td><tr><td>3</td><td>3 Bottom</td><td><b>deploy</b> 178 -> 221m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 24 toons, 22 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
-**phase 3: 2 Middle HOLD AT ZERO :star:**
-**phase 3: 3 Bottom -> 3 :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-A AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GR CM** JMK GR e.g. JMK CAT Mace Padme R2-D2
-Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Kavgill Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Wal Enetia Xian Thencal
-
-**GR CM** Padme e.g. Padme Shaak Ti, JKA GK R2-D2
-A Bäne Chim DE210 DoubleA1977 DPrice25 JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Ventress Wannabee Zeech
-
-**Jedi CM** JKL e.g. JKL GMY HYoda GK Aayla
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter Ventress Wannabee Wal Enetia Xian Thencal
-
-**KAM** KAM Squad e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A AnalkinSkyballer BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin AnalkinSkyballer Bail Writte SBR Carl carnage007 Chubler Defenestrația Dingleberries DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Kavgill Koneko Maldorin Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
-A Bäne Chim DE210 DoubleA1977 MINI SeahawksRule
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Docbones D2 Largie Santosh
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-Byrd Jace Lex Skywalkers Maong Nolei
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-BB8 DLeviticus JollyRoger99
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>2 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>3 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=2%20Middle,%204%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 4 Bottom</a></td><tr><td>4</td><td>2 Middle</td><td><b>missions</b> 143 -> 238m</td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 54 -> 54m</td><tr><td>4</td><td>4 Bottom</td><td><b>missions</b> 18 -> 18m</td><tr><td>4</td><td>2 Middle</td><td><b>deploy</b> 22 -> 260m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 98 -> 152m</td><tr><td>4</td><td>4 Bottom</td><td><b>deploy</b> 100 -> 118m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 71 toons, 35 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
-**phase 4: 2 Middle -> 3 :star:**
-**phase 4: 4 Bottom -> 1 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
-A AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Kavgill Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
-
-**GR CM** Padme e.g. Padme R2-D2 JKA GK C-3PO
-A Bäne Chim DE210 DPrice25 JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Zeech
-
-**GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A Bäne Dingleberries JollyRoger99 Kreacher MINI SeahawksRule Soulhunter Zeech
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt The Great One US Wal Enetia Xian Thencal
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca Chewpio Old Ben
-A Bäne MINI SeahawksRule
-
-**LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
-Carl Qui Hanobi
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Docbones D2 Largie Santosh
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-AnalkinSkyballer Byrd Jace Kavgill Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
-
-**LS CM** JKR e.g. JKR GMY HYoda BS Jolee
-BB8 carnage007 Chubler DoubleA1977 Eeotchbay Fluffy the Destroyer ICEU420 Jace Kavgill Koneko Kreacher Maong Mr Bhaumik Nolei Sho Nuff skyCapt Soulhunter Ventress Wannabee Wal Enetia Xian Thencal
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-AnalkinSkyballer DLeviticus Maldorin
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
-
-</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>4</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>4</td><td>4 Bottom</td><td>1 &#11088; -- 151 to the next</td></tbody>
-</table>
-<br/>
-<br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
-**Estimated 23 :star:**
-
-**phase 1: active** 1 Top, 1 Middle, 1 Bottom
-phase 1: **missions** 1 Top 17 -> 17m
-phase 1: **missions** 1 Middle 79 -> 79m
-phase 1: **missions** 1 Bottom 77 -> 77m
-phase 1: **deploy** 1 Top 125 -> 142m
-phase 1: **deploy** 1 Middle 30 -> 109m
-phase 1: **deploy** 1 Bottom 103 -> 180m
-phase 1: remaining GP = 87 toons, 27 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle HOLD AT ZERO :star:**
-**phase 1: 1 Bottom -> 3 :star:**
-
-**phase 2: active** 1 Middle, 2 Top, 2 Bottom
-phase 2: **missions** 1 Middle 66 -> 175m
-phase 2: **missions** 2 Top 28 -> 28m
-phase 2: **missions** 2 Bottom 88 -> 88m
-phase 2: **deploy** 1 Middle 82 -> 257m
-phase 2: **deploy** 2 Top 42 -> 70m
-phase 2: **deploy** 2 Bottom 129 -> 217m
-phase 2: remaining GP = 0 toons, 103 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=1%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top HOLD AT ZERO :star:**
-**phase 2: 1 Middle -> 3 :star:**
-**phase 2: 2 Bottom -> 2 :star:**
-
-**phase 3: active** 2 Top, 2 Middle, 3 Bottom
-phase 3: **missions** 2 Top 28 -> 98m
-phase 3: **missions** 2 Middle 95 -> 95m
-phase 3: **missions** 3 Bottom 43 -> 43m
-phase 3: **deploy** 2 Top 117 -> 215m
-phase 3: **deploy** 3 Bottom 178 -> 221m
-phase 3: remaining GP = 24 toons, 22 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=2%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 2 Top -> 3 :star:**
-**phase 3: 2 Middle HOLD AT ZERO :star:**
-**phase 3: 3 Bottom -> 3 :star:**
-
-**phase 4: active** 2 Middle, 3 Top, 4 Bottom
-phase 4: **missions** 2 Middle 143 -> 238m
-phase 4: **missions** 3 Top 54 -> 54m
-phase 4: **missions** 4 Bottom 18 -> 18m
-phase 4: **deploy** 2 Middle 22 -> 260m
-phase 4: **deploy** 3 Top 98 -> 152m
-phase 4: **deploy** 4 Bottom 100 -> 118m
-phase 4: remaining GP = 71 toons, 35 ships
-details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=2%2520Middle,%25204%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 3 Top -> 2 :star:**
-**phase 4: 2 Middle -> 3 :star:**
-**phase 4: 4 Bottom -> 1 :star:**
-
-</textarea>
-<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div><div class="column"><h2>KAM Shards Estimated: 23 &#11088;</h2>
-<br/>
-<table style="margin: 10px">
-<thead>
-    <tr>
-    <th>Phase</th>
-    <th>Section</th>
-    <th>Action</th>
-    </tr>
-</thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=1%20Top&tb=ls&d=squad+name&player-summary=on">1 Top</a> <a href="tb.html?c=1%20Middle,%201%20Bottom&tb=ls&d=squad+name&player-summary=on">1 Middle, 1 Bottom</a></td><tr><td>1</td><td>1 Top</td><td><b>missions</b> 17 -> 17m</td><tr><td>1</td><td>1 Middle</td><td><b>missions</b> 79 -> 79m</td><tr><td>1</td><td>1 Bottom</td><td><b>missions</b> 77 -> 77m</td><tr><td>1</td><td>1 Top</td><td><b>deploy</b> 125 -> 142m</td><tr><td>1</td><td>1 Middle</td><td><b>deploy</b> 88 -> 167m</td><tr><td>1</td><td>1 Bottom</td><td><b>deploy</b> 103 -> 180m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 29 toons, 27 ships<pre id="kam-1-plan" style="display: none !important;">**phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle -> 2 :star:**
-**phase 1: 1 Bottom -> 3 :star:**</pre><pre id="kam-1-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
-A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
-
-**Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
-A Amun Diin Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal Zeech
-
-**Jedi CM** JKR e.g. JKR GMY GAS BS Jolee
-Lenders Quizan
-
-**Jedi CM** JMK Jedi e.g. JMK GAS GMY Aayla QGJ
-AnalkinSkyballer BB8 Byrd DLeviticus Docbones D2 Jace Kavgill Largie Lex Skywalkers Maldorin Maong Nolei Ventress Wannabee
-
-**Jedi CM** JMLS e.g. JMLS GAS Jolee BS JKR
-A Bail Writte SBR Bäne Carl Chim Chubler DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko MINI SeahawksRule Mr Bhaumik Qui Hanobi Santosh Sho Nuff skyCapt Wal Enetia Xian Thencal
-
-**LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt The Great One US Wal Enetia Xian Thencal Zeech
-
-**LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-Kreacher OBI  haaave
-
-**LS CM** Finn e.g. Finn RT RH Finn, RH Poe, Rey
-Docbones D2 Largie Santosh
-
-**LS CM** GAS e.g. GAS Rex Echo (501st), ARC Trooper, Fives
-Kreacher OBI  haaave The Great One US
-
-**LS CM** GL Rey e.g. Rey Chewbacca GK RH Poe, RH Finn
-A AnalkinSkyballer Byrd DPrice25 Jace Kavgill Lex Skywalkers Maldorin Maong MINI SeahawksRule Nolei Ventress Wannabee
-
-**LS CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
-Amun Diin Bail Writte SBR Carl carnage007 Chubler Defenestrația DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Lenders Quizan Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Wal Enetia Xian Thencal
-
-**LS CM** JTR e.g. JTR BB-8 C-3PO R2-D2 Finn
-DPrice25 Maldorin MINI SeahawksRule
-
-**LS CM** Padme e.g. Padme Ahsoka JKA GK C-3PO
-DE210 Soulhunter
-
-**LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
-BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
-
-**LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A AnalkinSkyballer BB8 Bäne Chim Dingleberries DLeviticus Jace JollyRoger99 Kavgill Maong Nolei Soulhunter Ventress Wannabee Zeech
-
-</pre><p><a href="#" onclick="CopyToClipboard('kam-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td>2 &#11088; -- 90 to the next</td><tr><td>1</td><td>1 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 28 -> 28m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 144 -> 144m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 53 -> 53m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 106 -> 134m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 116 -> 260m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 67 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 28 toons, 39 ships<pre id="kam-2-plan" style="display: none !important;">**phase 2: 2 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-1-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-1-missions'); return false;">Copy Missions</a></p></td><tr><td>1</td><td>1 Top</td><td>3 &#11088;</td><tr><td>1</td><td>1 Middle</td><td>3 &#11088;</td><tr><td>1</td><td>1 Bottom</td><td>2 &#11088; -- 60 to the next</td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=2%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Middle, 2 Bottom</a></td><tr><td>2</td><td>2 Top</td><td><b>missions</b> 28 -> 28m</td><tr><td>2</td><td>2 Middle</td><td><b>missions</b> 143 -> 143m</td><tr><td>2</td><td>2 Bottom</td><td><b>missions</b> 53 -> 53m</td><tr><td>2</td><td>2 Top</td><td><b>deploy</b> 42 -> 70m</td><tr><td>2</td><td>2 Middle</td><td><b>deploy</b> 117 -> 260m</td><tr><td>2</td><td>2 Bottom</td><td><b>deploy</b> 67 -> 120m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 27 toons, 103 ships<pre id="decreasing-2-plan" style="display: none !important;">**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 2 Middle -> 3 :star:**
-**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="kam-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+**phase 2: 2 Bottom HOLD AT ZERO :star:**</pre><pre id="decreasing-2-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **GAS/Ahsoka** GAS Special e.g. GAS Ahsoka
@@ -607,11 +376,8 @@ A AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler D
 **GR CM** JMK GR e.g. JMK CAT Fives Padme Shaak Ti
 Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace Kavgill Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
 
-**GR CM** Padme e.g. Padme Fives JKA GK R2-D2
-DE210
-
 **GR CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
-A Bäne Chim Dingleberries JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Zeech
+A Bäne Chim DE210 Dingleberries JollyRoger99 Kreacher MINI SeahawksRule OBI  haaave Soulhunter The Great One US Zeech
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ezra
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lex Skywalkers Maldorin Maong MINI SeahawksRule Mr Bhaumik Nolei OBI  haaave Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
@@ -637,9 +403,9 @@ A DLeviticus Maong
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td>2 &#11088; -- 81 to the next</td><tr><td>2</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 95 -> 215m</td><tr><td>3</td><td>3 Top</td><td><b>missions</b> 54 -> 54m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 57 -> 57m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 95 -> 310m</td><tr><td>3</td><td>3 Top</td><td><b>deploy</b> 98 -> 152m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 74 -> 131m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 33 toons, 41 ships<pre id="kam-3-plan" style="display: none !important;">**phase 3: 3 Top -> 2 :star:**
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-2-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-2-missions'); return false;">Copy Missions</a></p></td><tr><td>2</td><td>2 Top</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 Middle</td><td>3 &#11088;</td><tr><td>2</td><td>2 Bottom</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=2%20Top&tb=ls&d=squad+name&player-summary=on">2 Top</a> <a href="tb.html?c=3%20Middle,%202%20Bottom&tb=ls&d=squad+name&player-summary=on">2 Bottom, 3 Middle</a></td><tr><td>3</td><td>2 Top</td><td><b>missions</b> 28 -> 98m</td><tr><td>3</td><td>2 Bottom</td><td><b>missions</b> 95 -> 215m</td><tr><td>3</td><td>3 Middle</td><td><b>missions</b> 58 -> 58m</td><tr><td>3</td><td>2 Top</td><td><b>deploy</b> 117 -> 215m</td><tr><td>3</td><td>2 Bottom</td><td><b>deploy</b> 95 -> 310m</td><tr><td>3</td><td>3 Middle</td><td><b>deploy</b> 73 -> 131m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 34 toons, 22 ships<pre id="decreasing-3-plan" style="display: none !important;">**phase 3: 2 Top -> 3 :star:**
 **phase 3: 3 Middle HOLD AT ZERO :star:**
-**phase 3: 2 Bottom -> 3 :star:**</pre><pre id="kam-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+**phase 3: 2 Bottom -> 3 :star:**</pre><pre id="decreasing-3-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **Jedi CM** JKL e.g. JKL GMY HYoda Old Ben, Ahsoka
@@ -649,10 +415,10 @@ A Amun Diin AnalkinSkyballer BB8 Bäne Chim DE210 Dingleberries DPrice25 havok93
 Bail Writte SBR Byrd Carl carnage007 Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 Jace Koneko Largie Lenders Quizan Lex Skywalkers Maldorin Nolei Qui Hanobi RAGNAR777 Sho Nuff skyCapt Ventress Wannabee Wal Enetia Xian Thencal
 
 **LS CM** CLS e.g. CLS Han Chewbacca Chewpio C-3PO
-Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan MINI SeahawksRule Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Wal Enetia Xian Thencal
+Amun Diin Bail Writte SBR Bäne Carl carnage007 Chim Chubler DE210 Defenestrația Dingleberries DoubleA1977 DPrice25 Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Koneko Largie Lenders Quizan MINI SeahawksRule Mr Bhaumik Qui Hanobi RAGNAR777 Sho Nuff skyCapt Soulhunter Wal Enetia Xian Thencal
 
 **LS CM** CLS-Alt e.g. CLS Han Chewbacca R2-D2 C-3PO
-OBI  haaave Soulhunter
+OBI  haaave
 
 **LS CM** Clones e.g. Rex Echo (501st), ARC Trooper, Cody Fives
 Carl
@@ -673,7 +439,7 @@ Amun Diin AnalkinSkyballer BB8 havok935 Kavgill Maong Mr Bhaumik
 A AnalkinSkyballer Jace Maldorin Maong Nolei Ventress Wannabee
 
 **LS CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
-Bail Writte SBR Carl carnage007 Chim Chubler DE210 Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko Kreacher Largie Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal
+Bail Writte SBR Carl carnage007 Chim Chubler Defenestrația DLeviticus Docbones D2 DoubleA1977 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh ICEU420 JollyRoger99 Koneko Kreacher Largie Qui Hanobi RAGNAR777 Santosh Sho Nuff skyCapt Soulhunter The Great One US Wal Enetia Xian Thencal
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
@@ -681,9 +447,9 @@ BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 **LS CM** Shaak Ti e.g. Shaak Ti, Rex Echo (501st), ARC Trooper, Fives
 Byrd Bäne carnage007 Chubler DE210 Defenestrația Dingleberries DLeviticus Eeotchbay Flacko Gäb Freezefiveoh Jace JollyRoger99 Koneko Kreacher Lenders Quizan Lex Skywalkers Maldorin MINI SeahawksRule Nolei OBI  haaave Qui Hanobi skyCapt Soulhunter The Great One US Ventress Wannabee Xian Thencal Zeech
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=4%20Top&tb=ls&d=squad+name&player-summary=on">4 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 1 -> 132m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>4 Top</td><td><b>missions</b> 79 -> 79m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 182 -> 221m</td><tr><td>4</td><td>4 Top</td><td><b>deploy</b> 44 -> 123m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 11 toons, 89 ships<pre id="kam-4-plan" style="display: none !important;">**phase 4: 4 Top -> 1 :star:**
-**phase 4: 3 Middle -> 1 :star:**
-**phase 4: 3 Bottom -> 3 :star:**</pre><pre id="kam-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-3-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-3-missions'); return false;">Copy Missions</a></p></td><tr><td>3</td><td>2 Top</td><td>3 &#11088;</td><tr><td>3</td><td>3 Middle</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 Bottom</td><td>3 &#11088;</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> <a href="tb.html?c=3%20Top&tb=ls&d=squad+name&player-summary=on">3 Top</a> <a href="tb.html?c=3%20Middle,%203%20Bottom&tb=ls&d=squad+name&player-summary=on">3 Middle, 3 Bottom</a></td><tr><td>4</td><td>3 Top</td><td><b>missions</b> 54 -> 54m</td><tr><td>4</td><td>3 Middle</td><td><b>missions</b> 101 -> 232m</td><tr><td>4</td><td>3 Bottom</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 Top</td><td><b>deploy</b> 98 -> 152m</td><tr><td>4</td><td>3 Middle</td><td><b>deploy</b> 25 -> 257m</td><tr><td>4</td><td>3 Bottom</td><td><b>deploy</b> 127 -> 166m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 41 toons, 35 ships<pre id="decreasing-4-plan" style="display: none !important;">**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**</pre><pre id="decreasing-4-missions" style="display: none !important;">**Fleet CM** Negotiator e.g. Negotiator Anakin's Eta-2, Ahsoka's SF, Umbaran SF, Plo's SF, Clone Sergeant's ARC-170, Rex's ARC-170
 A Amun Diin AnalkinSkyballer Bail Writte SBR BB8 Byrd Bäne Carl carnage007 Chim Chubler DE210 Dingleberries DLeviticus Docbones D2 DoubleA1977 DPrice25 Eeotchbay Flacko Gäb Fluffy the Destroyer Freezefiveoh havok935 ICEU420 Jace JollyRoger99 Kavgill Koneko Kreacher Largie Lenders Quizan Lex Skywalkers Maldorin Maong Mr Bhaumik Nolei RAGNAR777 Sho Nuff skyCapt Soulhunter The Great One US Ventress Wannabee Wal Enetia Xian Thencal Zeech
 
 **GR Jedi CM** GR Jedi e.g. JMK GK GAS Ahsoka GMY
@@ -717,69 +483,70 @@ Amun Diin
 A BB8 Byrd DLeviticus Kavgill Lex Skywalkers Ventress Wannabee
 
 **LS CM** Padme e.g. Padme Ahsoka JKA GK R2-D2
-Bäne DE210 Kreacher
+Bäne JollyRoger99 Kreacher
 
 **LS CM** ROLO e.g. ROLO Cpt Solo, Han Chewpio Lando
 BB8 Byrd DLeviticus Docbones D2 JollyRoger99 Lex Skywalkers Santosh
 
-</pre><p><a href="#" onclick="CopyToClipboard('kam-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('kam-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>4 Top</td><td>1 &#11088; -- 217 to the next</td><tr><td>4</td><td>3 Middle</td><td>1 &#11088; -- 125 to the next</td><tr><td>4</td><td>3 Bottom</td><td>3 &#11088;</td></tbody>
+</pre><p><a href="#" onclick="CopyToClipboard('decreasing-4-plan'); return false;">Copy Plan</a> | <a href="#" onclick="CopyToClipboard('decreasing-4-missions'); return false;">Copy Missions</a></p></td><tr><td>4</td><td>3 Top</td><td>2 &#11088; -- 65 to the next</td><tr><td>4</td><td>3 Middle</td><td>2 &#11088; -- 121 to the next</td><tr><td>4</td><td>3 Bottom</td><td>2 &#11088; -- 55 to the next</td></tbody>
 </table>
 <br/>
-<br/><textarea id="discordkam" style="display:none" rows="8" cols="40">
+<br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
 **Estimated 23 :star:**
 
 **phase 1: active** 1 Top, 1 Middle, 1 Bottom
 phase 1: **missions** 1 Top 17 -> 17m
 phase 1: **missions** 1 Middle 79 -> 79m
-phase 1: **missions** 1 Bottom 77 -> 77m
+phase 1: **missions** 1 Bottom 78 -> 78m
 phase 1: **deploy** 1 Top 125 -> 142m
-phase 1: **deploy** 1 Middle 88 -> 167m
-phase 1: **deploy** 1 Bottom 103 -> 180m
-phase 1: remaining GP = 29 toons, 27 ships
+phase 1: **deploy** 1 Middle 178 -> 257m
+phase 1: **deploy** 1 Bottom 42 -> 120m
+phase 1: remaining GP = 0 toons, 27 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=1%2520Middle,%25201%2520Bottom&tb=ls&d=squad+name&player-summary=on
 **phase 1: 1 Top -> 3 :star:**
-**phase 1: 1 Middle -> 2 :star:**
-**phase 1: 1 Bottom -> 3 :star:**
+**phase 1: 1 Middle -> 3 :star:**
+**phase 1: 1 Bottom -> 2 :star:**
 
 **phase 2: active** 2 Top, 2 Middle, 2 Bottom
 phase 2: **missions** 2 Top 28 -> 28m
-phase 2: **missions** 2 Middle 144 -> 144m
+phase 2: **missions** 2 Middle 143 -> 143m
 phase 2: **missions** 2 Bottom 53 -> 53m
-phase 2: **deploy** 2 Top 106 -> 134m
-phase 2: **deploy** 2 Middle 116 -> 260m
+phase 2: **deploy** 2 Top 42 -> 70m
+phase 2: **deploy** 2 Middle 117 -> 260m
 phase 2: **deploy** 2 Bottom 67 -> 120m
-phase 2: remaining GP = 28 toons, 39 ships
+phase 2: remaining GP = 27 toons, 103 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=2%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 2: 2 Top -> 2 :star:**
+**phase 2: 2 Top HOLD AT ZERO :star:**
 **phase 2: 2 Middle -> 3 :star:**
 **phase 2: 2 Bottom HOLD AT ZERO :star:**
 
-**phase 3: active** 2 Bottom, 3 Top, 3 Middle
+**phase 3: active** 2 Top, 2 Bottom, 3 Middle
+phase 3: **missions** 2 Top 28 -> 98m
 phase 3: **missions** 2 Bottom 95 -> 215m
-phase 3: **missions** 3 Top 54 -> 54m
-phase 3: **missions** 3 Middle 57 -> 57m
+phase 3: **missions** 3 Middle 58 -> 58m
+phase 3: **deploy** 2 Top 117 -> 215m
 phase 3: **deploy** 2 Bottom 95 -> 310m
-phase 3: **deploy** 3 Top 98 -> 152m
-phase 3: **deploy** 3 Middle 74 -> 131m
-phase 3: remaining GP = 33 toons, 41 ships
+phase 3: **deploy** 3 Middle 73 -> 131m
+phase 3: remaining GP = 34 toons, 22 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=3%2520Middle,%25202%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 3: 3 Top -> 2 :star:**
+**phase 3: 2 Top -> 3 :star:**
 **phase 3: 3 Middle HOLD AT ZERO :star:**
 **phase 3: 2 Bottom -> 3 :star:**
 
-**phase 4: active** 3 Middle, 3 Bottom, 4 Top
-phase 4: **missions** 3 Middle 1 -> 132m
+**phase 4: active** 3 Top, 3 Middle, 3 Bottom
+phase 4: **missions** 3 Top 54 -> 54m
+phase 4: **missions** 3 Middle 101 -> 232m
 phase 4: **missions** 3 Bottom 39 -> 39m
-phase 4: **missions** 4 Top 79 -> 79m
-phase 4: **deploy** 3 Bottom 182 -> 221m
-phase 4: **deploy** 4 Top 44 -> 123m
-phase 4: remaining GP = 11 toons, 89 ships
+phase 4: **deploy** 3 Top 98 -> 152m
+phase 4: **deploy** 3 Middle 25 -> 257m
+phase 4: **deploy** 3 Bottom 127 -> 166m
+phase 4: remaining GP = 41 toons, 35 ships
 details: https://gorgatron1.github.io/brg/guild/dsr/tb.html%3Fc=3%2520Middle,%25203%2520Bottom&tb=ls&d=squad+name&player-summary=on
-**phase 4: 4 Top -> 1 :star:**
-**phase 4: 3 Middle -> 1 :star:**
-**phase 4: 3 Bottom -> 3 :star:**
+**phase 4: 3 Top -> 2 :star:**
+**phase 4: 3 Middle -> 2 :star:**
+**phase 4: 3 Bottom -> 2 :star:**
 
 </textarea>
-<button onclick="copyText('discordkam')">Copy For Discord</button></div></div><br/>
-<font size="-2">Generated 2023-04-16 21:05:35 +0000</font>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2023-04-23 23:08:22 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
