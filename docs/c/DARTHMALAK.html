@@ -372,14 +372,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1106 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Gnawing Terror</td><td>Darth Malak Taunts for 1 turn whenever an enemy is inflicted with Shock or Fear. Sith enemies can't gain bonus Turn Meter (excludes raid bosses and Galactic Legends). At the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded.</td><td>1041</td><td>94%</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_darthmalak.png" style="width: 30px" /> Jaws of Life</td><td>Darth Malak takes reduced damage from percent Health damage effects, and at the start of battle he loses all Protection and gains that much Max Health.<br/><br/>Darth Malak gains 35% Critical Avoidance, Health Steal, Tenacity, and Defense while he has less than 75% Health, doubled while he has less than 50% Health, and tripled while he has less than 25% Health.<br/><br/>The first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset.</td><td>1041</td><td>94%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1098 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Gnawing Terror</td><td>Darth Malak Taunts for 1 turn whenever an enemy is inflicted with Shock or Fear. Sith enemies can't gain bonus Turn Meter (excludes raid bosses and Galactic Legends). At the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded.</td><td>1031</td><td>94%</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_darthmalak.png" style="width: 30px" /> Jaws of Life</td><td>Darth Malak takes reduced damage from percent Health damage effects, and at the start of battle he loses all Protection and gains that much Max Health.<br/><br/>Darth Malak gains 35% Critical Avoidance, Health Steal, Tenacity, and Defense while he has less than 75% Health, doubled while he has less than 50% Health, and tripled while he has less than 25% Health.<br/><br/>The first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset.</td><td>1035</td><td>94%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 6, 0, 1, 0, 1, 2, 6, 22, 25, 17, 56, 57, 8, 25, 28, 75, 58, 353, 77, 269, 18, 2 ],
+    y: [ 5, 0, 1, 0, 1, 2, 7, 22, 26, 17, 53, 57, 8, 25, 28, 74, 58, 351, 75, 269, 17, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.5424954792043399, 0.5424954792043399, 0.6329113924050632, 0.6329113924050632, 0.7233273056057865, 0.9041591320072332, 1.446654611211573, 3.435804701627486, 5.69620253164557, 7.233273056057866, 12.296564195298373, 17.450271247739604, 18.17359855334539, 20.43399638336347, 22.965641952983724, 29.746835443037973, 34.99095840867993, 66.90777576853526, 73.86980108499095, 98.19168173598553, 99.81916817359854, 99.99999999999999 ],
+    y: [ 0.45537340619307837, 0.45537340619307837, 0.546448087431694, 0.546448087431694, 0.6375227686703097, 0.819672131147541, 1.4571948998178508, 3.4608378870673953, 5.828779599271403, 7.3770491803278695, 12.2040072859745, 17.395264116575593, 18.123861566484518, 20.40072859744991, 22.950819672131146, 29.690346083788704, 34.97267759562841, 66.93989071038251, 73.77049180327869, 98.26958105646631, 99.81785063752278, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -399,5 +399,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-27 04:52:12 +0000</font>
+<font size="-2">Generated 2023-04-27 05:05:43 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
