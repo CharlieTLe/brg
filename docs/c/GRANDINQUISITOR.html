@@ -242,12 +242,12 @@ Plotly.newPlot('mc-0', traces, layout)
 - Healers and Supports: Foresight
 - Tanks: Taunt<br/><br/><b>Special:</b> While in Territory Wars: While Grand Inquisitor is active, whenever an enemy loses Purge, they regain it at the end of the turn. On their turn, Inquisitorius allies can ignore Taunt to target an enemy with 6 stacks of Purge.</td><td>44</td><td>36%</td></tr><tr><td data-order="uniqueskill_GRANDINQUISITOR01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_compassionleavesatrail.png" style="width: 30px" /> Compassion Leaves a Trail</td><td>For each Inquisitorius ally, enemies with Purge have -10% Defense and -5 Speed.<br/><br/>If an enemy evades an Inquisitorius ally's attack, all other enemies take true damage and dispel Foresight from themselves.<br/><br/>The first time each enemy reaches 6 stacks of Purge, Grand Inquisitor takes a bonus turn and gains 10% Critical Avoidance, Health Steal, and Offense and 5 Speed until the end of the encounter (stacking, max 6). These bonuses are doubled if the enemy is Jedi.<br/><br/><b>Special:</b> While in Territory Wars: Whenever Jedi enemies with Purge gain Protection Up, they take damage equal to 25% of their Max Health at the end of that turn. This damage can't defeat enemies. If an enemy with 6 stacks of Purge were to reduce Grand Inquisitor to 1% Health, he recovers 100% Health and Protection (limit once per enemy).</td><td>24</td><td>20%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 2, 0, 0, 4, 1, 1, 0, 1, 1, 4, 2, 11, 2, 82, 9, 1 ],
+    y: [ 0, 0, 0, 0, 0, 0, 2, 0, 0, 4, 0, 2, 0, 1, 1, 3, 3, 11, 1, 83, 9, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6528925619834711, 1.6528925619834711, 1.6528925619834711, 4.958677685950414, 5.785123966942149, 6.6115702479338845, 6.6115702479338845, 7.43801652892562, 8.264462809917356, 11.570247933884298, 13.223140495867769, 22.31404958677686, 23.96694214876033, 91.73553719008265, 99.17355371900827, 100.0 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6528925619834711, 1.6528925619834711, 1.6528925619834711, 4.958677685950414, 4.958677685950414, 6.6115702479338845, 6.6115702479338845, 7.43801652892562, 8.264462809917356, 10.743801652892563, 13.223140495867769, 22.31404958677686, 23.140495867768596, 91.73553719008265, 99.17355371900827, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -267,5 +267,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-27 05:05:43 +0000</font>
+<font size="-2">Generated 2023-04-29 14:35:29 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -359,12 +359,12 @@ Plotly.newPlot('mc-2', traces, layout)
 }
 </script><h2>Alliance Demographic Data</h2>Based on 1171 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_SANASTARROS"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebelsympathizer.png" style="width: 30px" /> Rebel Sympathizer</td><td>Rebel Scoundrel Tanks have +30% Defense, Max Health, and Max Protection and gain 15% Turn Meter whenever a non-Tank Rebel ally or Sana is damaged by an attack. Rebel allies and Sana have +30% Offense and Potency. At the start of battle, Rebel allies and Sana gain Protection Up (100%) until they use an ability.<br/><br/>Whenever a Rebel ally or Sana has less than 100% Turn Meter and gains bonus Turn Meter, they gain 25% Critical Damage (stacking) until they critically hit an enemy. If a Rebel Scoundrel removes Turn Meter from an enemy, that enemy also takes damage equal to 20% of their Max Health, which can't be evaded. This damage can't defeat enemies. The first time each turn Rebel allies or Sana deal damage more than once, they gain 25% Max Health (stacking, max 200%) for the rest of the encounter. Whenever Rebel allies or Sana critically hit an enemy, they inflict Target Lock for 1 turn, which can't be evaded. Whenever an enemy is inflicted with Target Lock, reduce Rebel Scoundrel Tanks' cooldowns by 1.<br/><br/><b>Special:</b> While in Territory Wars: Rebel Scoundrels and Sana are immune to Daze. At the start of battle, Rebel Scoundrel Tanks Taunt for 1 turn and Rebel Scoundrels and Sana start with Tenacity Up for 1 turn. Target Lock can't be resisted from this ability. The first time each turn Rebel allies and Sana deal damage more than once, dispel all buffs on all enemies and inflict Healing Immunity for 1 turn.</td><td>16</td><td>1%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 657, 39, 16, 37, 27, 46, 70, 143, 40, 7, 18, 10, 2, 1, 0, 3, 2, 44, 4, 4, 1, 0 ],
+    y: [ 656, 39, 15, 38, 27, 45, 72, 144, 39, 7, 18, 9, 1, 2, 1, 3, 2, 45, 3, 4, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 56.10589239965841, 59.43637916310845, 60.802732707087955, 63.96242527754056, 66.26814688300597, 70.19641332194705, 76.17421007685738, 88.3859948761742, 91.80187873612296, 92.399658411614, 93.93680614859095, 94.79077711357813, 94.96157130657556, 95.04696840307429, 95.04696840307429, 95.30315969257045, 95.47395388556788, 99.23142613151151, 99.5730145175064, 99.91460290350128, 100.0, 100.0 ],
+    y: [ 56.02049530315969, 59.35098206660973, 60.631938514090514, 63.87702818104184, 66.18274978650724, 70.0256191289496, 76.17421007685738, 88.47139197267292, 91.80187873612296, 92.399658411614, 93.93680614859095, 94.70538001707942, 94.79077711357814, 94.96157130657558, 95.0469684030743, 95.30315969257046, 95.4739538855679, 99.31682322801025, 99.57301451750641, 99.91460290350129, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -384,5 +384,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-27 05:05:43 +0000</font>
+<font size="-2">Generated 2023-04-29 14:35:29 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
