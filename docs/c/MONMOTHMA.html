@@ -308,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1449 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td>At the start of battle, if Mon Mothma is in the Leader slot, she and all Rebel Fighter allies gain 8% of their combined base Max Health, Max Protection, Offense, Defense, Potency, and Tenacity.<br/><br/>Mon Mothma and Rebel Fighter allies have a 100% chance to assist each other whenever they use an ability during their turn, dealing 90% less damage (limit once per turn per ally). If that ability dealt no damage, the damage penalty is reduced to 45% less damage and that ally dispels all debuffs on the healthiest Rebel ally.</td><td>755</td><td>52%</td></tr><tr><td data-order="uniqueskill_MONMOTHMA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> This Is Our Rebellion</td><td>Mon Mothma has +50 Speed. Mon Mothma can't be targeted and is immune to taunt effects.<br/><br/>If there are no other allied combatants at the start of a turn, Mon Mothma escapes from battle.</td><td>732</td><td>51%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1445 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MONMOTHMA"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_default.png" style="width: 30px" /> Alliance Chancellor</td><td>At the start of battle, if Mon Mothma is in the Leader slot, she and all Rebel Fighter allies gain 8% of their combined base Max Health, Max Protection, Offense, Defense, Potency, and Tenacity.<br/><br/>Mon Mothma and Rebel Fighter allies have a 100% chance to assist each other whenever they use an ability during their turn, dealing 90% less damage (limit once per turn per ally). If that ability dealt no damage, the damage penalty is reduced to 45% less damage and that ally dispels all debuffs on the healthiest Rebel ally.</td><td>752</td><td>52%</td></tr><tr><td data-order="uniqueskill_MONMOTHMA01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_rebel.png" style="width: 30px" /> This Is Our Rebellion</td><td>Mon Mothma has +50 Speed. Mon Mothma can't be targeted and is immune to taunt effects.<br/><br/>If there are no other allied combatants at the start of a turn, Mon Mothma escapes from battle.</td><td>729</td><td>50%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 345, 10, 6, 27, 14, 41, 72, 120, 69, 9, 14, 39, 5, 8, 2, 3, 0, 650, 5, 9, 0, 1 ],
+    y: [ 344, 9, 6, 27, 14, 41, 74, 119, 69, 9, 15, 39, 5, 8, 1, 4, 0, 647, 5, 9, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 23.809523809523807, 24.49965493443754, 24.91373360938578, 26.77708764665286, 27.743271221532087, 30.572808833678394, 35.541752933057275, 43.82332643202208, 48.58523119392684, 49.206349206349195, 50.17253278122842, 52.86404416839198, 53.209109730848844, 53.76121463077983, 53.89924085576258, 54.1062801932367, 54.1062801932367, 98.96480331262939, 99.30986887508625, 99.93098688750861, 99.93098688750861, 99.99999999999999 ],
+    y: [ 23.806228373702425, 24.42906574394464, 24.84429065743945, 26.712802768166096, 27.681660899653984, 30.519031141868517, 35.6401384083045, 43.87543252595156, 48.65051903114187, 49.273356401384085, 50.31141868512111, 53.010380622837374, 53.35640138408305, 53.91003460207613, 53.979238754325266, 54.256055363321806, 54.256055363321806, 99.03114186851212, 99.37716262975779, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-29 14:35:29 +0000</font>
+<font size="-2">Generated 2023-05-01 05:27:04 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -239,14 +239,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1401 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_SEVENTHSISTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Guess Again</td><td>Empire allies gain 16% Evasion. Whenever Inquisitorius allies evade, they recover 5% Health and Protection and gain Advantage for 2 turns.<br/><br/><b>Special:</b> While in Territory Wars: Whenever a Jedi enemy gains Foresight, all Inquisitorius allies gain Foresight for 2 turns; at the end of each turn, dispel all buffs on Jedi enemies who have Foresight. Additionally, whenever an enemy gains a buff, Seventh Sister has a 10% chance to inflict 1 stack of Purge (max 6) on that enemy until the end of the encounter, increased to 20% if that enemy is Jedi.</td><td>16</td><td>1%</td></tr><tr><td data-order="specialskill_SEVENTHSISTER02"><img src="https://game-assets.swgoh.gg/tex.ability_seventhsister_special02.png" style="width: 30px" /> ID9 Enemy Intelligence</td><td>Consume 1 stack of Purge from each enemy. Target ally recovers 30% Health and Protection, plus 10% Health and Protection for each stack of Purge consumed. All allies gain Critical Hit Immunity for 2 turns and Inquisitorius allies gain Foresight for 2 turns. All allies recover 10% Health and Protection and gain Evasion Up for 2 turns. If target ally is Inquisitorius, reduce this ability's cooldown by 1.</td><td>347</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1401 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_SEVENTHSISTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Guess Again</td><td>Empire allies gain 16% Evasion. Whenever Inquisitorius allies evade, they recover 5% Health and Protection and gain Advantage for 2 turns.<br/><br/><b>Special:</b> While in Territory Wars: Whenever a Jedi enemy gains Foresight, all Inquisitorius allies gain Foresight for 2 turns; at the end of each turn, dispel all buffs on Jedi enemies who have Foresight. Additionally, whenever an enemy gains a buff, Seventh Sister has a 10% chance to inflict 1 stack of Purge (max 6) on that enemy until the end of the encounter, increased to 20% if that enemy is Jedi.</td><td>16</td><td>1%</td></tr><tr><td data-order="specialskill_SEVENTHSISTER02"><img src="https://game-assets.swgoh.gg/tex.ability_seventhsister_special02.png" style="width: 30px" /> ID9 Enemy Intelligence</td><td>Consume 1 stack of Purge from each enemy. Target ally recovers 30% Health and Protection, plus 10% Health and Protection for each stack of Purge consumed. All allies gain Critical Hit Immunity for 2 turns and Inquisitorius allies gain Foresight for 2 turns. All allies recover 10% Health and Protection and gain Evasion Up for 2 turns. If target ally is Inquisitorius, reduce this ability's cooldown by 1.</td><td>345</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 417, 43, 32, 31, 64, 63, 56, 217, 147, 38, 66, 29, 10, 7, 4, 3, 0, 71, 9, 91, 3, 0 ],
+    y: [ 415, 43, 32, 30, 65, 61, 56, 220, 145, 40, 62, 32, 9, 7, 2, 4, 3, 70, 10, 92, 3, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 29.764453961456105, 32.83369022127052, 35.11777301927195, 37.33047822983583, 41.89864382583869, 46.395431834404, 50.3925767309065, 65.88151320485368, 76.37401855817274, 79.08636688079943, 83.79728765167738, 85.86723768736617, 86.58101356174161, 87.08065667380443, 87.36616702355461, 87.58029978586724, 87.58029978586724, 92.64810849393291, 93.29050678087081, 99.78586723768737, 100.0, 100.0 ],
+    y: [ 29.621698786581014, 32.69093504639543, 34.97501784439686, 37.116345467523196, 41.7558886509636, 46.10992148465382, 50.107066381156315, 65.81013561741614, 76.1598857958601, 79.0149892933619, 83.44039971448966, 85.72448251249108, 86.36688079942898, 86.8665239114918, 87.00927908636689, 87.29478943611707, 87.5089221984297, 92.50535331905782, 93.21912919343326, 99.78586723768737, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -266,5 +266,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-04-29 14:35:29 +0000</font>
+<font size="-2">Generated 2023-05-01 05:27:04 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
