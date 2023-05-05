@@ -382,14 +382,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1413 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CANDEROUSORDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> I Like a Challenge</td><td>Canderous deals 50% more damage with Interminable Assault and Overwhelming Firepower to enemies who are Taunting, Deathmarked or Marked. Whenever an enemy with a Damage Over Time effect is damaged by an attack, Canderous gains 8% Turn Meter. When an enemy gains Taunt, or becomes Deathmarked or Marked, Canderous gains Critical Chance Up and Critical Damage Up for 2 turns.</td><td>632</td><td>45%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1413 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CANDEROUSORDO01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_penetration.png" style="width: 30px" /> I Like a Challenge</td><td>Canderous deals 50% more damage with Interminable Assault and Overwhelming Firepower to enemies who are Taunting, Deathmarked or Marked. Whenever an enemy is damaged by an attack, Canderous gains 8% Turn Meter. When an enemy gains Taunt, or becomes Deathmarked or Marked, Canderous gains Critical Chance Up and Critical Damage Up for 2 turns.</td><td>639</td><td>45%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 59, 5, 7, 2, 8, 11, 90, 67, 8, 66, 173, 775, 17, 19, 19, 36, 7, 36, 0, 8, 0, 0 ],
+    y: [ 57, 4, 7, 2, 7, 10, 90, 64, 7, 63, 169, 788, 15, 19, 19, 36, 9, 39, 0, 8, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 4.175513092710545, 4.529370134465675, 5.024769992922859, 5.166312809624911, 5.732484076433121, 6.510969568294408, 12.880396319886765, 17.62208067940552, 18.18825194621373, 22.859164897381458, 35.102618542108985, 89.95046001415427, 91.15357395612172, 92.49823071479122, 93.84288747346072, 96.39065817409767, 96.88605803255484, 99.43382873319179, 99.43382873319179, 100.0, 100.0, 100.0 ],
+    y: [ 4.033970276008493, 4.3170559094125975, 4.812455767869781, 4.953998584571833, 5.4493984430290165, 6.1571125265392785, 12.526539278131636, 17.055909412597313, 17.551309271054496, 22.009907997169144, 33.97027600849257, 89.7381457891012, 90.79971691436658, 92.14437367303609, 93.48903043170559, 96.03680113234253, 96.67374380750176, 99.43382873319179, 99.43382873319179, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -409,5 +409,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-01 05:27:04 +0000</font>
+<font size="-2">Generated 2023-05-05 02:05:22 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

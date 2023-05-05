@@ -308,19 +308,19 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 441 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_STARKILLER"><img src="https://game-assets.swgoh.gg/tex.ability_starkiller_basic.png" style="width: 30px" /> Imbued Lightsaber Strike</td><td>Deal Physical damage to target enemy twice. If it's Starkiller's turn, inflict Shock for 1 turn to target enemy and deal Physical damage to all other enemies which can't be countered.<br/><br/>Unleashed: Reduce Special ability cooldowns by 1</td><td>424</td><td>96%</td></tr><tr><td data-order="uniqueskill_STARKILLER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_forceenergy.png" style="width: 30px" /> Force Energy</td><td>Starkiller has +30% Counter Chance, Critical Chance, Defense, Defense Penetration, and Offense, and he is immune to Fear.<br/><br/>Starkiller gains 4 stacks of Force Energy (max 100 stacks) each time he deals damage to an enemy, increased to 5 stacks on a critical hit. At 100 stacks, he loses all stacks of Force Energy and gains Unleashed until the end of the battle.<br/><br/>When Starkiller gains Unleashed:
+</script><h2>Alliance Demographic Data</h2>Based on 445 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_STARKILLER"><img src="https://game-assets.swgoh.gg/tex.ability_starkiller_basic.png" style="width: 30px" /> Imbued Lightsaber Strike</td><td>Deal Physical damage to target enemy twice. If it's Starkiller's turn, inflict Shock for 1 turn to target enemy and deal Physical damage to all other enemies which can't be countered.<br/><br/>Unleashed: Reduce Special ability cooldowns by 1</td><td>429</td><td>96%</td></tr><tr><td data-order="uniqueskill_STARKILLER01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_forceenergy.png" style="width: 30px" /> Force Energy</td><td>Starkiller has +30% Counter Chance, Critical Chance, Defense, Defense Penetration, and Offense, and he is immune to Fear.<br/><br/>Starkiller gains 4 stacks of Force Energy (max 100 stacks) each time he deals damage to an enemy, increased to 5 stacks on a critical hit. At 100 stacks, he loses all stacks of Force Energy and gains Unleashed until the end of the battle.<br/><br/>When Starkiller gains Unleashed:
 - He gains +70% Counter Chance, Critical Chance, Defense, Defense Penetration, and Offense
 - He dispels all debuffs on himself
 - He takes a bonus turn
 - His cooldowns are reset
-- If there are no Galactic Legend allies, gains the Special ability Size Means Nothing.<br/><br/>Force Energy: At 100 stacks, lose all stacks and gain Unleashed<br/><br/>Unleashed: Abilities gain additional effects; can't gain Force Energy<br/><br/>Size Means Nothing: Limit one use per battle.<br/><br/>Deal damage equal to 80% of Starkiller's Max Health to all enemies and Stun them for 1 turn, which can't be resisted. All allies recover 100% Health and Protection. If this ability defeats an enemy, Starkiller takes a bonus turn. This ability can't be evaded.</td><td>428</td><td>97%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+- If there are no Galactic Legend allies, gains the Special ability Size Means Nothing.<br/><br/>Force Energy: At 100 stacks, lose all stacks and gain Unleashed<br/><br/>Unleashed: Abilities gain additional effects; can't gain Force Energy<br/><br/>Size Means Nothing: Limit one use per battle.<br/><br/>Deal damage equal to 80% of Starkiller's Max Health to all enemies and Stun them for 1 turn, which can't be resisted. All allies recover 100% Health and Protection. If this ability defeats an enemy, Starkiller takes a bonus turn. This ability can't be evaded.</td><td>434</td><td>98%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 0, 0, 0, 0, 1, 17, 8, 12, 7, 17, 6, 17, 13, 25, 9, 150, 26, 115, 16, 1 ],
+    y: [ 1, 1, 0, 0, 0, 0, 0, 19, 7, 8, 11, 19, 6, 17, 12, 25, 9, 149, 25, 119, 16, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.22675736961451248, 0.22675736961451248, 0.22675736961451248, 0.22675736961451248, 0.22675736961451248, 0.22675736961451248, 0.45351473922902497, 4.308390022675737, 6.122448979591837, 8.843537414965986, 10.430839002267573, 14.285714285714285, 15.64625850340136, 19.501133786848072, 22.448979591836736, 28.117913832199548, 30.15873015873016, 64.17233560090703, 70.06802721088435, 96.14512471655328, 99.77324263038548, 100.0 ],
+    y: [ 0.22471910112359553, 0.44943820224719105, 0.44943820224719105, 0.44943820224719105, 0.44943820224719105, 0.44943820224719105, 0.44943820224719105, 4.719101123595506, 6.292134831460674, 8.089887640449438, 10.561797752808989, 14.831460674157302, 16.179775280898877, 20.0, 22.696629213483146, 28.314606741573034, 30.337078651685392, 63.82022471910112, 69.438202247191, 96.17977528089887, 99.77528089887639, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -340,5 +340,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-01 05:27:04 +0000</font>
+<font size="-2">Generated 2023-05-05 02:05:22 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
