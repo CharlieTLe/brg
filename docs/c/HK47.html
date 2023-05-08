@@ -308,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1536 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HK4701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Self-Reconstruction</td><td>When a buff expires on an enemy, HK-47 recovers 5% Health and 5% Protection. When HK-47 uses an ability during his turn, it deals 25% more damage if the target has Deathmark or Fear.</td><td>847</td><td>55%</td></tr><tr><td data-order="uniqueskill_HK4702"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Loyalty to the Maker</td><td>If HK-47's leader is Darth Revan, HK-47 has the following:<br/><br/>- +50% Defense, Offense, Potency, and Tenacity<br/><br/>- +30% Critical Avoidance for each Jedi enemy at the start of encounter<br/><br/>- Cooldown of Assassination Protocol is reset the first time another Sith Empire ally is defeated<br/><br/>- Enemies with Protection Up can't gain bonus Turn Meter</td><td>829</td><td>54%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1537 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_HK4701"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_heal_buff.png" style="width: 30px" /> Self-Reconstruction</td><td>When a buff expires on an enemy, HK-47 recovers 5% Health and 5% Protection. When HK-47 uses an ability during his turn, it deals 25% more damage if the target has Deathmark or Fear.</td><td>840</td><td>55%</td></tr><tr><td data-order="uniqueskill_HK4702"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_attack_buff.png" style="width: 30px" /> Loyalty to the Maker</td><td>If HK-47's leader is Darth Revan, HK-47 has the following:<br/><br/>- +50% Defense, Offense, Potency, and Tenacity<br/><br/>- +30% Critical Avoidance for each Jedi enemy at the start of encounter<br/><br/>- Cooldown of Assassination Protocol is reset the first time another Sith Empire ally is defeated<br/><br/>- Enemies with Protection Up can't gain bonus Turn Meter</td><td>824</td><td>54%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 147, 5, 4, 15, 9, 9, 40, 21, 43, 48, 214, 453, 23, 48, 56, 94, 95, 155, 13, 43, 1, 0 ],
+    y: [ 151, 6, 4, 16, 10, 8, 38, 18, 45, 47, 212, 458, 23, 47, 55, 95, 96, 153, 13, 42, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 9.5703125, 9.895833333333334, 10.15625, 11.1328125, 11.71875, 12.3046875, 14.908854166666668, 16.276041666666668, 19.075520833333336, 22.200520833333336, 36.1328125, 65.625, 67.12239583333333, 70.24739583333333, 73.89322916666666, 80.01302083333333, 86.19791666666666, 96.28906249999999, 97.13541666666666, 99.93489583333333, 100.0, 100.0 ],
+    y: [ 9.824333116460638, 10.214703968770332, 10.47495120364346, 11.515940143135978, 12.166558230318802, 12.687052700065061, 15.159401431359791, 16.330513988288875, 19.25829538061158, 22.316200390370852, 36.10930383864671, 65.90761223162004, 67.40403383214053, 70.4619388418998, 74.04033832140533, 80.22121014964216, 86.46714378659726, 96.42160052049447, 97.26740403383214, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-05 02:05:22 +0000</font>
+<font size="-2">Generated 2023-05-08 06:02:02 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
