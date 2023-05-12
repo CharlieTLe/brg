@@ -308,14 +308,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1560 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MOTHERTALZIN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> The Great Mother</td><td>Nightsister allies have +50% Potency and +30 Speed. When a Nightsister ally uses a Special ability, they inflict Plague on the selected target for 3 turns, which can't be Evaded. When an enemy Resists a detrimental effect, Nightsister allies gain 5% Turn Meter. When a Nightsister ally uses a Basic ability during their turn, a random defeated Nightsister ally is Revived with 50% Health and called to Assist, then the Revived ally is immediately defeated unless an enemy was defeated (the Revived ally can't be Revived by this effect again until the end of the next turn).</td><td>821</td><td>53%</td></tr><tr><td data-order="uniqueskill_MOTHERTALZIN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_plague.png" style="width: 30px" /> Plaguebearer</td><td>At the start of each enemy turn, if they are Plagued and Talzin is active, they inflict Plague on another random enemy, which can't be Evaded or Resisted. When any unit falls below half health, Talzin gains 35% Turn Meter.</td><td>725</td><td>46%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1564 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MOTHERTALZIN"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_potency.png" style="width: 30px" /> The Great Mother</td><td>Nightsister allies have +50% Potency and +30 Speed. When a Nightsister ally uses a Special ability, they inflict Plague on the selected target for 3 turns, which can't be Evaded. When an enemy Resists a detrimental effect, Nightsister allies gain 5% Turn Meter. When a Nightsister ally uses a Basic ability during their turn, a random defeated Nightsister ally is Revived with 50% Health and called to Assist, then the Revived ally is immediately defeated unless an enemy was defeated (the Revived ally can't be Revived by this effect again until the end of the next turn).</td><td>828</td><td>53%</td></tr><tr><td data-order="uniqueskill_MOTHERTALZIN01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_plague.png" style="width: 30px" /> Plaguebearer</td><td>At the start of each enemy turn, if they are Plagued and Talzin is active, they inflict Plague on another random enemy, which can't be Evaded or Resisted. When any unit falls below half health, Talzin gains 35% Turn Meter.</td><td>729</td><td>47%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 172, 4, 3, 11, 14, 22, 51, 412, 64, 41, 90, 456, 13, 28, 22, 33, 38, 54, 8, 22, 1, 1 ],
+    y: [ 175, 4, 3, 10, 15, 23, 50, 407, 65, 41, 95, 452, 13, 27, 22, 34, 37, 58, 8, 23, 1, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 11.025641025641026, 11.282051282051281, 11.474358974358973, 12.179487179487177, 13.076923076923075, 14.487179487179485, 17.756410256410255, 44.16666666666667, 48.269230769230774, 50.897435897435905, 56.66666666666667, 85.89743589743591, 86.73076923076924, 88.52564102564104, 89.93589743589745, 92.05128205128206, 94.48717948717949, 97.94871794871796, 98.46153846153847, 99.87179487179488, 99.93589743589745, 100.00000000000001 ],
+    y: [ 11.18925831202046, 11.445012787723785, 11.636828644501279, 12.27621483375959, 13.235294117647058, 14.705882352941176, 17.902813299232736, 43.92583120204604, 48.08184143222507, 50.70332480818415, 56.777493606138115, 85.67774936061382, 86.50895140664963, 88.23529411764707, 89.64194373401536, 91.81585677749362, 94.18158567774938, 97.8900255754476, 98.40153452685425, 99.87212276214836, 99.9360613810742, 100.00000000000003 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -335,5 +335,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-08 06:02:02 +0000</font>
+<font size="-2">Generated 2023-05-12 03:22:28 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
