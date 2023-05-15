@@ -36,6 +36,7 @@ guilds=(
 	'deathless 762819711'
 	'high-council zfBluFnbQHGR8ySBhDc7RA'
 	'xscoundrels 749817979'
+	'fallen ZaPWQdcaQLOd8UhMLUC4Xg'
 )
 
 # prime the pipe -- fetch the first guild
