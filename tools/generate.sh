@@ -5,7 +5,7 @@ guilds=(
 	'exile 656997348'
 	'hope 369351434'
 	'hoth 478284627'
-	'lop 989184811'
+	'lop oFnRSXMiRIqJL2TbM0LOzw'
 	'mandalorians 873945644'
 	'twd 855782277'
 	'wk 221913824'
