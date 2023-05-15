@@ -1,0 +1,93 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script><title>BRG Alliance Guild Reports: Krayt Raid Progress Tracker</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Krayt Raid Progress Tracker</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../alliance/characters.html">Characters</a> |
+
+<div style="float:right;"><a href="../../r">Resources</a></div>
+<a href="index.html">BRG Noble Struggle</a>
+</div>
+<br/><h2>Krayt Raid Progress Tracker BRG Noble Struggle</h2>
+
+<p>
+Potential Krayt Raid teams.
+
+<p>
+More info and play advice:
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HVc34jdr6kg&list=PLV3ihsc-3CokFoeQ0n20Wwo9PlTqqXWSo">Skelturix</a>
+<li><a href="https://www.youtube.com/watch?v=h0KUg8eMtV4&list=PLDskqmL-F0lbUFC86srmPlNYD0rQfVbPE">Xaereth</a>
+</ul>
+
+<h3>Inventory</h3><table><thead><tr><th>Difficulty Level</th><th>Gear Required</th><th>Maximum Score</th><th>Number of Teams</th><th>Potential Score</th></tr></thead><tr><td>0</td><td>G8</td><td>300k</td><td>32</td><td>9.6m</td></tr><tr><td>1</td><td>G12</td><td>450k</td><td>2</td><td>900k</td></tr><tr><td>4</td><td>R5</td><td>1.2m</td><td>2</td><td>2.4m</td></tr><tfoot><tr><td><b>Total</b></td><td>&nbsp;</td><td>&nbsp;</td><td><b>36</b></td><td><b>12.9m</b></td></tr></tfoot></table>
+
+<p>
+<button onclick="$('.complete').hide(); $('.working').show()">hide completed</button>
+<button onclick="$('.complete').show(); $('.working').hide()">hide incomplete</button>
+<button onclick="$('.complete').show(); $('.working').show()">show all</button>
+
+<br/>
+    
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script><script>
+$(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search)
+    var show = urlParams.get('show')
+    if (show == "working") {
+        $('.complete').hide()
+    } else if (show == "complete") {
+        $('.working').hide()
+    }
+});
+</script><table class="stripe" id="stats"><thead><th>Player</th><th>Ally Code</th><th>Starting Gear Needed</th><th>Progress</th><th>Current Gear Needed</th><th>Team</th></thead><tr class="working" style=""><td>San Holo</td><td>292321178</td><td>1</td><td>0</td><td>1</td><td><b>L0 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, The Mandalorian, <b>Greedo G7</b></td></tr><tr class="working" style=""><td>San Holo</td><td>292321178</td><td>15</td><td>0</td><td>15</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G9 3&#9733;</b>, <b>Tusken Raider G8</b>, <b>Tusken Shaman G9</b>, <b>Tusken Warrior G9 3&#9733;</b>, <b>URoRRuR'R'R G10 5&#9733;</b></td></tr><tr class="working" style=""><td>Ghent Sinite</td><td>722474735</td><td>4</td><td>0</td><td>4</td><td><b>L2 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, <b>The Mandalorian G12</b>, <b>Embo G12</b></td></tr><tr class="working" style=""><td>Ghent Sinite</td><td>722474735</td><td>2</td><td>0</td><td>2</td><td><b>L1 Jawas</b>: Nebit, <b>Jawa Engineer G11</b>, Jawa Scavenger, <b>Dathcha G11</b>, Jawa</td></tr><tr class="working" style=""><td>Ghent Sinite</td><td>722474735</td><td>9</td><td>0</td><td>9</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G9 3&#9733;</b>, Tusken Raider, <b>Tusken Shaman G11</b>, <b>Tusken Warrior G9 3&#9733;</b>, <b>URoRRuR'R'R G10</b></td></tr><tr class="working" style=""><td>Darthobiwan84</td><td>969195991</td><td>8</td><td>0</td><td>8</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), Jango, <b>Cad G8</b>, The Mandalorian, <b>Greedo G8</b></td></tr><tr class="working" style=""><td>QuantumEntropy</td><td>288549487</td><td>13</td><td>0</td><td>13</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G8</b>, <b>Jango G11</b>, <b>Cad G8</b>, <b>The Mandalorian G11</b>, <b>Greedo G9</b></td></tr><tr class="working" style=""><td>Kryshoff</td><td>336658674</td><td>1</td><td>0</td><td>1</td><td><b>L0 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, The Mandalorian, <b>Greedo G7</b></td></tr><tr class="working" style=""><td>Kryshoff</td><td>336658674</td><td>5</td><td>0</td><td>5</td><td><b>L0 Jawas</b>: <b>Nebit G6</b>, <b>Jawa Engineer G7</b>, <b>Jawa Scavenger G7</b>, Dathcha, <b>Jawa G7 6&#9733;</b></td></tr><tr class="working" style=""><td>Rui Vuusen</td><td>164853248</td><td>9</td><td>0</td><td>9</td><td><b>L1 Jawas</b>: <b>Nebit G11</b>, <b>Jawa Engineer G10</b>, <b>Jawa Scavenger G11</b>, <b>Dathcha G10</b>, <b>Jawa G9</b></td></tr><tr class="working" style=""><td>Rui Vuusen</td><td>164853248</td><td>1</td><td>0</td><td>1</td><td><b>L0 Tuskens</b>: <b>Tusken Chieftain 3&#9733;</b>, Tusken Raider, Tusken Shaman, <b>Tusken Warrior 3&#9733;</b>, <b>URoRRuR'R'R G7 6&#9733;</b></td></tr><tr class="working" style=""><td>Towanda</td><td>193932966</td><td>4</td><td>0</td><td>4</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G8</b>, Jango, Cad, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>Towanda</td><td>193932966</td><td>17</td><td>0</td><td>17</td><td><b>L1 Jawas</b>: <b>Nebit G8</b>, <b>Jawa Engineer G9</b>, <b>Jawa Scavenger G8</b>, <b>Dathcha G9</b>, <b>Jawa G9</b></td></tr><tr class="working" style=""><td>MINIGoody</td><td>566753157</td><td>1</td><td>0</td><td>1</td><td><b>L0 BAM</b>: <b>The Mandalorian (Beskar Armor) G7</b>, Jango, Cad, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>Slanted eyes</td><td>422784646</td><td>10</td><td>0</td><td>10</td><td><b>L2 Jawas</b>: <b>Nebit G12</b>, <b>Jawa Engineer G12</b>, <b>Jawa Scavenger G12</b>, <b>Dathcha G12</b>, <b>Jawa G12</b></td></tr><tr class="working" style=""><td>Slanted eyes</td><td>422784646</td><td>3</td><td>0</td><td>3</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G9</b>, Jango, Cad, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>Slanted eyes</td><td>422784646</td><td>17</td><td>0</td><td>17</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G8</b>, <b>Tusken Shaman G9</b>, <b>Tusken Warrior G8 3&#9733;</b>, <b>URoRRuR'R'R G10 5&#9733;</b></td></tr><tr class="working" style=""><td>Shaun</td><td>434694638</td><td>6</td><td>0</td><td>6</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G8</b>, <b>Jango G11</b>, Cad, <b>The Mandalorian G11</b>, Greedo</td></tr><tr class="working" style=""><td>Shaun</td><td>434694638</td><td>20</td><td>0</td><td>20</td><td><b>L0 Jawas</b>: <b>Nebit G4</b>, <b>Jawa Engineer G4</b>, <b>Jawa Scavenger G4</b>, <b>Dathcha G4</b>, <b>Jawa G4</b></td></tr><tr class="working" style=""><td>Shaun</td><td>434694638</td><td>5</td><td>0</td><td>5</td><td><b>L0 Tuskens</b>: <b>Tusken Chieftain G7 3&#9733;</b>, <b>Tusken Raider G7</b>, <b>Tusken Shaman G7</b>, <b>Tusken Warrior G7 3&#9733;</b>, <b>URoRRuR'R'R G7 6&#9733;</b></td></tr><tr class="working" style=""><td>BenHanSolo</td><td>833437735</td><td>9</td><td>0</td><td>9</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), <b>Jango G11</b>, Cad, <b>The Mandalorian G8</b>, <b>Greedo G8</b></td></tr><tr class="working" style=""><td>BenHanSolo</td><td>833437735</td><td>10</td><td>0</td><td>10</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G9 3&#9733;</b>, <b>Tusken Raider G10</b>, <b>Tusken Shaman G11</b>, <b>Tusken Warrior G9</b>, <b>URoRRuR'R'R G11</b></td></tr><tr class="working" style=""><td>TheDougAbides</td><td>596963139</td><td>1</td><td>0</td><td>1</td><td><b>L0 BAM</b>: <b>The Mandalorian (Beskar Armor) G7</b>, Jango, Cad, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>DaleIV</td><td>596181122</td><td>9</td><td>0</td><td>9</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G9</b>, <b>Jango G9</b>, <b>Cad G9</b>, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>Bdogg</td><td>696355599</td><td>5</td><td>0</td><td>5</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, <b>The Mandalorian G11</b>, <b>Greedo G8 6&#9733;</b></td></tr><tr class="working" style=""><td>Barfolomew</td><td>745245749</td><td>6</td><td>0</td><td>6</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G10</b>, <b>Jango G8</b>, Cad, The Mandalorian, Greedo</td></tr><tr class="working" style=""><td>Ru Baruba Maral</td><td>441497244</td><td>3</td><td>0</td><td>3</td><td><b>L0 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, The Mandalorian, <b>Greedo G5</b></td></tr><tr class="working" style=""><td>Ru Baruba Maral</td><td>441497244</td><td>14</td><td>0</td><td>14</td><td><b>L0 Jawas</b>: <b>Nebit G4</b>, <b>Jawa Engineer G6</b>, <b>Jawa Scavenger G5</b>, <b>Dathcha G5</b>, <b>Jawa G6</b></td></tr><tr class="working" style=""><td>Zimphire</td><td>671265526</td><td>2</td><td>0</td><td>2</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), Jango, <b>Cad G11</b>, The Mandalorian, <b>Greedo G11</b></td></tr><tr class="working" style=""><td>Zimphire</td><td>671265526</td><td>5</td><td>0</td><td>5</td><td><b>L1 Jawas</b>: <b>Nebit G11</b>, <b>Jawa Engineer G11</b>, <b>Jawa Scavenger G11</b>, <b>Dathcha G11</b>, <b>Jawa G11</b></td></tr><tr class="working" style=""><td>Zimphire</td><td>671265526</td><td>12</td><td>0</td><td>12</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G10</b>, <b>Tusken Shaman G11</b>, <b>Tusken Warrior G9 3&#9733;</b>, <b>URoRRuR'R'R G10</b></td></tr><tr class="working" style=""><td>O iTz LuCaS x</td><td>985738122</td><td>9</td><td>0</td><td>9</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G10</b>, Jango, Cad, <b>The Mandalorian G9</b>, <b>Greedo G8</b></td></tr><tr class="working" style=""><td>O iTz LuCaS x</td><td>985738122</td><td>13</td><td>0</td><td>13</td><td><b>L1 Jawas</b>: <b>Nebit G9</b>, <b>Jawa Engineer G9</b>, <b>Jawa Scavenger G8</b>, <b>Dathcha G9</b>, Jawa</td></tr><tr class="working" style=""><td>O iTz LuCaS x</td><td>985738122</td><td>14</td><td>0</td><td>14</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G9</b>, <b>Tusken Shaman G11</b>, <b>Tusken Warrior G8 3&#9733;</b>, <b>URoRRuR'R'R G10</b></td></tr><tr class="working" style=""><td>Gobo</td><td>725511482</td><td>16</td><td>0</td><td>16</td><td><b>L1 Jawas</b>: <b>Nebit G8</b>, <b>Jawa Engineer G10</b>, <b>Jawa Scavenger G8</b>, <b>Dathcha G9</b>, <b>Jawa G9</b></td></tr><tr class="working" style=""><td>Gobo</td><td>725511482</td><td>16</td><td>0</td><td>16</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G8</b>, <b>Tusken Shaman G11</b>, <b>Tusken Warrior G8 3&#9733;</b>, <b>URoRRuR'R'R G9 5&#9733;</b></td></tr><tr class="working" style=""><td>cjedimommy</td><td>995753861</td><td>1</td><td>0</td><td>1</td><td><b>L0 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, The Mandalorian, <b>Greedo G7</b></td></tr><tr class="working" style=""><td>Skinwalker</td><td>366878499</td><td>7</td><td>0</td><td>7</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G8</b>, Jango, Cad, The Mandalorian, <b>Greedo G9</b></td></tr><tr class="working" style=""><td>Skinwalker</td><td>366878499</td><td>1</td><td>0</td><td>1</td><td><b>L0 Jawas</b>: <b>Nebit G7</b>, Jawa Engineer, Jawa Scavenger, Dathcha, Jawa</td></tr><tr class="working" style=""><td>Skinwalker</td><td>366878499</td><td>18</td><td>0</td><td>18</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G8</b>, <b>Tusken Shaman G10</b>, <b>Tusken Warrior G8 3&#9733;</b>, <b>URoRRuR'R'R G8</b></td></tr><tr class="working" style=""><td>Chance Stryker</td><td>672569894</td><td>3</td><td>0</td><td>3</td><td><b>L5 BAM</b>: The Mandalorian (Beskar Armor), <b>Jango R6</b>, Cad, <b>The Mandalorian R6</b>, <b>Greedo R6</b></td></tr><tr class="working" style=""><td>Chance Stryker</td><td>672569894</td><td>15</td><td>0</td><td>15</td><td><b>L0 Jawas</b>: <b>Nebit G6</b>, <b>Jawa Engineer G4</b>, <b>Jawa Scavenger G5</b>, <b>Dathcha G2</b>, Jawa</td></tr><tr class="working" style=""><td>Cranjis McBasketball</td><td>495874361</td><td>4</td><td>0</td><td>4</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), Jango, Cad, The Mandalorian, <b>Greedo G8 5&#9733;</b></td></tr><tr class="working" style=""><td>MINI Mos Eisley Nerfherder</td><td>952233855</td><td>7</td><td>0</td><td>7</td><td><b>L1 Jawas</b>: <b>Nebit G10</b>, <b>Jawa Engineer G11</b>, <b>Jawa Scavenger G11</b>, <b>Dathcha G11</b>, <b>Jawa G10 6&#9733;</b></td></tr><tr class="working" style=""><td>MINI Mos Eisley Nerfherder</td><td>952233855</td><td>8</td><td>0</td><td>8</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G8</b>, Jango, <b>Cad G11</b>, The Mandalorian, <b>Greedo G9</b></td></tr><tr class="working" style=""><td>MINI Mos Eisley Nerfherder</td><td>952233855</td><td>19</td><td>0</td><td>19</td><td><b>L1 Tuskens</b>: <b>Tusken Chieftain G8 3&#9733;</b>, <b>Tusken Raider G8</b>, <b>Tusken Shaman G9</b>, <b>Tusken Warrior G8 3&#9733;</b>, <b>URoRRuR'R'R G8</b></td></tr><tr class="working" style=""><td>BassOdin</td><td>976321971</td><td>10</td><td>0</td><td>10</td><td><b>L5 Jawas</b>: <b>Nebit R5</b>, <b>Jawa Engineer R5</b>, <b>Jawa Scavenger R5</b>, <b>Dathcha R5</b>, <b>Jawa R5</b></td></tr><tr class="working" style=""><td>BassOdin</td><td>976321971</td><td>18</td><td>0</td><td>18</td><td><b>L0 Tuskens</b>: <b>Tusken Chieftain G7 3&#9733;</b>, <b>Tusken Raider G3</b>, <b>Tusken Shaman G4</b>, <b>Tusken Warrior G3 3&#9733;</b>, <b>URoRRuR'R'R G5 6&#9733;</b></td></tr><tr class="working" style=""><td>Mol Dizzler</td><td>286229792</td><td>6</td><td>0</td><td>6</td><td><b>L1 BAM</b>: <b>The Mandalorian (Beskar Armor) G10</b>, Jango, Cad, The Mandalorian, <b>Greedo G8</b></td></tr><tr class="working" style=""><td>Mol Dizzler</td><td>286229792</td><td>21</td><td>0</td><td>21</td><td><b>L0 Jawas</b>: <b>Nebit G2</b>, <b>Jawa Engineer G2</b>, <b>Jawa Scavenger G1</b>, <b>Dathcha G7</b>, <b>Jawa G7</b></td></tr><tr class="working" style=""><td>Mr Nuggins</td><td>659788619</td><td>30</td><td>0</td><td>30</td><td><b>L0 Jawas</b>: <b>Nebit G2</b>, <b>Jawa Engineer G1</b>, <b>Jawa Scavenger G1</b>, <b>Dathcha G3</b>, <b>Jawa G3</b></td></tr><tr class="working" style=""><td>Agent 47</td><td>918148185</td><td>6</td><td>0</td><td>6</td><td><b>L1 BAM</b>: The Mandalorian (Beskar Armor), <b>Jango G11</b>, <b>Cad G11</b>, The Mandalorian, <b>Greedo G8</b></td></tr></table><script>var config = {
+    "paging":   false,
+    "info":     false,
+    bFilter: false,
+    fixedHeader: true,
+    dom: 'Bfrtip',
+    buttons: [
+        'copyHtml5',
+        'excelHtml5',
+        'csvHtml5',
+    ],
+}
+
+table = $('#stats').DataTable(config);</script><br/>
+<font size="-2">Generated 2023-05-15 03:18:36 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
