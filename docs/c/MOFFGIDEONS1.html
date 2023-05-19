@@ -229,16 +229,16 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1655 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MOFFGIDEONS1"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_tacticaldeployment.png" style="width: 30px" /> Tactical Deployment</td><td>Dark Side allies have +30% Max Health and Max Protection, and Imperial Trooper allies have +15% Offense.<br/><br/>At the start of battle, if all allies are Imperial Troopers and Moff Gideon has exactly one Tank ally, two Attacker allies, and one additional Support ally, excluding summoned allies (in 3v3 Galactic Challenges or Grand Arenas, if all allies are Imperial Troopers and Moff Gideon has any combination where the team includes no more than one Tank, two Attackers, and/or an additional Support ally the conditions of this ability will be met):<br/><br/>- Whenever an enemy with the Leader tag uses an ability, Imperial Trooper allies gain 10% Offense (stacking) until the end of the encounter
+</script><h2>Alliance Demographic Data</h2>Based on 1700 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_MOFFGIDEONS1"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_tacticaldeployment.png" style="width: 30px" /> Tactical Deployment</td><td>Dark Side allies have +30% Max Health and Max Protection, and Imperial Trooper allies have +15% Offense.<br/><br/>At the start of battle, if all allies are Imperial Troopers and Moff Gideon has exactly one Tank ally, two Attacker allies, and one additional Support ally, excluding summoned allies (in 3v3 Galactic Challenges or Grand Arenas, if all allies are Imperial Troopers and Moff Gideon has any combination where the team includes no more than one Tank, two Attackers, and/or an additional Support ally the conditions of this ability will be met):<br/><br/>- Whenever an enemy with the Leader tag uses an ability, Imperial Trooper allies gain 10% Offense (stacking) until the end of the encounter
 - Whenever an enemy with the Leader tag takes a turn, Moff Gideon gains 1 stack of Insight
-- Imperial Trooper allies have an additional +25% Offense and revive with 50% Health and Protection the first time they are defeated each encounter</td><td>374</td><td>23%</td></tr><tr><td data-order="specialskill_MOFFGIDEONS102"><img src="https://game-assets.swgoh.gg/tex.ability_moffgideon_special02.png" style="width: 30px" /> Control the Situation</td><td>Call all Imperial Trooper allies to assist, dealing 30% less damage. All units lose 100% Turn Meter, which can't be resisted. Allies gain 25% Turn Meter. Tank allies Taunt for 2 turns, Attacker allies gain 50% Offense for 2 turns, and Support allies gain 100% Protection Up.</td><td>621</td><td>38%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+- Imperial Trooper allies have an additional +25% Offense and revive with 50% Health and Protection the first time they are defeated each encounter</td><td>376</td><td>22%</td></tr><tr><td data-order="specialskill_MOFFGIDEONS102"><img src="https://game-assets.swgoh.gg/tex.ability_moffgideon_special02.png" style="width: 30px" /> Control the Situation</td><td>Call all Imperial Trooper allies to assist, dealing 30% less damage. All units lose 100% Turn Meter, which can't be resisted. Allies gain 25% Turn Meter. Tank allies Taunt for 2 turns, Attacker allies gain 50% Offense for 2 turns, and Support allies gain 100% Protection Up.</td><td>624</td><td>37%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 253, 48, 31, 34, 44, 77, 118, 116, 224, 46, 121, 248, 18, 28, 24, 64, 12, 133, 6, 8, 1, 1 ],
+    y: [ 258, 49, 40, 47, 53, 85, 115, 112, 230, 47, 117, 251, 17, 29, 25, 64, 11, 134, 6, 8, 1, 1 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 15.28700906344411, 18.187311178247736, 20.060422960725077, 22.114803625377647, 24.77341389728097, 29.425981873111787, 36.5558912386707, 43.56495468277946, 57.09969788519638, 59.87915407854985, 67.190332326284, 82.17522658610272, 83.26283987915409, 84.9546827794562, 86.40483383685802, 90.27190332326285, 90.99697885196376, 99.0332326283988, 99.39577039274926, 99.87915407854986, 99.93957703927494, 100.00000000000001 ],
+    y: [ 15.176470588235293, 18.058823529411764, 20.41176470588235, 23.176470588235293, 26.294117647058822, 31.294117647058822, 38.05882352941176, 44.647058823529406, 58.17647058823529, 60.94117647058823, 67.8235294117647, 82.58823529411764, 83.58823529411764, 85.29411764705881, 86.76470588235293, 90.52941176470587, 91.17647058823528, 99.05882352941174, 99.41176470588233, 99.88235294117645, 99.94117647058822, 99.99999999999999 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -258,5 +258,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-15 01:51:34 +0000</font>
+<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

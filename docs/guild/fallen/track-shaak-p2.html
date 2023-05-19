@@ -1,0 +1,83 @@
+<meta charset="UTF-8">
+<meta name="robots" content="noindex"><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script><title>BRG Alliance Guild Reports: Shaak Ti Progress Tracker</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Shaak Ti Progress Tracker</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../alliance/characters.html">Characters</a> |
+
+<div style="float:right;"><a href="../../r">Resources</a></div>
+<a href="index.html">BRG Fallen Order of Ahch To</a>
+</div>
+<br/><h2>Shaak Ti Progress Tracker BRG Fallen Order of Ahch To</h2>
+
+<p>
+Progress on Shaak Ti farming.  Useful in for KAM mission, among many others.
+
+<p>
+<button onclick="$('.complete').hide(); $('.working').show()">hide completed</button>
+<button onclick="$('.complete').show(); $('.working').hide()">hide incomplete</button>
+<button onclick="$('.complete').show(); $('.working').show()">show all</button>
+
+<br/>
+    
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script><script>
+$(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search)
+    var show = urlParams.get('show')
+    if (show == "working") {
+        $('.complete').hide()
+    } else if (show == "complete") {
+        $('.working').hide()
+    }
+});
+</script><table class="stripe" id="stats"><thead><th>Player</th><th>Ally Code</th><th>Starting Gear Needed</th><th>Progress</th><th>Current Gear Needed</th><th>GP</th><th>Team</th></thead><tr class="working" style=""><td>Mando Enthusiast</td><td>672267152</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Hemin</td><td>182962499</td><td>89</td><td>0</td><td>89</td><td data-order="676">676</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G1 3&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Resmi Hardin</td><td>753316715</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>MiniSeriousB</td><td>737795538</td><td>66</td><td>0</td><td>66</td><td data-order="20283">20k</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G8 5&#9733;</b>, <b>Rex G8 5&#9733;</b>, <b>Echo (501st) G8 5&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Slartibartfastalt2</td><td>278829571</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>vleesbams</td><td>141125746</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Sturmlord18811</td><td>167586553</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Sithler</td><td>348765681</td><td>89</td><td>0</td><td>89</td><td data-order="676">676</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G1 3&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>PizzaBoyzz</td><td>992635942</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>DrKonu</td><td>376449335</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Better Future</td><td>948822224</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Ptreich9</td><td>589597815</td><td>86</td><td>0</td><td>86</td><td data-order="2029">2029</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G4 3&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>nothing 202</td><td>491712497</td><td>78</td><td>0</td><td>78</td><td data-order="6866">6866</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G2 3&#9733;</b>, <b>Rex G4 2&#9733;</b>, <b>Echo (501st) G3 3&#9733;</b>, <b>ARC Trooper G3 3&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>931243141</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Jon</td><td>258421688</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Moe Powa</td><td>377321157</td><td>85</td><td>0</td><td>85</td><td data-order="2869">2869</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G5 4&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Baaader</td><td>473963887</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>nothing</td><td>357345974</td><td>86</td><td>0</td><td>86</td><td data-order="2530">2530</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G4 4&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>SinisterMistress</td><td>667416624</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>738799912</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>379843663</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>zachyz2007</td><td>419859111</td><td>59</td><td>0</td><td>59</td><td data-order="21851">21k</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G8 5&#9733;</b>, <b>Rex G8 4&#9733;</b>, <b>Echo (501st) G7 3&#9733;</b>, <b>ARC Trooper G8 3&#9733;</b></td></tr><tr class="working" style=""><td>ScoundrelScum20</td><td>458269741</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>EBaris</td><td>943758445</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Din Cole</td><td>415441686</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>DeadOne6960</td><td>285784288</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Ulises</td><td>838658641</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>TheObiJuanKenobi</td><td>282522722</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>GoldHanzoMain</td><td>679138669</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Sugar Cowboy</td><td>798354258</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Floros</td><td>789545733</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Galatea Griffiths III</td><td>228417521</td><td>77</td><td>0</td><td>77</td><td data-order="7469">7469</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G5 5&#9733;</b>, <b>Rex G4 4&#9733;</b>, <b>Echo (501st) G4 3&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Ezmoney</td><td>316623466</td><td>75</td><td>0</td><td>75</td><td data-order="7777">7777</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G4 4&#9733;</b>, <b>Rex G6 4&#9733;</b>, <b>Echo (501st) G5 3&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>flycycle</td><td>967252473</td><td>66</td><td>0</td><td>66</td><td data-order="20283">20k</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G8 5&#9733;</b>, <b>Rex G8 5&#9733;</b>, <b>Echo (501st) G8 5&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Champion</td><td>166859813</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>797158358</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Neebs</td><td>936375667</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Wen Qualto</td><td>474342181</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>858419197</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Elias Lund</td><td>361395311</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Lenders Quizan</td><td>331267874</td><td>89</td><td>0</td><td>89</td><td data-order="676">676</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G1 3&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>konran</td><td>719377689</td><td>71</td><td>0</td><td>71</td><td data-order="13307">13k</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G7 5&#9733;</b>, <b>Rex G6 4&#9733;</b>, <b>Echo (501st) G6 3&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Exar kun</td><td>294685438</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mol Eliza</td><td>656166276</td><td>90</td><td>0</td><td>90</td><td data-order="0">0</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G0 0&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G0 0&#9733;</b></td></tr><tr class="working" style=""><td>Mike jones</td><td>522396285</td><td>78</td><td>0</td><td>78</td><td data-order="7839">7839</td><td><b>Shaak Ti G0 0&#9733;</b>, <b>Fives G8 4&#9733;</b>, <b>Rex G0 0&#9733;</b>, <b>Echo (501st) G0 0&#9733;</b>, <b>ARC Trooper G4 4&#9733;</b></td></tr><tr class="working" style=""><td>Neebles</td><td>626644476</td><td>63</td><td>0</td><td>63</td><td data-order="37669">37k</td><td><b>Shaak Ti G1 2&#9733;</b>, <b>Fives G9</b>, <b>Rex G8</b>, <b>Echo (501st) G8</b>, <b>ARC Trooper G1</b></td></tr></table><script>var config = {
+    "paging":   false,
+    "info":     false,
+    bFilter: false,
+    fixedHeader: true,
+    dom: 'Bfrtip',
+    buttons: [
+        'copyHtml5',
+        'excelHtml5',
+        'csvHtml5',
+    ],
+}
+
+table = $('#stats').DataTable(config);</script><br/>
+<font size="-2">Generated 2023-05-19 03:41:54 +0000</font>
+<script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

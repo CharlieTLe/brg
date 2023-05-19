@@ -313,15 +313,15 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1453 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_NINTHSISTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Can't Stop the Empire</td><td>Allies are immune to Speed limiting effects. Whenever an enemy gains bonus Turn Meter, all Inquisitorius allies gain 2% Potency and 2% Tenacity (stacking) for the rest of the encounter. If that enemy is a Jedi, they have a 50% chance to gain a stack of Purge (max 6) until the end of the encounter.<br/><br/>
-<b>Special:</b> While in Territory Wars: All Empire allies gain 20% Defense and all Inquisitorius allies are immune to Ability Block and Stun.</td><td>13</td><td>1%</td></tr><tr><td data-order="specialskill_NINTHSISTER02"><img src="https://game-assets.swgoh.gg/tex.ability_ninthsister_special02.png" style="width: 30px" /> Ground Pound</td><td>Deal Physical damage to all enemies and inflict Daze, Defense Down, and Potency Down for 2 turns, which can't be resisted by Jedi. Ninth Sister gains Taunt for 2 turns. For each enemy inflicted with Purge and damaged by this ability, Ninth Sister gains 10% Defense (stacking, max 50%) for 2 turns.</td><td>364</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1458 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_NINTHSISTER"><img src="https://game-assets.swgoh.gg/tex.abilityui_leader_inquisitor.png" style="width: 30px" /> Can't Stop the Empire</td><td>Allies are immune to Speed limiting effects. Whenever an enemy gains bonus Turn Meter, all Inquisitorius allies gain 2% Potency and 2% Tenacity (stacking) for the rest of the encounter. If that enemy is a Jedi, they have a 50% chance to gain a stack of Purge (max 6) until the end of the encounter.<br/><br/>
+<b>Special:</b> While in Territory Wars: All Empire allies gain 20% Defense and all Inquisitorius allies are immune to Ability Block and Stun.</td><td>13</td><td>1%</td></tr><tr><td data-order="specialskill_NINTHSISTER02"><img src="https://game-assets.swgoh.gg/tex.ability_ninthsister_special02.png" style="width: 30px" /> Ground Pound</td><td>Deal Physical damage to all enemies and inflict Daze, Defense Down, and Potency Down for 2 turns, which can't be resisted by Jedi. Ninth Sister gains Taunt for 2 turns. For each enemy inflicted with Purge and damaged by this ability, Ninth Sister gains 10% Defense (stacking, max 50%) for 2 turns.</td><td>369</td><td>25%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 439, 38, 21, 53, 27, 81, 140, 284, 98, 3, 22, 25, 8, 6, 1, 4, 2, 69, 10, 116, 4, 2 ],
+    y: [ 441, 37, 24, 55, 29, 78, 134, 278, 102, 3, 22, 29, 8, 7, 1, 3, 1, 73, 9, 118, 4, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 30.21335168616655, 32.82863041982106, 34.27391603578803, 37.921541637990366, 39.779766001376466, 45.35443909153476, 54.98967653131452, 74.53544390915349, 81.28011011699932, 81.48657949070889, 83.00068823124572, 84.72126634549211, 85.27185134205095, 85.68479008947008, 85.75361321403994, 86.02890571231937, 86.16655196145908, 90.91534755677911, 91.60357880247767, 99.58706125258091, 99.86235375086034, 100.00000000000004 ],
+    y: [ 30.246913580246915, 32.78463648834019, 34.43072702331961, 38.20301783264746, 40.192043895747595, 45.54183813443072, 54.73251028806584, 73.7997256515775, 80.79561042524006, 81.00137174211248, 82.51028806584362, 84.49931412894377, 85.04801097393691, 85.52812071330591, 85.59670781893006, 85.80246913580248, 85.87105624142663, 90.87791495198904, 91.49519890260632, 99.58847736625515, 99.86282578875172, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -341,5 +341,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-15 01:51:34 +0000</font>
+<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

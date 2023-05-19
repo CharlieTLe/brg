@@ -392,14 +392,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1636 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, all allies gain 10% Critical Chance and 10% Accuracy. While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them.</td><td>848</td><td>52%</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, R2-D2 gains 10% Max Protection for each Droid ally, 10% Offense for each Galactic Republic ally, 10% Max Health for each Rebel ally, and 10% Potency for each Resistance ally.<br/><br/>At the start of battle, and when R2-D2 revives, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated.</td><td>915</td><td>56%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1634 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, all allies gain 10% Critical Chance and 10% Accuracy. While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them.</td><td>851</td><td>52%</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_extraturn.png" style="width: 30px" /> Number Crunch</td><td>At the start of battle, R2-D2 gains 10% Max Protection for each Droid ally, 10% Offense for each Galactic Republic ally, 10% Max Health for each Rebel ally, and 10% Potency for each Resistance ally.<br/><br/>At the start of battle, and when R2-D2 revives, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated.</td><td>918</td><td>56%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 16, 1, 2, 3, 2, 33, 79, 227, 117, 103, 49, 241, 3, 22, 16, 29, 15, 30, 10, 637, 1, 0 ],
+    y: [ 15, 1, 2, 3, 2, 33, 78, 227, 113, 105, 49, 237, 2, 23, 16, 30, 15, 31, 7, 644, 1, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.9779951100244498, 1.039119804400978, 1.1613691931540342, 1.3447432762836184, 1.4669926650366747, 3.484107579462102, 8.312958435207824, 22.188264058679707, 29.339853300733495, 35.63569682151589, 38.63080684596577, 53.36185819070905, 53.545232273838636, 54.88997555012225, 55.8679706601467, 57.64058679706602, 58.55745721271394, 60.39119804400978, 61.002444987775064, 99.93887530562347, 100.0, 100.0 ],
+    y: [ 0.9179926560587516, 0.9791921664626684, 1.101591187270502, 1.2851897184822523, 1.4075887392900859, 3.427172582619339, 8.200734394124847, 22.093023255813954, 29.008567931456547, 35.434516523867806, 38.43329253365973, 52.937576499388, 53.059975520195835, 54.46756425948592, 55.446756425948585, 57.282741738066086, 58.20073439412484, 60.097919216646254, 60.52631578947367, 99.93880048959608, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -419,5 +419,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-15 01:51:34 +0000</font>
+<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
