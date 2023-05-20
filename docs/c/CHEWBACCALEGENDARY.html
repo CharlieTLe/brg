@@ -387,14 +387,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1507 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CHEWBACCALEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_fortifications.png" style="width: 30px" /> Loyal Friend</td><td>At the start of the battle, grant Guard to the weakest ally and Han Solo until Chewbacca is defeated. Chewbacca Assists when a Guarded ally uses any ability during their turn, doing 20% less damage, limited once per turn. When Chewbacca deals damage to an enemy, Chewbacca and all Guarded allies recover 3% Health and 3% Protection.<br/><br/>Guard: Can't be Critically Hit, immune to Daze and Stun, +25% Critical Chance</td><td>1232</td><td>82%</td></tr><tr><td data-order="uniqueskill_CHEWBACCALEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Raging Wookiee</td><td>Chewbacca is immune to Ability Block and Cooldown Increase. When Chewbacca deals damage to an enemy, he deals bonus damage equal to 20% of their Max Health. When Chewbacca takes damage from an attack, he gains +25% Offense and +25% Critical Chance until the end of his next turn. When Chewbacca or a Guarded ally takes damage from an attack, reduce Furious Bowcaster's cooldown by 1.</td><td>1039</td><td>69%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1510 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_CHEWBACCALEGENDARY01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_fortifications.png" style="width: 30px" /> Loyal Friend</td><td>At the start of the battle, grant Guard to the weakest ally and Han Solo until Chewbacca is defeated. Chewbacca Assists when a Guarded ally uses any ability during their turn, doing 20% less damage, limited once per turn. When Chewbacca deals damage to an enemy, Chewbacca and all Guarded allies recover 3% Health and 3% Protection.<br/><br/>Guard: Can't be Critically Hit, immune to Daze and Stun, +25% Critical Chance</td><td>1235</td><td>82%</td></tr><tr><td data-order="uniqueskill_CHEWBACCALEGENDARY02"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_crit_buff.png" style="width: 30px" /> Raging Wookiee</td><td>Chewbacca is immune to Ability Block and Cooldown Increase. When Chewbacca deals damage to an enemy, he deals bonus damage equal to 20% of their Max Health. When Chewbacca takes damage from an attack, he gains +25% Offense and +25% Critical Chance until the end of his next turn. When Chewbacca or a Guarded ally takes damage from an attack, reduce Furious Bowcaster's cooldown by 1.</td><td>1042</td><td>69%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 28, 4, 5, 3, 4, 7, 21, 30, 85, 28, 63, 166, 6, 20, 12, 96, 35, 185, 627, 79, 1, 2 ],
+    y: [ 28, 5, 5, 3, 4, 6, 21, 31, 85, 28, 63, 164, 6, 21, 12, 97, 35, 186, 628, 79, 1, 2 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.85799601857996, 2.12342402123424, 2.45520902455209, 2.6542800265428, 2.91970802919708, 3.38420703384207, 4.77770404777704, 6.768414067684141, 12.408759124087592, 14.266755142667552, 18.447246184472462, 29.46250829462508, 29.8606502986065, 31.1877903118779, 31.98407431984074, 38.35434638354346, 40.67684140676841, 52.95288652952886, 94.55872594558726, 99.80092899800928, 99.86728599867286, 100.0 ],
+    y: [ 1.8543046357615895, 2.185430463576159, 2.5165562913907285, 2.7152317880794703, 2.980132450331126, 3.377483443708609, 4.768211920529801, 6.821192052980132, 12.450331125827814, 14.304635761589404, 18.47682119205298, 29.337748344370862, 29.735099337748345, 31.125827814569536, 31.920529801324502, 38.34437086092715, 40.662251655629134, 52.98013245033112, 94.56953642384106, 99.80132450331126, 99.86754966887418, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -414,5 +414,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
+<font size="-2">Generated 2023-05-20 16:26:42 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

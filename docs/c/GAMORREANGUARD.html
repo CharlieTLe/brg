@@ -239,14 +239,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1304 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_GAMORREANGUARD01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Loyal Enforcer</td><td>At the start of battle, Gamorrean Guard gains 10% Max Health for each other Hutt Cartel ally and a stack of My Kind of Scum. While he is active, enemies have -20% Tenacity.<br/><br/>If the ally in the Leader slot is Jabba the Hutt: While Gamorrean Guard has Defense Up, he gains 50% Critical Avoidance. Whenever Gamorrean Guard loses Taunt, he gains Defense Up for 2 turns and whenever Jabba uses a Special ability, if Gamorrean Guard is Taunting he recovers 20% Health.<br/><br/>If the ally in the Leader slot is Hutt Cartel, whenever another Hutt Cartel ally falls below 70% Health while Gamorrean Guard has Defense Up, he Taunts and gains Protection Up (100%) for 2 turns.<br/><br/><b>Special:</b> While in Territory Battles: Gamorrean Guard has +50% Critical Avoidance, Defense, and Tenacity. Other Hutt Cartel allies have +50% Max Health and Max Protection. The first time each other Hutt Cartel ally falls below 50% Health, they gain Damage Immunity for 1 turn, which can't be copied, dispelled, or prevented. If the ally in the Leader slot is Hutt Cartel and not Gamorrean Guard, whenever they use an ability, Gamorrean Guard assists.</td><td>15</td><td>1%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1308 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_GAMORREANGUARD01"><img src="https://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Loyal Enforcer</td><td>At the start of battle, Gamorrean Guard gains 10% Max Health for each other Hutt Cartel ally and a stack of My Kind of Scum. While he is active, enemies have -20% Tenacity.<br/><br/>If the ally in the Leader slot is Jabba the Hutt: While Gamorrean Guard has Defense Up, he gains 50% Critical Avoidance. Whenever Gamorrean Guard loses Taunt, he gains Defense Up for 2 turns and whenever Jabba uses a Special ability, if Gamorrean Guard is Taunting he recovers 20% Health.<br/><br/>If the ally in the Leader slot is Hutt Cartel, whenever another Hutt Cartel ally falls below 70% Health while Gamorrean Guard has Defense Up, he Taunts and gains Protection Up (100%) for 2 turns.<br/><br/><b>Special:</b> While in Territory Battles: Gamorrean Guard has +50% Critical Avoidance, Defense, and Tenacity. Other Hutt Cartel allies have +50% Max Health and Max Protection. The first time each other Hutt Cartel ally falls below 50% Health, they gain Damage Immunity for 1 turn, which can't be copied, dispelled, or prevented. If the ally in the Leader slot is Hutt Cartel and not Gamorrean Guard, whenever they use an ability, Gamorrean Guard assists.</td><td>15</td><td>1%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 531, 30, 33, 40, 51, 44, 105, 119, 36, 4, 24, 55, 7, 5, 1, 193, 3, 19, 2, 2, 0, 0 ],
+    y: [ 531, 30, 32, 42, 50, 43, 104, 122, 35, 4, 24, 55, 7, 6, 1, 194, 3, 21, 2, 2, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 40.72085889570552, 43.02147239263803, 45.552147239263796, 48.619631901840485, 52.530674846625764, 55.90490797546012, 63.95705521472392, 73.08282208588957, 75.84355828220859, 76.15030674846626, 77.99079754601227, 82.20858895705521, 82.74539877300613, 83.12883435582822, 83.20552147239263, 98.00613496932515, 98.2361963190184, 99.69325153374233, 99.84662576687116, 99.99999999999999, 99.99999999999999, 99.99999999999999 ],
+    y: [ 40.596330275229356, 42.88990825688073, 45.33639143730886, 48.54740061162079, 52.37003058103975, 55.65749235474006, 63.608562691131496, 72.93577981651376, 75.61162079510703, 75.91743119266054, 77.75229357798165, 81.9571865443425, 82.49235474006116, 82.95107033639144, 83.02752293577981, 97.85932721712538, 98.08868501529052, 99.69418960244649, 99.84709480122325, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -266,5 +266,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
+<font size="-2">Generated 2023-05-20 16:26:42 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -387,14 +387,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 1669 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ZEBS301"><img src="https://game-assets.swgoh.gg/tex.ability_zeb_s3_special01.png" style="width: 30px" /> Staggering Sweep</td><td>Deal Physical damage to target enemy and Stagger them for 1 turn. Zeb gains 10% Turn Meter for each active Phoenix ally. If the target has no debuffs, this attack can't be Resisted, deals double damage, and deals bonus damage equal to 20% of the enemy's Max Health. If the target has any buffs, ignore their Armor. If the target has any debuffs, this attack has +50% Critical Damage. This attack can't be Evaded.</td><td>299</td><td>18%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 1671 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_ZEBS301"><img src="https://game-assets.swgoh.gg/tex.ability_zeb_s3_special01.png" style="width: 30px" /> Staggering Sweep</td><td>Deal Physical damage to target enemy and Stagger them for 1 turn. Zeb gains 10% Turn Meter for each active Phoenix ally. If the target has no debuffs, this attack can't be Resisted, deals double damage, and deals bonus damage equal to 20% of the enemy's Max Health. If the target has any buffs, ignore their Armor. If the target has any debuffs, this attack has +50% Critical Damage. This attack can't be Evaded.</td><td>300</td><td>18%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 18, 8, 2, 8, 4, 13, 45, 918, 184, 146, 89, 198, 4, 2, 6, 8, 3, 12, 0, 1, 0, 0 ],
+    y: [ 18, 7, 2, 7, 4, 12, 44, 922, 185, 146, 89, 199, 4, 2, 6, 8, 3, 12, 0, 1, 0, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 1.078490113840623, 1.5578190533253444, 1.6776512881965249, 2.156980227681246, 2.396644697423607, 3.1755542240862793, 5.871779508687837, 60.87477531455961, 71.8993409227082, 80.64709406830437, 85.9796285200719, 97.84301977231875, 98.08268424206112, 98.2025164769323, 98.56201318154585, 99.04134212103057, 99.22109047333734, 99.94008388256442, 99.94008388256442, 100.00000000000001, 100.00000000000001, 100.00000000000001 ],
+    y: [ 1.0771992818671454, 1.4961101137043686, 1.6157989228007181, 2.0347097546379413, 2.2740873728306403, 2.9922202274087373, 5.6253740275284265, 60.80191502094554, 71.87312986235787, 80.61041292639138, 85.93656493117894, 97.84560143626571, 98.08497905445842, 98.20466786355476, 98.56373429084381, 99.04248952722921, 99.22202274087373, 99.94015559545183, 99.94015559545183, 100.0, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -414,5 +414,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2023-05-19 03:42:58 +0000</font>
+<font size="-2">Generated 2023-05-20 16:26:42 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
